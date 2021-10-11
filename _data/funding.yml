@@ -1,0 +1,36 @@
+#-------------------------------------------------------------------------------------
+# in addition to information enumerated here, a PI may _optionally_ choose to 
+# create expanded grant information in _funding/<id>.md
+#-------------------------------------------------------------------------------------
+# Funding sources are ordered on the Funding page as follows:
+#   descending by end_date
+#-------------------------------------------------------------------------------------
+# the 'id' field is the unique identifier used for tagging and md files
+# '_' characters are removed from the 'id' field to create the name used in Badges
+#-------------------------------------------------------------------------------------
+
+# - id: My_R01 # internal identifier used in people.yml, newsfeed posts and other places
+#   sponsor: "NIH/NIGMS" # who provided the funding
+#   sponsor_id: GM000000 # the fixed grant number or other identifier from the sponsor; this should never change
+#   sponsor_link: https://reporter.nih.gov/search/ZBDA5h93H0qMxITs5aN_uw/projects?shared=true
+#   grant_type: R01
+#   start_date: 2004-08-01 # the intent is to only list funding that was actually committed by the sponsor
+#   end_date: 2021-06-30   # but including past funding sources if you'd like a complete list
+#   title: Title of the grant
+#   description: The goals of this project are probably not relevant to the Doe laboratory!
+#   badges:
+#     - TYPE=ID # e.g. person=John_Doe, project=project1 (no spaces)
+
+- id: My_R01 # internal identifier used in people.yml, newsfeed posts and other places
+  sponsor: NIH/NIGMS # who provided the funding
+  sponsor_id: GM120767 # the fixed grant number or other identifier from the sponsor; this should never change
+  sponsor_link: https://reporter.nih.gov/search/ZBDA5h93H0qMxITs5aN_uw/projects?shared=true
+  grant_type: R01  
+  start_date: 2004-08-01 # the intent is to only list funding that was actually committed by the sponsor
+  end_date: 2021-06-30   # but including past funding sources if you'd like a complete list
+  title: Systematic Genetic Analysis of Yeast NHEJ
+  description: The goals of this project are probably not relevant to the Doe laboratory!
+  badges:
+    - project=project1
+    - resource=cell_protocol
+    - publication=bazzano_2021

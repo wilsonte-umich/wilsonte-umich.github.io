@@ -1,0 +1,76 @@
+#-------------------------------------------------------------------------------------
+# in addition to information enumerated here, a person may _optionally_ choose to 
+# create expanded information in _people/<id>.md
+#-------------------------------------------------------------------------------------
+# People are ordered on the People page as follows:
+#   in the order they are found in this file
+# However, we recommend using the order (but it is not enforced by the code):
+#   PI first, then active members, than inactive members (i.e., those with an end_date)
+#   within the active group, by start_date (oldest members first)
+#   within the inactive group, by end_date (most recently departed members first)
+#-------------------------------------------------------------------------------------
+# the 'id' field is the unique identifier used for tagging and md files
+# '_' characters are removed from the 'id' field to create the name used in Badges
+#-------------------------------------------------------------------------------------
+
+# - id: Postdoc_Fellow # used internally to identify this person, e.g., in a Newsfeed post "people" field
+#   name: Postdoc Fellow # as display on the web page People item
+#   role: Postdoctoral Fellow # will appear next to name
+#   program: null # omit if not applicable
+#   image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+#   orcid: null
+#   email: pfellow22@umich.edu
+#   github: null
+#   twitter: null
+#   description: Solved really important problems in project 2.
+#   status: current # or "past"
+#   current_position: PhD student, Genetics and Genomics Program, University of Michigan # optional, to indicate where people are now
+#   badges:
+#     - TYPE=ID # e.g. person=John_Doe, project=project1 (no spaces)
+
+
+#-------------------------------------------------------------------------------------
+# Principal Investigator; many fields not relevant, they always apply to the PI for their own page
+#-------------------------------------------------------------------------------------
+- id: John_Doe # used internally to identify this person, e.g., in a Newsfeed post "people" field
+  name: John Doe # as display on the web page People item
+  role: Principal Investigator # will appear next to name
+  image: assets/images/people/john-doe-cropped.jpg # can be external link
+  orcid: 0000-0000-0000-0000
+  email: jdoe@umich.edu
+  github: jdoe-umich
+  twitter: null
+  status: current
+
+#-------------------------------------------------------------------------------------
+# current group members
+#-------------------------------------------------------------------------------------
+- id: Research_Tech # used internally to identify this person, e.g., in a Newsfeed post "people" field
+  name: Research Tech # as display on the web page People item
+  role: Research Technician # will appear next to name
+  program: null # omit if not applicable
+  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  orcid: null
+  email: rtech11@umich.edu
+  github: null
+  twitter: null
+  description: Master of all trades, fills many roles as needed
+  status: current
+  badges:
+    - project=project1
+
+#-------------------------------------------------------------------------------------
+# past group members
+#-------------------------------------------------------------------------------------
+- id: Postdoc_Fellow # used internally to identify this person, e.g., in a Newsfeed post "people" field
+  name: Postdoc Fellow # as display on the web page People item
+  role: Postdoctoral Fellow # will appear next to name
+  program: PSTP # omit if not applicable
+  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  orcid: null
+  email: pfellow22@umich.edu
+  github: null
+  twitter: null
+  description: Solved really important problems in project 2.
+  status: past
+  current_position: PhD student, Genetics and Genomics Program, University of Michigan # optional, to indicate where people are now
