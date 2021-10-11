@@ -2,18 +2,18 @@
 # site settings
 #-------------------------------------------------------------------------------------
 version: 6 # increment version to force a site rebuild and update Recent News even if content is unchanged
-title: John Doe Laboratory # in top navigation bar (navbar) and <head>
-description: John Doe Laboratory, University of Michigan Medical School # description in <head>
-author: John Doe                    # for copyright statement in footer
-url: "https://jdoe-umich.github.io" # no slash at the end
+title: Wilson et al. # in top navigation bar (navbar) and <head>
+description: Projects led by Thomas E. Wilson, Professor of Pathology and Human Genetics, University of Michigan Medical School # description in <head>
+author: Thomas E. Wilson                    # for copyright statement in footer
+url: "https://wilsonte-umich.github.io" # no slash at the end
 # baseurl: "/sitename"              # only required if your site is on a subdomain e.g. https://username.github.io/sitename
                                     # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
 #-------------------------------------------------------------------------------------
 # social profile of the principal investigator; icon links shown in footer
 #-------------------------------------------------------------------------------------
-email: jdoe@umich.edu
+email: wilsonte@umich.edu
 twitter_username: null
-github_username: jdoe-umich
+github_username: wilsonte-umich
 #-------------------------------------------------------------------------------------
 # theme display settings
 #-------------------------------------------------------------------------------------
@@ -37,8 +37,7 @@ collections:
 #-------------------------------------------------------------------------------------
   projects: # found in the _projects folder, etc.
     order: # *** project order is set here; missing projects will be alphabetical at the end of site.projects ***
-      - project1.md
-      - project2.md
+      - mdi.md
 #-------------------------------------------------------------------------------------      
     name: projects
     item: project
@@ -47,8 +46,8 @@ collections:
     hue: 225 # blue
 #------------------------------------------------------------------------------------- 
   resources: 
-    order: # *** resource order is set here; missing resources will not have dedicated page views ***
-      - cell_protocol.md # order is determined by fields in resources.yml
+    order: null # *** resource order is set here; missing resources will not have dedicated page views ***
+      # - cell_protocol.md # order is determined by fields in resources.yml
 #-------------------------------------------------------------------------------------
     name: resources
     item: resource

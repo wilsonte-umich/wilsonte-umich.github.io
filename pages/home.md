@@ -7,18 +7,29 @@ subtitle: Research laboratory and other projects # smaller font size, shown belo
 permalink: /
 ---
 
-<style>mark{ color:rgb(200,0,0); background-color:white; }</style>
-> <mark>This is a demo site for the</mark> [umich-labs](https://github.com/wilsonte-umich/umich-labs) <mark> Jekyll theme for GitHub Pages. It is not intended as a real laboratory web page. When you copy the template, replace the contents of this and other files with your information.</mark>
+**!!! Please excuse the site, which is still under construction !!!**
 
-Welcome to the web site of the John Doe laboratory.
-Here is some general information about our group
-and what we do.
+Welcome! I am Thomas E. Wilson, M.D. Ph.D., 
+Professor of Pathology and Human Genetics 
+at the University of Michigan Medical School.
 
-### Section Title
+I am a molecular genetic pathologist active in the clinic
+with related research interests that include 
+basic studies of yeast double-strand break repair, 
+mechanisms of mammalian chromosomal instability,
+genomic technologies in core facilities, and
+bioinformatics, including projects aimed at standardizing and
+sharing data analysis tools. 
 
-Section text, add an image, whatever you'd like.
-See <https://www.markdownguide.org/basic-syntax/>
-for how to write page content in markdown (it's easy!).
+Education and mentorship of diverse trainees
+is critical to our mission and I 
+direct classes and UROP and other 
+research projects related to molecular genetics, 
+translational research, and bioinformatics.
 
-![Glassware]({{ "assets/images/chemical-reaction-science-chemistry.jpg" | relative_url }})
-
+Please explore these pages to learn more about our goals
+to advance understanding of the genetic processes that cause
+mutations associated with human diseases by detecting them
+in the clinical laboratory, exploring their mechanisms 
+in the research laboratory, and developing resources 
+to help students and other researchers do the same. 

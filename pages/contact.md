@@ -3,17 +3,33 @@ layout: base/default
 title: Contact Information
 # banner_image: null
 permalink: /contact/
-assistant_email: doe-asst@umich.edu
+assistant_email: carcalla@umich.edu
 ---
 
 ### Administrative Assistant
 
-**Admin Asst Name**  
+Please contact Carrie early, especially for any matters relating to Dr. Wilson's schedule.
+
+**Carrie Callahan**  
 <a href="mailto:{{ page.assistant_email }}">{{ page.assistant_email }}</a>
 
 ### Principal Investigator
 
-**John Doe, Ph.D.**  
-etc.
-
 Pronouns: he/his/him
+
+**Thomas E. Wilson, M.D. Ph.D.**  
+Professor, Departments of Pathology and Human Genetics  
+Faculty Director, Michigan Advanced Genomics Core  
+Associate Director, Molecular Diagnostics Laboratory  
+University of Michigan Medical School  
+
+Office: Rm. 2065 BSRB  
+Lab: Rm. 2828 BSRB  
+109 Zina Pitcher Place SPC 2200  
+Ann Arbor, MI 48109-2200  
+
+<a href="mailto:{{ wilsonte@umich.edu }}">{{ wilsonte@umich.edu }}</a>
+
+Office Phone:  (734) 764-2212  
+Lab Phone:  (734) 763-5414  
+FAX:  (734) 763-2162  

@@ -32,45 +32,107 @@
 #-------------------------------------------------------------------------------------
 # Principal Investigator; many fields not relevant, they always apply to the PI for their own page
 #-------------------------------------------------------------------------------------
-- id: John_Doe # used internally to identify this person, e.g., in a Newsfeed post "people" field
-  name: John Doe # as display on the web page People item
-  role: Principal Investigator # will appear next to name
-  image: assets/images/people/john-doe-cropped.jpg # can be external link
-  orcid: 0000-0000-0000-0000
-  email: jdoe@umich.edu
-  github: jdoe-umich
+- id: Tom_Wilson 
+  name: Tom Wilson
+  role: Principal Investigator 
+  image: assets/images/people/TEW_Sep_2021_square.png # can be external link
+  orcid: 0000-0002-8345-4985
+  email: wilsonte@umich.edu
+  github: wilsonte-umich
   twitter: null
   status: current
 
 #-------------------------------------------------------------------------------------
 # current group members
 #-------------------------------------------------------------------------------------
-- id: Research_Tech # used internally to identify this person, e.g., in a Newsfeed post "people" field
-  name: Research Tech # as display on the web page People item
-  role: Research Technician # will appear next to name
-  program: null # omit if not applicable
+- id: Samreen_Ahmed 
+  name: Samreen Ahmed 
+  role: Research Technician 
+  program: null
   image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
   orcid: null
-  email: rtech11@umich.edu
+  email: samreena@umich.edu
   github: null
   twitter: null
-  description: Master of all trades, fills many roles as needed
+  description: Master of many trades, fills many roles as needed
   status: current
   badges:
-    - project=project1
+    - project=yeast_dsb
+    - project=glover_cnv
+
+- id: McKenna_Defoer 
+  name: McKenna Defoer
+  role: Rotating PhD Student
+  program: null
+  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  orcid: null
+  email: defoer@umich.edu
+  github: null
+  twitter: null
+  description: Working on metabolic effects on yeast DSB repair
+  status: current
+  badges:
+    - project=yeast_dsb
 
 #-------------------------------------------------------------------------------------
 # past group members
 #-------------------------------------------------------------------------------------
-- id: Postdoc_Fellow # used internally to identify this person, e.g., in a Newsfeed post "people" field
-  name: Postdoc Fellow # as display on the web page People item
-  role: Postdoctoral Fellow # will appear next to name
-  program: PSTP # omit if not applicable
+- id: Pam_Bennett_Baker
+  name: Pam Bennett-Baker
+  role: Research Technician 
+  program: null 
   image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
   orcid: null
-  email: pfellow22@umich.edu
+  email: bennett@umich.edu
   github: null
   twitter: null
-  description: Solved really important problems in project 2.
+  description: Primary contributor to Park et al., including critical studies of replication timing and R-loops
   status: past
-  current_position: PhD student, Genetics and Genomics Program, University of Michigan # optional, to indicate where people are now
+  current_position: PhD student, Genetics and Genomics Program, U. Michigan
+  badges:
+    - project=glover_cnv
+
+- id: Dominic_Bazzano
+  name: Dominic Bazzano
+  role: Master's Student
+  program: Genetics and Genomics Program 
+  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  orcid: null
+  email: dbazzano@umich.edu
+  github: null
+  twitter: null
+  description: Realized a long time project in the lab to map DSB 5' resection at base-pair resolution
+  status: past
+  current_position: PhD student, Genetics and Genomics Program, U. Michigan
+  badges:
+    - project=yeast_dsb
+
+- id: Stephanie_Lomonaco 
+  name: Stephanie Lomonaco 
+  role: Postdoctoral Fellow 
+  program: null 
+  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  orcid: null
+  email: null
+  github: null
+  twitter: null
+  description: Developed the our project focus on the impact of carbon source metabolism on DSB repair
+  status: past
+  current_position: null 
+  badges:
+    - project=yeast_dsb
+
+- id: Irene_Park
+  name: So Hae (Irene) Park
+  role: PhD Student
+  program: Genetics and Genomics Program 
+  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  orcid: null
+  email: sohae@umich.edu
+  github: null
+  twitter: null
+  description: Demonstrated that CNV formation at large genes depends on their active transcription
+  status: past
+  current_position: science writer
+  badges:
+    - project=glover_cnv

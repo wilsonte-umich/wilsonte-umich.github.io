@@ -19,8 +19,8 @@
 - text: More
   menu: # Dropdown menu (one level deep only) 
 
-  - text: Resources # simpler data set set in funding.yml
-    href: /resources/  
+  # - text: Resources # simpler data set set in funding.yml
+  #   href: /resources/  
 
   - text: Funding # simpler data set set in funding.yml
     href: /funding/  

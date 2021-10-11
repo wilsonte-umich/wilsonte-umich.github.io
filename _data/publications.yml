@@ -28,7 +28,7 @@
 #     - TYPE=ID # e.g. person=John_Doe, project=project1 (no spaces)
       
 - id: bazzano_2021
-  date:  2021-09-21
+  date:  2021-07-15
   pmid:  34263309
   pmcid: null
   authors:  
@@ -40,13 +40,13 @@
   citation: 10.1093/nar/gkab597
   year:     2021
   url: null
-  abstract: adflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjas adflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjasadflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjasadflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjasadflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjasadflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjas  
+  abstract: null
   badges:
     - person=Dominic_Bazzano
-    - resource=cell_protocol
+    - project=yeast_dsb
 
-- id: park_2020
-  date:  2020-07-15
+- id: park_2021
+  date:  2021-07-21
   pmid:  34181717
   pmcid: PMC8287918
   authors:  
@@ -60,8 +60,8 @@
   title:    Locus-specific transcription silencing at the FHIT gene suppresses replication stress-induced copy number variant formation and associated replication delay
   journal:  Nucleic Acids Research
   citation: 49(13):7507-7524  
-  year:     2020
+  year:     2021
   url: null 
   badges: 
-    - funding=My_R01
-    - project=project1
+    - person=Irene_Park
+    - project=glover_cnv

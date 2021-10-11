@@ -5,13 +5,17 @@
 columns:
   - description:
     links:
-    - text: Department of XYZ
-      href: https://www.XYZ.med.umich.edu/
-      new_window: false
+    - text: Department of Pathology
+      href: https://www.pathology.med.umich.edu/
+      new_window: true
+    - text: Department of Human Genetics
+      href: https://medicine.umich.edu/dept/human-genetics
+      new_window: true
     # add more departments as needed
 
   - description: > # e.g. funding acknowledgement. Can be Markdown
-      Short summary information about the Doe lab.
+      Making ends meet since 1999<br>
+      ===========- -===========
     links:
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown
