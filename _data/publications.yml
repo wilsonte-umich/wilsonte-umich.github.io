@@ -27,7 +27,7 @@
 #   badges:
 #     - TYPE=ID # e.g. person=John_Doe, project=project1 (no spaces)
       
-- id: bazzano_2021
+- id: Bazzano_2021
   date:  2021-07-15
   pmid:  34263309
   pmcid: null
@@ -45,7 +45,7 @@
     - person=Dominic_Bazzano
     - project=Yeast_DSB_Repair
 
-- id: park_2021
+- id: Park_2021
   date:  2021-07-21
   pmid:  34181717
   pmcid: PMC8287918
