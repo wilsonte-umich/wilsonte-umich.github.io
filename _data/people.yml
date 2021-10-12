@@ -57,8 +57,8 @@
   description: Master of many trades, fills many roles as needed
   status: current
   badges:
-    - project=yeast_dsb
-    - project=glover_cnv
+    - project=Yeast_DSB_Repair
+    - project=CNV_Mechanisms
 
 - id: McKenna_Defoer 
   name: McKenna Defoer
@@ -72,12 +72,12 @@
   description: Working on metabolic effects on yeast DSB repair
   status: current
   badges:
-    - project=yeast_dsb
+    - project=Yeast_DSB_Repair
 
 #-------------------------------------------------------------------------------------
 # past group members
 #-------------------------------------------------------------------------------------
-- id: Pam_Bennett_Baker
+- id: Pam_Bennett-Baker
   name: Pam Bennett-Baker
   role: Research Technician 
   program: null 
@@ -90,7 +90,7 @@
   status: past
   current_position: PhD student, Genetics and Genomics Program, U. Michigan
   badges:
-    - project=glover_cnv
+    - project=CNV_Mechanisms
 
 - id: Dominic_Bazzano
   name: Dominic Bazzano
@@ -105,7 +105,7 @@
   status: past
   current_position: PhD student, Genetics and Genomics Program, U. Michigan
   badges:
-    - project=yeast_dsb
+    - project=Yeast_DSB_Repair
 
 - id: Stephanie_Lomonaco 
   name: Stephanie Lomonaco 
@@ -120,7 +120,7 @@
   status: past
   current_position: null 
   badges:
-    - project=yeast_dsb
+    - project=Yeast_DSB_Repair
 
 - id: Irene_Park
   name: So Hae (Irene) Park
@@ -135,4 +135,4 @@
   status: past
   current_position: science writer
   badges:
-    - project=glover_cnv
+    - project=CNV_Mechanisms

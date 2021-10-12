@@ -31,5 +31,4 @@
   title: Systematic Genetic Analysis of Yeast NHEJ
   description: Basic science studies of DNA double-strand break repair executed mainly via genetic approaches in the yeast model organism.
   badges:
-    - project=yeast_dsb
-
+    - project=Yeast_DSB_Repair

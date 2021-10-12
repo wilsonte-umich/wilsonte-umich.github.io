@@ -6,8 +6,8 @@ description: Examining yeast DSB 5' resection at base-pair resolution
 event_type: publication # primary type of the event, used to create the small, colored post callout
 banner_image_source: project=yeast_dsb # the item whose banner image will be adopted by this event
 badges: # e.g. person=John_Doe, project=project1 (no spaces)
-  - project=yeast_dsb
-  - publication=bazzano_2021
+  - project=Yeast_DSB
+  - publication=Bazzano_2021
   - funding=GM120767
   - person=Dominic_Bazzano
 ---

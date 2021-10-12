@@ -7,8 +7,6 @@ banner_image: assets/images/bsrb.jpg
 permalink: /
 ---
 
-**!!! Please excuse the site, which is still under construction !!!**
-
 Welcome! I am Thomas E. Wilson, M.D. Ph.D., 
 Professor of Pathology and Human Genetics 
 at the University of Michigan Medical School.

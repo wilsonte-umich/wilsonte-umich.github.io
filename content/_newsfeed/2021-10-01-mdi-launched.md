@@ -6,7 +6,7 @@ description: Michigan Data Interface UROP project takes new students
 event_type: project # primary type of the event, used to create the small, colored post callout
 banner_image_source: project=mdi # the item whose banner image will be adopted by this event
 badges: # e.g. person=John_Doe, project=project1 (no spaces)
-  - project=mdi
+  - project=MDI
 ---
 
 On October 1st, our inaugural students began working on our UROP

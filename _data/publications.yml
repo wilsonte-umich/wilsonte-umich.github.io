@@ -43,7 +43,7 @@
   abstract: null
   badges:
     - person=Dominic_Bazzano
-    - project=yeast_dsb
+    - project=Yeast_DSB_Repair
 
 - id: park_2021
   date:  2021-07-21
@@ -64,4 +64,4 @@
   url: null 
   badges: 
     - person=Irene_Park
-    - project=glover_cnv
+    - project=CNV_Mechanisms

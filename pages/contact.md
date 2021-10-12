@@ -8,7 +8,7 @@ assistant_email: carcalla@umich.edu
 
 ### Administrative Assistant
 
-Please contact Carrie early, especially for any matters relating to Dr. Wilson's schedule.
+Please contact Carrie early, especially for matters relating to Dr. Wilson's schedule.
 
 **Carrie Callahan**  
 <a href="mailto:{{ page.assistant_email }}">{{ page.assistant_email }}</a>
@@ -28,7 +28,7 @@ Lab: Rm. 2828 BSRB
 109 Zina Pitcher Place SPC 2200  
 Ann Arbor, MI 48109-2200  
 
-<a href="mailto:{{ wilsonte@umich.edu }}">{{ wilsonte@umich.edu }}</a>
+<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
 Office Phone:  (734) 764-2212  
 Lab Phone:  (734) 763-5414  
