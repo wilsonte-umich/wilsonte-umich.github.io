@@ -1,67 +1,334 @@
-#-------------------------------------------------------------------------------------
-# in addition to information enumerated here, a PI may _optionally_ choose to 
-# create expanded publication information in _publications/<id>.md
-#-------------------------------------------------------------------------------------
-# Publications are ordered on the Publications page as follows:
-#   descending by year, then descending by pmid
-# thus, newest articles appear first, PubMed articles appear before books or other items
-#-------------------------------------------------------------------------------------
-# the 'id' field is the unique identifier used for tagging and md files
-#-------------------------------------------------------------------------------------
-# "authors[1] lastname et al. year" (e.g., 'Wilson et al. 2021') is used as the badge label
-#-------------------------------------------------------------------------------------
-
-# - id: bazzano_2021 # required, must be a string (e.g., quote a pmid as "00000000")
-#   date: 2021-09-30 # the day the publication appeared
-#   pmid:  00000000   # e.g., 00000000, can be missing or null
-#   pmcid: PMC0000000 # e.g., PMC0000000, can be missing or null  
-#   authors:  
-#     - Last AA
-#     - Lastt B
-#   title:    Title of the manuscript
-#   journal:  Journal or other source
-#   citation: xxxx  # typically volume(issue):page-page, or an online publication id
-#   year:     2021
-#   url:      null # a non-PubMed (Central) link; used only if pmid and pmcid are both null
-#   abstract: text # typically entered using the CMS, use on card
-#   badges:
-#     - TYPE=ID # e.g. person=John_Doe, project=project1 (no spaces)
-      
-- id: Bazzano_2021
-  date:  2021-07-15
-  pmid:  34263309
-  pmcid: null
-  authors:  
-    - Bazzano D
-    - Lomonaco S
-    - Wilson TE
-  title:    Mapping yeast mitotic 5' resection at base resolution reveals the sequence and positional dependence of nucleases in vivo
-  journal:  Nucleic Acids Research
-  citation: 10.1093/nar/gkab597
-  year:     2021
-  url: null
-  abstract: null
-  badges:
-    - person=Dominic_Bazzano
-    - project=Yeast_DSB_Repair
-
 - id: Park_2021
-  date:  2021-07-21
-  pmid:  34181717
+  date: '2021-07-21'
+  pmid: 34181717
   pmcid: PMC8287918
-  authors:  
-    - Park SH
-    - Bennett-Baker P
-    - Ahmed S
-    - Arlt MF
-    - Ljungman M
-    - Glover TW
-    - Wilson TE
-  title:    Locus-specific transcription silencing at the FHIT gene suppresses replication stress-induced copy number variant formation and associated replication delay
-  journal:  Nucleic Acids Research
-  citation: 49(13):7507-7524  
-  year:     2021
-  url: null 
-  badges: 
-    - person=Irene_Park
-    - project=CNV_Mechanisms
+  authors:
+  - Park SH
+  - Bennett-Baker P
+  - Ahmed S
+  - Arlt MF
+  - Ljungman M
+  - Glover TW
+  - Wilson TE
+  title: Locus-specific transcription silencing at the FHIT gene suppresses replication
+    stress-induced copy number variant formation and associated replication delay
+  journal: Nucleic Acids Res
+  citation: 49(13):7507-7524
+  year: 2021
+  url: ~
+  badges:
+  - person=Irene_Park
+  - project=CNV_Mechanisms
+  abstract: Impaired replication progression leads to de novo copy number variant
+    (CNV)  formation at common fragile sites (CFSs). We previously showed that these
+    hotspots  for genome instability reside in late-replicating domains associated
+    with large  transcribed genes and provided indirect evidence that transcription
+    is a factor in  their instability. Here, we compared aphidicolin (APH)-induced
+    CNV and CFS frequency  between wild-type and isogenic cells in which FHIT gene
+    transcription was ablated by  promoter deletion. Two promoter-deletion cell lines
+    showed reduced or absent CNV  formation and CFS expression at FHIT despite continued
+    instability at the NLGN1  control locus. APH treatment led to critical replication
+    delays that remained  unresolved in G2/M in the body of many, but not all, large
+    transcribed genes, an  effect that was reversed at FHIT by the promoter deletion.
+    Altering RNase H1  expression did not change CNV induction frequency and DRIP-seq
+    showed a paucity of  R-loop formation in the central regions of large genes, suggesting
+    that R-loops are  not the primary mediator of the transcription effect. These
+    results demonstrate that  large gene transcription is a determining factor in
+    replication stress-induced  genomic instability and support models that CNV hotspots
+    mainly result from the  transcription-dependent passage of unreplicated DNA into
+    mitosis.
+- id: Bazzano_2021
+  date: '2021-07-15'
+  pmid: 34263309
+  pmcid: ~
+  authors:
+  - Bazzano D
+  - Lomonaco S
+  - Wilson TE
+  title: Mapping yeast mitotic 5' resection at base resolution reveals the sequence
+    and positional dependence of nucleases in vivo
+  journal: Nucleic Acids Research
+  citation: 10.1093/nar/gkab597
+  year: 2021
+  url: ~
+  abstract: ~
+  badges:
+  - person=Dominic_Bazzano
+  - project=Yeast_DSB_Repair
+- id: Glover_2020
+  date: '2020-11-01'
+  pmid: 32665662
+  pmcid: PMC7785000
+  authors:
+  - Glover TW
+  - Wilson TE
+  title: 'Twin peaks: finding fragile sites with MiDAS-seq'
+  journal: Cell Res
+  citation: 30(11):944-945
+  year: 2020
+  url: ~
+  abstract: ~
+  badges: ~
+- id: Arlt_2018
+  date: '2018-10-01'
+  pmid: 30218578
+  pmcid: PMC7275641
+  authors:
+  - Arlt MF
+  - Rajendran S
+  - Holmes SN
+  - Wang K
+  - Bergin IL
+  - Ahmed S
+  - Wilson TE
+  - Glover TW
+  title: Effects of hydroxyurea on CNV induction in the mouse germline
+  journal: Environ Mol Mutagen
+  citation: 59(8):698-714
+  year: 2018
+  url: ~
+  abstract: Copy number variants (CNVs) are important in genome variation and genetic
+    disease,  with new mutations arising frequently in the germline and somatic cells.
+    Replication  stress caused by aphidicolin and hydroxyurea (HU) is a potent inducer
+    of de novo  CNVs in cultured mammalian cells. HU is used extensively for long-term
+    management of  sickle cell disease. Here, we examined the effects of HU treatment
+    on germline CNVs  in vivo in male mice to explore whether replication stress can
+    act as a CNV mutagen  in germline mitotic divisions as in cultured cells and whether
+    this would support a  concern for increased CNV mutations in offspring of men
+    treated with HU. Several  trials of HU administration were performed by oral gavage
+    and subcutaneous pump,  with CNVs characterized in C57BL/6 x C3H/HeJ hybrid mouse
+    offspring by microarray  and mate-pair sequencing. HU had a short half-life of
+    ~14 min and a narrow dose  window over which studies could be performed while
+    maintaining fertility. Tissue  histopathology and reticulocyte micronucleus assays
+    verified that doses had a  substantial tissue and genetic toxicity. CNVs were
+    readily detected in offspring  that originated in both paternal and maternal mouse
+    strains, as de novo and  inherited events. However, HU did not increase CNV formation
+    above baseline levels.  These results reveal a high rate of CNV mutagenesis in
+    the mouse germline but do not  support the hypothesis that HU would increase CNV
+    formation during mammalian  spermatogenesis, perhaps due to highly toxic effects
+    on sperm development or  experimental variables related to HU pharmacology in
+    mice. Environ. Mol. Mutagen.  59:698-714, 2018. © 2018 Wiley Periodicals, Inc.
+  badges: ~
+- id: Glover_2017
+  date: '2017-07-25'
+  pmid: 28740117
+  pmcid: PMC5546318
+  authors:
+  - Glover TW
+  - Wilson TE
+  - Arlt MF
+  title: 'Fragile sites in cancer: more than meets the eye'
+  journal: Nat Rev Cancer
+  citation: 17(8):489-501
+  year: 2017
+  url: ~
+  abstract: Ever since initial suggestions that instability at common fragile sites
+    (CFSs) could  be responsible for chromosome rearrangements in cancers, CFSs and
+    associated genes  have been the subject of numerous studies, leading to questions
+    and controversies  about their role and importance in cancer. It is now clear
+    that CFSs are not  frequently involved in translocations or other cancer-associated
+    recurrent gross  chromosome rearrangements. However, recent studies have provided
+    new insights into  the mechanisms of CFS instability, their effect on genome instability,
+    and their  role in generating focal copy number alterations that affect the genomic
+    landscape  of many cancers.
+  badges: ~
+- id: Glover_2016
+  date: '2016-04-07'
+  pmid: 27007850
+  pmcid: .na.character
+  authors:
+  - Glover TW
+  - Wilson TE
+  title: 'Molecular biology: Breaks in the brain'
+  journal: Nature
+  citation: 532(7597):46-7
+  year: 2016
+  url: ~
+  abstract: ~
+  badges: ~
+- id: Wilson_2015
+  date: '2015-02-01'
+  pmid: 25373142
+  pmcid: PMC4315293
+  authors:
+  - Wilson TE
+  - Arlt MF
+  - Park SH
+  - Rajendran S
+  - Paulsen M
+  - Ljungman M
+  - Glover TW
+  title: Large transcription units unify copy number variants and common fragile sites
+    arising under replication stress
+  journal: Genome Res
+  citation: 25(2):189-200
+  year: 2015
+  url: ~
+  abstract: Copy number variants (CNVs) resulting from genomic deletions and duplications
+    and  common fragile sites (CFSs) seen as breaks on metaphase chromosomes are distinct  forms
+    of structural chromosome instability precipitated by replication inhibition.  Although
+    they share a common induction mechanism, it is not known how CNVs and CFSs  are
+    related or why some genomic loci are much more prone to their occurrence. Here  we
+    compare large sets of de novo CNVs and CFSs in several experimental cell systems  to
+    each other and to overlapping genomic features. We first show that CNV hotpots  and
+    CFSs occurred at the same human loci within a given cultured cell line. Bru-seq  nascent
+    RNA sequencing further demonstrated that although genomic regions with low  CNV
+    frequencies were enriched in transcribed genes, the CNV hotpots that matched  CFSs
+    specifically corresponded to the largest active transcription units in both  human
+    and mouse cells. Consistently, active transcription units >1 Mb were robust  cell-type-specific
+    predictors of induced CNV hotspots and CFS loci. Unlike most  transcribed genes,
+    these very large transcription units replicated late and  organized deletion and
+    duplication CNVs into their transcribed and flanking regions,  respectively, supporting
+    a role for transcription in replication-dependent lesion  formation. These results
+    indicate that active large transcription units drive  extreme locus- and cell-type-specific
+    genomic instability under replication stress,  resulting in both CNVs and CFSs
+    as different manifestations of perturbed replication  dynamics.
+  badges: ~
+- id: Arlt_2014
+  date: '2014-03-01'
+  pmid: 24327335
+  pmcid: PMC4086151
+  authors:
+  - Arlt MF
+  - Rajendran S
+  - Birkeland SR
+  - Wilson TE
+  - Glover TW
+  title: Copy number variants are produced in response to low-dose ionizing radiation
+    in cultured cells
+  journal: Environ Mol Mutagen
+  citation: 55(2):103-13
+  year: 2014
+  url: ~
+  abstract: Despite their importance to human genetic variation and disease, little
+    is known  about the molecular mechanisms and environmental risk factors that impact
+    copy  number variant (CNV) formation. While it is clear that replication stress
+    can lead  to de novo CNVs, for example, following treatment of cultured mammalian
+    cells with  aphidicolin (APH) and hydroxyurea (HU), the effect of different types
+    of mutagens on  CNV induction is unknown. Here we report that ionizing radiation
+    (IR) in the range  of 1.5-3.0 Gy effectively induces de novo CNV mutations in
+    cultured normal human  fibroblasts. These IR-induced CNVs are found throughout
+    the genome, with the same  hotspot regions seen after APH- and HU-induced replication
+    stress. IR produces  duplications at a higher frequency relative to deletions
+    than do APH and HU. At most  hotspots, these duplications are physically shifted
+    from the regions typically  deleted after APH or HU, suggesting different pathways
+    involved in their formation.  CNV breakpoint junctions from irradiated samples
+    are characterized by microhomology,  blunt ends, and insertions like those seen
+    in spontaneous and APH/HU-induced CNVs  and most nonrecurrent CNVs in vivo. The
+    similarity to APH/HU-induced CNVs suggests  that low-dose IR induces CNVs through
+    a replication-dependent mechanism, as opposed  to replication-independent repair
+    of DSBs. Consistent with this mechanism, a lower  yield of CNVs was observed when
+    cells were held for 48 hr before replating after  irradiation. These results predict
+    that any environmental DNA damaging agent that  impairs replication is capable
+    of creating CNVs.
+  badges: ~
+- id: Glover_2013
+  date: '2013-02-11'
+  pmid: 23410970
+  pmcid: .na.character
+  authors:
+  - Glover TW
+  - Wilson TE
+  title: Breaking news on fragile sites in cancer
+  journal: Cancer Cell
+  citation: 23(2):137-9
+  year: 2013
+  url: ~
+  abstract: Chromosome rearrangements in B lymphocytes can be initiated by AID-associated
+    double  strand breaks (DSBs), with others arising by unclear mechanisms. A recent
+    study by  Barlow and colleagues in Cell reports on genomic regions, termed early
+    replicating  fragile sites, that may explain many AID-independent DSBs and creates
+    a compelling  link between replication stress, transcription, and chromosome rearrangements.
+  badges: ~
+- id: Yauk_2013
+  date: '2013-01-01'
+  pmid: 22935230
+  pmcid: PMC3556182
+  authors:
+  - Yauk CL
+  - Lucas Argueso J
+  - Auerbach SS
+  - Awadalla P
+  - Davis SR
+  - DeMarini DM
+  - Douglas GR
+  - Dubrova YE
+  - Elespuru RK
+  - Glover TW
+  - Hales BF
+  - Hurles ME
+  - Klein CB
+  - Lupski JR
+  - Manchester DK
+  - Marchetti F
+  - Montpetit A
+  - Mulvihill JJ
+  - Robaire B
+  - Robbins WA
+  - Rouleau GA
+  - Shaughnessy DT
+  - Somers CM
+  - Taylor JG 6th
+  - Trasler J
+  - Waters MD
+  - Wilson TE
+  - Witt KL
+  - Bishop JB
+  title: Harnessing genomics to identify environmental determinants of heritable disease
+  journal: Mutat Res
+  citation: 752(1):6-9
+  year: 2013
+  url: ~
+  abstract: Next-generation sequencing technologies can now be used to directly measure  heritable
+    de novo DNA sequence mutations in humans. However, these techniques have  not
+    been used to examine environmental factors that induce such mutations and their  associated
+    diseases. To address this issue, a working group on environmentally  induced germline
+    mutation analysis (ENIGMA) met in October 2011 to propose the  necessary foundational
+    studies, which include sequencing of parent-offspring trios  from highly exposed
+    human populations, and controlled dose-response experiments in  animals. These
+    studies will establish background levels of variability in germline  mutation
+    rates and identify environmental agents that influence these rates and  heritable
+    disease. Guidance for the types of exposures to examine come from rodent  studies
+    that have identified agents such as cancer chemotherapeutic drugs, ionizing  radiation,
+    cigarette smoke, and air pollution as germ-cell mutagens. Research is  urgently
+    needed to establish the health consequences of parental exposures on  subsequent
+    generations.
+  badges: ~
+- id: Arlt_2012
+  date: '2012-09-01'
+  pmid: 23028374
+  pmcid: PMC3447954
+  authors:
+  - Arlt MF
+  - Rajendran S
+  - Birkeland SR
+  - Wilson TE
+  - Glover TW
+  title: De novo CNV formation in mouse embryonic stem cells occurs in the absence
+    of Xrcc4-dependent nonhomologous end joining
+  journal: PLoS Genet
+  citation: 8(9):e1002981
+  year: 2012
+  url: ~
+  abstract: Spontaneous copy number variant (CNV) mutations are an important factor
+    in genomic  structural variation, genomic disorders, and cancer. A major class
+    of CNVs, termed  nonrecurrent CNVs, is thought to arise by nonhomologous DNA repair
+    mechanisms due to  the presence of short microhomologies, blunt ends, or short
+    insertions at junctions  of normal and de novo pathogenic CNVs, features recapitulated
+    in experimental  systems in which CNVs are induced by exogenous replication stress.
+    To test whether  the canonical nonhomologous end joining (NHEJ) pathway of double-strand
+    break (DSB)  repair is involved in the formation of this class of CNVs, chromosome
+    integrity was  monitored in NHEJ-deficient Xrcc4(-/-) mouse embryonic stem (ES)
+    cells following  treatment with low doses of aphidicolin, a DNA replicative polymerase
+    inhibitor.  Mouse ES cells exhibited replication stress-induced CNV formation
+    in the same manner  as human fibroblasts, including the existence of syntenic
+    hotspot regions, such as  in the Auts2 and Wwox loci. The frequency and location
+    of spontaneous and  aphidicolin-induced CNV formation were not altered by loss
+    of Xrcc4, as would be  expected if canonical NHEJ were the predominant pathway
+    of CNV formation. Moreover,  de novo CNV junctions displayed a typical pattern
+    of microhomology and blunt end use  that did not change in the absence of Xrcc4.
+    A number of complex CNVs were detected  in both wild-type and Xrcc4(-/-) cells,
+    including an example of a catastrophic,  chromothripsis event. These results establish
+    that nonrecurrent CNVs can be, and  frequently are, formed by mechanisms other
+    than Xrcc4-dependent NHEJ.
+  badges: ~
