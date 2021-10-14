@@ -6,7 +6,33 @@
   email: wilsonte@umich.edu
   github: wilsonte-umich
   twitter: ~
-  status: current
+  status: active
+- id: Tom_Glover
+  name: Tom Glover
+  role: Professor
+  program: Department of Human Genetics
+  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  orcid: ~
+  email: glover@umich.edu
+  github: ~
+  twitter: ~
+  description: Master cytogeneticist who discovered common fragile sites and co-leads
+    our CNV projects
+  status: collaborator
+  badges: project=CNV_Mechanisms
+- id: Mats_Ljungman
+  name: Mats Ljungman
+  role: Professor
+  program: Department of Radiation Oncology
+  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  orcid: ~
+  email: ljungman@umich.edu
+  github: ~
+  twitter: ~
+  description: Transcription-coupled DNA repair expert who branched from there to
+    nascent RNA sequencing and beyond
+  status: collaborator
+  badges: project=Bru_seq
 - id: Samreen_Ahmed
   name: Samreen Ahmed
   role: Research Technician
@@ -17,7 +43,7 @@
   github: ~
   twitter: ~
   description: Master of many trades, fills many roles as needed
-  status: current
+  status: active
   badges:
   - project=Yeast_DSB_Repair
   - project=CNV_Mechanisms
@@ -31,7 +57,7 @@
   github: ~
   twitter: ~
   description: Working on metabolic effects on yeast DSB repair
-  status: current
+  status: active
   badges: project=Yeast_DSB_Repair
 - id: Pam_Bennett-Baker
   name: Pam Bennett-Baker
@@ -93,3 +119,20 @@
   badges:
   - project=CNV_Mechanisms
   - publication=Park_2021
+- id: Martin_Arlt
+  name: Martin Arlt
+  role: Research Investigator
+  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  orcid: ~
+  email: arltm@umich.edu
+  github: ~
+  twitter: ~
+  description: Driving member of the CNV project for many years, developed key approaches
+    for genomic analysis
+  status: past
+  current_position: Research Scientist, Jacob Mueller laboratory, Michigan
+  badges:
+  - project=CNV_Mechanisms
+  - publication=Arlt_2018
+  - publication=Arlt_2014
+  - publication=Arlt_2012

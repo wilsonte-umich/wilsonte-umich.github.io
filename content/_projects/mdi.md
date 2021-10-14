@@ -2,7 +2,8 @@
 title: Michigan Data Interface (MDI)
 subtitle: A platform for developing and sharing data analysis tools
 description: A platform for developing and sharing data analysis tools
-order: 3
+order: 40
+active: true
 card_image: assets/images/projects/mdi/portal_blur_200px.png
 card_title: null # used if card_image is null; defaults to title
 categories: 

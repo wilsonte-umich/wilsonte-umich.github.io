@@ -55,6 +55,47 @@
   badges:
   - person=Dominic_Bazzano
   - project=Yeast_DSB_Repair
+  - funding=GM120767
+- id: Bedi_2021
+  date: '2021-05-11'
+  pmid: 33975916
+  pmcid: PMC8208053
+  authors:
+  - Bedi K
+  - Magnuson BR
+  - Narayanan I
+  - Paulsen M
+  - Wilson TE
+  - Ljungman M
+  title: Co-transcriptional splicing efficiencies differ within genes and between
+    cell types
+  journal: RNA
+  citation: 27(7):829-40
+  year: 2021
+  url: ~
+  abstract: Pre-mRNA splicing is carried out by the spliceosome and involves splice
+    site  recognition, removal of introns, and ligation of exons. Components of the  spliceosome
+    have been shown to interact with the elongating RNA polymerase II  (RNAPII) which
+    is thought to allow splicing to occur concurrently with  transcription. However,
+    little is known about the regulation and efficiency of  co-transcriptional splicing
+    in human cells. In this study, we used Bru-seq and  BruChase-seq to determine
+    the co-transcriptional splicing efficiencies of 17,000  introns expressed across
+    6 human cell lines. We found that less than half of all  introns across these
+    6 cell lines were co-transcriptionally spliced. Splicing  efficiencies for individual
+    introns showed variations across cell lines, suggesting  that splicing may be
+    regulated in a cell-type specific manner. Moreover, the  splicing efficiency of
+    introns varied within genes. The efficiency of  co-transcriptional splicing did
+    not correlate with gene length, intron position,  splice site strengths, or the
+    intron/neighboring exons GC content. However, we  identified binding signals from
+    multiple RNA binding proteins (RBPs) that correlated  with splicing efficiency,
+    including core spliceosomal machinery components-such as  SF3B4, U2AF1 and U2AF2
+    showing higher binding signals in poorly spliced introns. In  addition, multiple
+    RBPs, such as BUD13, PUM1 and SND1, showed preferential binding  in exons that
+    flank introns with high splicing efficiencies. The nascent RNA  splicing patterns
+    presented here across multiple cell types add to our understanding  of the complexity
+    in RNA splicing, wherein RNA-binding proteins may play important  roles in determining
+    splicing outcomes in a cell type- and intron-specific manner.
+  badges: ~
 - id: Glover_2020
   date: '2020-11-01'
   pmid: 32665662
@@ -68,6 +109,74 @@
   year: 2020
   url: ~
   abstract: ~
+  badges: ~
+- id: Bedi_2020
+  date: '2020-03-01'
+  pmid: 31709421
+  pmcid: PMC6824518
+  authors:
+  - Bedi K
+  - Paulsen MT
+  - Wilson TE
+  - Ljungman M
+  title: Characterization of novel primary miRNA transcription units in human cells
+    using Bru-seq nascent RNA sequencing
+  journal: NAR Genom Bioinform
+  citation: 2(1):lqz014
+  year: 2020
+  url: ~
+  abstract: MicroRNAs (miRNAs) are key contributors to gene regulatory networks. Because
+    miRNAs  are processed from RNA polymerase II transcripts, insight into miRNA regulation  requires
+    a comprehensive understanding of the regulation of primary miRNA  transcripts.
+    We used Bru-seq nascent RNA sequencing and hidden Markov model  segmentation to
+    map primary miRNA transcription units (TUs) across 32 human cell  lines, allowing
+    us to describe TUs encompassing 1443 miRNAs from miRBase and 438  from MirGeneDB.
+    We identified TUs for 61 miRNAs with an unknown CAGE TSS signal for  MirGeneDB
+    miRNAs. Many primary transcripts containing miRNA sequences failed to  generate
+    mature miRNAs, suggesting that miRNA biosynthesis is under both  transcriptional
+    and post-transcriptional control. In addition to constitutive and  cell-type specific
+    TU expression regulated by differential promoter usage, miRNA  synthesis can be
+    regulated by transcription past polyadenylation sites  (transcriptional read through)
+    and promoter divergent transcription (PROMPTs). We  identified 197 miRNA TUs with
+    novel promoters, 97 with transcriptional read-throughs  and 3 miRNA TUs that resemble
+    PROMPTs in at least one cell line. The miRNA TU  annotation data resource described
+    here reveals a greater complexity in miRNA  regulation than previously known and
+    provides a framework for identifying cell-type  specific differences in miRNA
+    transcription in cancer and cell transition states.
+  badges: ~
+- id: Flasch_2019
+  date: '2019-05-02'
+  pmid: 30955886
+  pmcid: PMC6558663
+  authors:
+  - Flasch DA
+  - Macia Á
+  - Sánchez L
+  - Ljungman M
+  - Heras SR
+  - García-Pérez JL
+  - Wilson TE
+  - Moran JV
+  title: Genome-wide de novo L1 Retrotransposition Connects Endonuclease Activity
+    with Replication
+  journal: Cell
+  citation: 177(4):837-851.e28
+  year: 2019
+  url: ~
+  abstract: L1 retrotransposon-derived sequences comprise approximately 17% of the
+    human genome.  Darwinian selective pressures alter L1 genomic distributions during
+    evolution,  confounding the ability to determine initial L1 integration preferences.
+    Here, we  generated high-confidence datasets of greater than 88,000 engineered
+    L1 insertions  in human cell lines that act as proxies for cells that accommodate  retrotransposition
+    in vivo. Comparing these insertions to a null model, in which L1  endonuclease
+    activity is the sole determinant dictating L1 integration preferences,  demonstrated
+    that L1 insertions are not significantly enriched in genes, transcribed  regions,
+    or open chromatin. By comparison, we provide compelling evidence that the  L1
+    endonuclease disproportionately cleaves predominant lagging strand DNA  replication
+    templates, while lagging strand 3'-hydroxyl groups may prime  endonuclease-independent
+    L1 retrotransposition in a Fanconi anemia cell line. Thus,  acquisition of an
+    endonuclease domain, in conjunction with the ability to integrate  into replicating
+    DNA, allowed L1 to become an autonomous, interspersed  retrotransposon.
   badges: ~
 - id: Arlt_2018
   date: '2018-10-01'
@@ -108,7 +217,7 @@
     formation during mammalian  spermatogenesis, perhaps due to highly toxic effects
     on sperm development or  experimental variables related to HU pharmacology in
     mice. Environ. Mol. Mutagen.  59:698-714, 2018. © 2018 Wiley Periodicals, Inc.
-  badges: ~
+  badges: person=Martin_Arlt
 - id: Glover_2017
   date: '2017-07-25'
   pmid: 28740117
@@ -132,6 +241,45 @@
     and their  role in generating focal copy number alterations that affect the genomic
     landscape  of many cancers.
   badges: ~
+- id: Venkata_2017
+  date: '2017-03-03'
+  pmid: 28256581
+  pmcid: PMC5335570
+  authors:
+  - Venkata Narayanan I
+  - Paulsen MT
+  - Bedi K
+  - Berg N
+  - Ljungman EA
+  - Francia S
+  - Veloso A
+  - Magnuson B
+  - di Fagagna FD
+  - Wilson TE
+  - Ljungman M
+  title: Transcriptional and post-transcriptional regulation of the ionizing radiation
+    response by ATM and p53
+  journal: Sci Rep
+  citation: 7:43598
+  year: 2017
+  url: ~
+  abstract: In response to ionizing radiation (IR), cells activate a DNA damage response
+    (DDR)  pathway to re-program gene expression. Previous studies using total cellular
+    RNA  analyses have shown that the stress kinase ATM and the transcription factor
+    p53 are  integral components required for induction of IR-induced gene expression.
+    These  studies did not distinguish between changes in RNA synthesis and RNA turnover
+    and  did not address the role of enhancer elements in DDR-mediated transcriptional  regulation.
+    To determine the contribution of synthesis and degradation of RNA and  monitor
+    the activity of enhancer elements following exposure to IR, we used the  recently
+    developed Bru-seq, BruChase-seq and BruUV-seq techniques. Our results show  that
+    ATM and p53 regulate both RNA synthesis and stability as well as enhancer  element
+    activity following exposure to IR. Importantly, many genes in the  p53-signaling
+    pathway were coordinately up-regulated by both increased synthesis and  RNA stability
+    while down-regulated genes were suppressed either by reduced synthesis  or stability.
+    Our study is the first of its kind that independently assessed the  effects of
+    ionizing radiation on transcription and post-transcriptional regulation  in normal
+    human cells.
+  badges: ~
 - id: Glover_2016
   date: '2016-04-07'
   pmid: 27007850
@@ -145,6 +293,42 @@
   year: 2016
   url: ~
   abstract: ~
+  badges: ~
+- id: Magnuson_2015
+  date: '2015-12-11'
+  pmid: 26656874
+  pmcid: PMC4675984
+  authors:
+  - Magnuson B
+  - Veloso A
+  - Kirkconnell KS
+  - de Andrade Lima LC
+  - Paulsen MT
+  - Ljungman EA
+  - Bedi K
+  - Prasad J
+  - Wilson TE
+  - Ljungman M
+  title: Identifying transcription start sites and active enhancer elements using
+    BruUV-seq
+  journal: Sci Rep
+  citation: 5:17978
+  year: 2015
+  url: ~
+  abstract: BruUV-seq utilizes UV light to introduce transcription-blocking DNA lesions
+    randomly  in the genome prior to bromouridine-labeling and deep sequencing of
+    nascent RNA. By  inhibiting transcription elongation, but not initiation, pre-treatment
+    with UV light  leads to a redistribution of transcription reads resulting in the
+    enhancement of  nascent RNA signal towards the 5'-end of genes promoting the identification
+    of  transcription start sites (TSSs). Furthermore, transcripts associated with
+    arrested  RNA polymerases are protected from 3'-5' degradation and thus, unstable
+    transcripts  such as putative enhancer RNA (eRNA) are dramatically increased.
+    Validation of  BruUV-seq against GRO-cap that identifies capped run-on transcripts
+    showed that most  BruUV-seq peaks overlapped with GRO-cap signal over both TSSs
+    and enhancer elements.  Finally, BruUV-seq identified putative enhancer elements
+    induced by tumor necrosis  factor (TNF) treatment concomitant with expression
+    of nearby TNF-induced genes.  Taken together, BruUV-seq is a powerful new approach
+    for identifying TSSs and active  enhancer elements genome-wide in intact cells.
   badges: ~
 - id: Wilson_2015
   date: '2015-02-01'
@@ -184,6 +368,73 @@
     genomic instability under replication stress,  resulting in both CNVs and CFSs
     as different manifestations of perturbed replication  dynamics.
   badges: ~
+- id: Veloso_2014
+  date: '2014-06-01'
+  pmid: 24714810
+  pmcid: PMC4032854
+  authors:
+  - Veloso A
+  - Kirkconnell KS
+  - Magnuson B
+  - Biewen B
+  - Paulsen MT
+  - Wilson TE
+  - Ljungman M
+  title: Rate of elongation by RNA polymerase II is associated with specific gene
+    features and epigenetic modifications
+  journal: Genome Res
+  citation: 24(6):896-905
+  year: 2014
+  url: ~
+  abstract: The rate of transcription elongation plays an important role in the timing
+    of  expression of full-length transcripts as well as in the regulation of alternative  splicing.
+    In this study, we coupled Bru-seq technology with  5,6-dichlorobenzimidazole 1-ß-D-ribofuranoside
+    (DRB) to estimate the elongation  rates of over 2000 individual genes in human
+    cells. This technique, BruDRB-seq,  revealed gene-specific differences in elongation
+    rates with a median rate of around  1.5 kb/min. We found that genes with rapid
+    elongation rates showed higher densities  of H3K79me2 and H4K20me1 histone marks
+    compared to slower elongating genes.  Furthermore, high elongation rates had a
+    positive correlation with gene length, low  complexity DNA sequence, and distance
+    from the nearest active transcription unit.  Features that negatively correlated
+    with elongation rate included the density of  exons, long terminal repeats, GC
+    content of the gene, and DNA methylation density in  the bodies of genes. Our
+    results suggest that some static gene features influence  transcription elongation
+    rates and that cells may alter elongation rates by  epigenetic regulation. The
+    BruDRB-seq technique offers new opportunities to  interrogate mechanisms of regulation
+    of transcription elongation.
+  badges: ~
+- id: Paulsen_2014
+  date: '2014-05-01'
+  pmid: 23973811
+  pmcid: PMC4009065
+  authors:
+  - Paulsen MT
+  - Veloso A
+  - Prasad J
+  - Bedi K
+  - Ljungman EA
+  - Magnuson B
+  - Wilson TE
+  - Ljungman M
+  title: Use of Bru-Seq and BruChase-Seq for genome-wide assessment of the synthesis
+    and stability of RNA
+  journal: Methods
+  citation: 67(1):45-54
+  year: 2014
+  url: ~
+  abstract: Gene expression studies commonly examine total cellular RNA, which only
+    provides  information about its steady-state pool of RNA. It remains unclear whether  differences
+    in the steady-state reflects variable rates of transcription or RNA  degradation.
+    To specifically monitor RNA synthesis and degradation genome-wide, we  developed
+    Bru-Seq and BruChase-Seq. These assays are based on metabolic pulse-chase  labeling
+    of RNA using bromouridine (Bru). In Bru-Seq, recently labeled RNAs are  sequenced
+    to reveal spans of nascent transcription in the genome. In BruChase-Seq,  cells
+    are chased in uridine for different periods of time following Bru-labeling,  allowing
+    for the isolation of RNA populations of specific ages. Here we describe  these
+    methodologies in detail and highlight their usefulness in assessing RNA  synthesis
+    and stability as well as splicing kinetics with examples of specific genes  from
+    different human cell lines.
+  badges: ~
 - id: Arlt_2014
   date: '2014-03-01'
   pmid: 24327335
@@ -221,7 +472,7 @@
     cells were held for 48 hr before replating after  irradiation. These results predict
     that any environmental DNA damaging agent that  impairs replication is capable
     of creating CNVs.
-  badges: ~
+  badges: person=Martin_Arlt
 - id: Glover_2013
   date: '2013-02-11'
   pmid: 23410970
@@ -239,6 +490,44 @@
     study by  Barlow and colleagues in Cell reports on genomic regions, termed early
     replicating  fragile sites, that may explain many AID-independent DSBs and creates
     a compelling  link between replication stress, transcription, and chromosome rearrangements.
+  badges: ~
+- id: Veloso_2013
+  date: '2013-01-01'
+  pmid: 24194914
+  pmcid: PMC3806802
+  authors:
+  - Veloso A
+  - Biewen B
+  - Paulsen MT
+  - Berg N
+  - Carmo de Andrade Lima L
+  - Prasad J
+  - Bedi K
+  - Magnuson B
+  - Wilson TE
+  - Ljungman M
+  title: Genome-wide transcriptional effects of the anti-cancer agent camptothecin
+  journal: PLoS One
+  citation: 8(10):e78190
+  year: 2013
+  url: ~
+  abstract: The anti-cancer drug camptothecin inhibits replication and transcription
+    by trapping  DNA topoisomerase I (Top1) covalently to DNA in a "cleavable complex".
+    To examine  the effects of camptothecin on RNA synthesis genome-wide we used Bru-Seq
+    and show  that camptothecin treatment primarily affected transcription elongation.
+    We also  observed that camptothecin increased RNA reads past transcription termination
+    sites  as well as at enhancer elements. Following removal of camptothecin, transcription  spread
+    as a wave from the 5'-end of genes with no recovery of transcription apparent  from
+    RNA polymerases stalled in the body of genes. As a result, camptothecin  preferentially
+    inhibited the expression of large genes such as proto-oncogenes, and  anti-apoptotic
+    genes while smaller ribosomal protein genes, pro-apoptotic genes and  p53 target
+    genes showed relative higher expression. Cockayne syndrome group B  fibroblasts
+    (CS-B), which are defective in transcription-coupled repair (TCR),  showed an
+    RNA synthesis recovery profile similar to normal fibroblasts suggesting  that
+    TCR is not involved in the repair of or RNA synthesis recovery from  transcription-blocking
+    Top1 lesions. These findings of the effects of camptothecin  on transcription
+    have important implications for its anti-cancer activities and may  aid in the
+    design of improved combinatorial treatments involving Top1 poisons.
   badges: ~
 - id: Yauk_2013
   date: '2013-01-01'
@@ -331,4 +620,4 @@
     including an example of a catastrophic,  chromothripsis event. These results establish
     that nonrecurrent CNVs can be, and  frequently are, formed by mechanisms other
     than Xrcc4-dependent NHEJ.
-  badges: ~
+  badges: person=Martin_Arlt
