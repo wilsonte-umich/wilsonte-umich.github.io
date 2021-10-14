@@ -29,7 +29,7 @@
   email: ljungman@umich.edu
   github: ~
   twitter: ~
-  description: Transcription-coupled DNA repair expert who branched from there to
+  description: Transcription-coupled DNA repair expert who branched to
     nascent RNA sequencing and beyond
   status: collaborator
   badges: project=Bru_seq
@@ -56,7 +56,7 @@
   email: ~
   github: ~
   twitter: ~
-  description: Former PhD student who has returned to the Michigan fold to pursue
+  description: Our former PhD student back at Michigan to pursue
     collaborative work with Dr. Patrick O'Brien
   status: active
   badges: project=Yeast_DSB_Repair
@@ -108,7 +108,7 @@
   description: Primary contributor to Park et al., including critical studies of replication
     timing and R-loops
   status: past
-  current_position: PhD student, Genetics and Genomics Program, U. Michigan
+  current_position: Central Biorepository (CBR), University of Michigan
   badges:
   - project=CNV_Mechanisms
   - publication=Park_2021
@@ -185,7 +185,7 @@
   twitter: ~
   description: Co-mentored with Dr. John Moran to study genomic influences on L1 retrotransposition
   status: past
-  current_position: Postdoctoral Fellow, St. Jude's
+  current_position: Postdoctoral Fellow, St. Jude's Children's Hospital
   badges:
   - project=L1
   - publication=Flasch_2019

@@ -1,7 +1,7 @@
 ---
 title: Mutation ID
 subtitle: Finding causative alleles in <i>S. cerevisiae</i>
-description: Use of pooled backcross sequencing to identify mutations causing phenotypes in yeast strains
+description: Use of pooled backcross sequencing to identify mutations causing phenotypes in yeast strains (various collaborators)
 order: 1010
 active: false
 card_image: null 
