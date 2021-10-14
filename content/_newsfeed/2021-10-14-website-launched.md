@@ -1,9 +1,9 @@
 ---
 date: 2021-10-14
-title: Website launched
+title: Website Launched
 subtitle: null
 description: New Jekyll website launched for Wilson et al. research and other project activities
-event_type: event # primary type of the event, used to create the small, colored post callout
+event_type: project # primary type of the event, used to create the small, colored post callout
 banner_image_source: null # the item whose banner image will be adopted by this event
 badges: null # e.g. person=John_Doe, project=project1 (no spaces)
 ---

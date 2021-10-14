@@ -789,7 +789,7 @@
     5' resection that was unimpeded  by the presence of catalytically inactive Dnl4.
     These findings indicate that Dnl4  can promote mutagenic end joining independently
     of its catalytic activity, likely by  a mechanism that involves Cdc9.
-- id: Chiruvella_2013
+- id: Chiruvella_2013b
   date: '2013-05-01'
   pmid: 23637284
   pmcid: PMC3632057
@@ -1612,7 +1612,7 @@
     coupled with failure of the metaphase-anaphase checkpoint allows for tolerance  of
     persistent single-strand breaks at the expense of genome stability.
   badges: ~
-- id: Daley_2005
+- id: Daley_2005b
   date: '2005-02-01'
   pmid: 15657419
   pmcid: PMC544009
@@ -1644,7 +1644,7 @@
     data support a model in which  annealing energy is a primary determinant of the
     rejoining efficiency and mechanism.'
   badges: ~
-- id: Daley_2005
+- id: Daley_2005c
   date: '2005-01-01'
   pmid: 16285867
   pmcid: .na.character
@@ -1853,7 +1853,7 @@
     damage. Taken  together, these results demonstrate a clear role for the lesion-specific
     enzyme,  Tpp1, in the repair of a subset of DNA strand breaks.
   badges: ~
-- id: Vance_2001
+- id: Vance_2001b
   date: '2001-05-04'
   pmid: 11278831
   pmcid: .na.character
