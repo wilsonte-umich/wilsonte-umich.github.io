@@ -1,3 +1,6 @@
+
+# ===============================
+
 - id: Tom_Wilson
   name: Tom Wilson
   role: Principal Investigator
@@ -7,6 +10,9 @@
   github: wilsonte-umich
   twitter: ~
   status: active
+
+# ===============================
+
 - id: Tom_Glover
   name: Tom Glover
   role: Professor
@@ -20,6 +26,9 @@
     our CNV projects
   status: collaborator
   badges: project=CNV_Mechanisms
+
+# ===============================
+
 - id: Mats_Ljungman
   name: Mats Ljungman
   role: Professor
@@ -33,6 +42,9 @@
     nascent RNA sequencing and beyond
   status: collaborator
   badges: project=Bru_seq
+
+# ===============================
+
 - id: Samreen_Ahmed
   name: Samreen Ahmed
   role: Research Technician
@@ -47,6 +59,7 @@
   badges:
   - project=Yeast_DSB_Repair
   - project=CNV_Mechanisms
+
 - id: Jim_Daley
   name: Jim Daley
   role: Research Investigator
@@ -56,10 +69,12 @@
   email: ~
   github: ~
   twitter: ~
-  description: Former PhD student who has returned to the Michigan fold to pursue
-    collaborative work with Dr. Patrick O'Brien
+  description: Former PhD student who has returned to the Michigan fold to pursue collaborative work with Dr. Patrick O'Brien
   status: active
-  badges: project=Yeast_DSB_Repair
+  badges: ~
+
+# ===============================
+
 - id: McKenna_Defoer
   name: McKenna Defoer
   role: Rotating PhD Student
@@ -72,6 +87,7 @@
   description: Working on metabolic effects on yeast DSB repair
   status: active
   badges: project=Yeast_DSB_Repair
+
 - id: Saanvi_Juneja
   name: Saanvi Juneja
   role: UROP Student
@@ -81,9 +97,10 @@
   email: saanvij@umich.edu
   github: ~
   twitter: ~
-  description: ~
+  description: null
   status: active
   badges: project=MDI
+
 - id: Faraz_Hassan
   name: Faraz Hassan
   role: UROP Student
@@ -93,9 +110,12 @@
   email: farazbh@umich.edu
   github: ~
   twitter: ~
-  description: ~
+  description: null
   status: active
   badges: project=MDI
+
+# ===============================
+
 - id: Pam_Bennett-Baker
   name: Pam Bennett-Baker
   role: Research Technician
@@ -109,9 +129,10 @@
     timing and R-loops
   status: past
   current_position: PhD student, Genetics and Genomics Program, U. Michigan
-  badges:
-  - project=CNV_Mechanisms
-  - publication=Park_2021
+  badges: project=CNV_Mechanisms
+
+# ===============================
+
 - id: Dominic_Bazzano
   name: Dominic Bazzano
   role: Master's Student
@@ -128,6 +149,9 @@
   badges:
   - project=Yeast_DSB_Repair
   - publication=Bazzano_2021
+
+# ===============================
+
 - id: Stephanie_Lomonaco
   name: Stephanie Lomonaco
   role: Postdoctoral Fellow
@@ -142,6 +166,9 @@
   status: past
   current_position: ~
   badges: project=Yeast_DSB_Repair
+
+# ===============================
+
 - id: Irene_Park
   name: So Hae (Irene) Park
   role: PhD Student
@@ -158,6 +185,9 @@
   badges:
   - project=CNV_Mechanisms
   - publication=Park_2021
+
+# ===============================
+
 - id: Martin_Arlt
   name: Martin Arlt
   role: Research Investigator
@@ -175,6 +205,9 @@
   - publication=Arlt_2018
   - publication=Arlt_2014
   - publication=Arlt_2012
+
+# ===============================
+
 - id: Diane_Flasch
   name: Diane Flasch
   role: Genetics and Genomics Program
@@ -186,6 +219,4 @@
   description: Co-mentored with Dr. John Moran to study genomic influences on L1 retrotransposition
   status: past
   current_position: Postdoctoral Fellow, St. Jude's
-  badges:
-  - project=L1
-  - publication=Flasch_2019
+  badges: null

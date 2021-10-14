@@ -16,7 +16,7 @@ categories:
 
 The Michigan Data Interface (MDI) is a standardized framework for developing, installing and running HPC data analysis pipelines and interactive R Shiny visualization applications. 
 
-Dr. Wilson is the lead developer of the MDI and seeks to use it as a platform for training UM researchers in best data management and analysis practices, including (but not limited to) running a Undergraduate Research Opportunity Project (UROP) in which students are helping to develop the MDI's tools.
+Dr. Wilson is the lead developer of the MDI and seeks to use it as a platform for training UM researchers in best data management and analysis practices, including (but not limited to) running an Undergraduate Research Opportunity Project (UROP) in which students are helping to develop the MDI's tools.
 
 #### Learn more
 
@@ -24,6 +24,6 @@ The following link provides extensive documentatation of the MDI and its goals:
 
 <https://midataint.github.io/>
 
-This is the associated GitHub organization:
+This is the associated GitHub organization that houses our code and documentation repositories:
 
 <https://github.com/MiDataInt>

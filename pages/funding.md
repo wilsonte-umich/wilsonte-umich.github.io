@@ -1,6 +1,6 @@
 ---
 layout: funding
-title: Funding Sources
+title: Funding Support
 subtitle: null
 banner_image: null
 permalink: /funding/
