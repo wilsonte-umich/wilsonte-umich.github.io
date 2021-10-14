@@ -1,10 +1,10 @@
 ---
 title: Molecular Diagnostics
 subtitle: null
-description: Clinical activity in the diagnosis of mainly cancer through RNA and DNA-based analytics
+description: Clinical activity in the diagnosis of human cancer through RNA and DNA-based analytics
 order: 100
 active: true
-card_image: null # "assets/images/pexels-stanislav-kondratiev-2908984-downsize.jpg"
+card_image: assets/images/projects/MDL/HER2POSCS-100721.jpg 
 card_title: null # used if card_image is null; defaults to title
 categories: 
     - Leadership Role
@@ -12,6 +12,12 @@ categories:
     - Genomic Technologies
 ---
 
-<h4>Overview</h4>
+#### Overview
 
-Please stay tuned for a description of this leadership activity.
+Molecular Diagnostics, or Molecular Genetic Pathology (MGP), is the application of RNA and DNA-based analysis methods for the diagnosis, prognosis and therapeutic stratification of human diseases. MGP is a branch of subtype of the discipline of Clinical Pathology, i.e., Laboratory Medicine.
+
+Dr. Wilson in Associate Director of the Molecular Diagnostics Laboratory at Michigan Medicine where his main activity in the genetic analysis of human cancers.
+
+#### Learn more
+
+<https://www.pathology.med.umich.edu/molecular-diagnostics>

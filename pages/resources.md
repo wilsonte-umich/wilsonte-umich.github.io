@@ -6,4 +6,4 @@ banner_image: null
 permalink: /resources/
 ---
 
-We are happy to make the following protocols and resources publicly available.  
+Please stay tuned for a listing and description of the protocols and computational and other data resources made available by our research groups.
