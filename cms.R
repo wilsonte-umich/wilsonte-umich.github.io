@@ -3,7 +3,8 @@ packages <- c(
     'shiny',
     'shinydashboard',
     'shinyTree',
-    'shinyjs',    
+    'shinyjs',
+    'magick',
     'yaml'
 )
 package.check <- lapply(

@@ -7,9 +7,16 @@ treeFiles <- character()
 relImagesDir <- file.path('assets', 'images')
 imagesDir <- file.path(rootDir, relImagesDir)
 
-# render the file tree
-output$fileTree <- renderTree({
+# set behavior for cropping and resizing
+cropAttributes <- list(
+    person = list(x = 150, y = 150),
+    banner = list(x = 800)
+)
+cropAttributes$project  <- cropAttributes$banner
+cropAttributes$resource <- cropAttributes$banner
 
+# render the file tree
+getImageFileTree <- function(){
     # collect and sort the files list
     treeFiles <<- list.files(imagesDir, recursive = TRUE)
     x <- strsplit(treeFiles, '/')
@@ -36,6 +43,9 @@ output$fileTree <- renderTree({
         list
     }
     parseLevel(rowIs, 1) # recurse through the file structure
+}
+output$fileTree <- renderTree({
+    getImageFileTree()
 })
 
 # respond to a file tree click
@@ -50,9 +60,16 @@ selectedImagePath <- reactive({
     updateTextInput(session, 'imagePathCopy', value = relPath)
     file.path(rootDir, relPath)
 })
+getImageSize <- function(path){
+    req(path)
+    img <- image_read(path)
+    info <- image_info(img)
+    KB <- paste0(round(info$filesize / 1000), "KB")
+    size <- paste(info$width, info$height, sep = " x ")
+    paste(size, KB, sep = ", ")     
+}
 output$imageSize <- renderText({
-    req(selectedImagePath())    
-    paste0(round(file.size(selectedImagePath()) / 1000), "KB")
+    getImageSize(selectedImagePath())    
 })
 output$selectedImage <- renderImage({
     req(selectedImagePath())    
@@ -62,3 +79,75 @@ output$selectedImage <- renderImage({
         style = "margin-top: 10px;"
     )
 }, deleteFile = FALSE)
+
+# handle image brush to crop and resize
+tmpFile <- file.path(imagesDir, "TMP.jpg")
+observeEvent(input$imageBrush, {
+    req(selectedImagePath()) 
+    box <- input$imageBrush$coords_img
+    xmin <- round(box$xmin)
+    xmax <- round(box$xmax)
+    ymin <- round(box$ymin)
+    ymax <- round(box$ymax)
+    attr <- cropAttributes[[input$imageType]]
+    if(is.null(attr$y)){ # control image width only
+    } else { # enforce a specific aspect ratio
+        targetAspectRatio <- attr$y / attr$x
+        selectedWidth <- xmax - xmin
+        selectedHeight <- ymax - ymin
+        selectedAspectRatio <- selectedHeight / selectedWidth
+        if(selectedAspectRatio >= targetAspectRatio){
+            ymax <- round(ymin + selectedHeight * targetAspectRatio / selectedAspectRatio)
+            scale <-  as.character(attr$x)
+        } else {
+            xmax <- round(xmin + selectedWidth * selectedAspectRatio / targetAspectRatio)
+        }
+    }
+    crop <- paste0(xmax - xmin, 'x', ymax - ymin, '+', xmin, '+', ymin)
+    scale <-  as.character(attr$x)
+    image_read(selectedImagePath()) %>% 
+    image_crop(crop) %>% 
+    image_scale(scale) %>% 
+    image_background('white', flatten = TRUE) %>%
+    image_write(path = tmpFile, format = "jpg")
+    updateAdjustedImage( updateAdjustedImage() + 1 )
+})
+updateAdjustedImage <- reactiveVal(0)
+output$adjustedImageSize <- renderText({
+    req(updateAdjustedImage() > 0)
+    getImageSize(tmpFile)    
+})
+output$adjustedImage <- renderImage({
+    req(updateAdjustedImage() > 0)
+    list(
+        src = tmpFile,
+        width = '100%',
+        style = "margin-top: 10px;"
+    )
+}, deleteFile = FALSE)
+
+# handle a file save click
+adjustedFileName <- reactive({
+    req(input$adjustedFileName)
+    filename <- paste0(input$adjustedFileName, '.jpg')
+    list(
+        relative = file.path(relImagesDir, filename),
+        absolute = file.path(imagesDir,    filename)
+    )
+})
+observeEvent(input$saveAdjustedImage, {
+    req(adjustedFileName())
+    showModal(modalDialog(
+        tags$p('Create file?'),
+        tags$p(adjustedFileName()$relative),
+        footer = tagList(
+            modalButton("Cancel"),
+            actionButton("doSaveAdjustedImaged", "OK")
+        )
+    ))
+})
+observeEvent(input$doSaveAdjustedImaged, {
+    file.copy(tmpFile, adjustedFileName()$absolute)
+    updateTree(session, 'fileTree', getImageFileTree())
+    removeModal()
+})
