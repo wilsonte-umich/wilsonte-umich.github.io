@@ -20,4 +20,7 @@ If you are interested, we built the site on
 using our [umich-labs](https://github.com/wilsonte-umich/umich-labs) Jekyll theme.  Check it out
 if you like how the site works, it is freely available and easy to use.
 
+[
 ![Jekyll](https://jekyllrb.com/img/logo-2x.png)
+](https://jekyllrb.com/)
+
