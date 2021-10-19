@@ -1,7 +1,7 @@
 #-------------------------------------------------------------------------------------
 # site settings
 #-------------------------------------------------------------------------------------
-version: 11 # increment version to force a site rebuild and update Recent News even if content is unchanged
+version: 12 # increment version to force a site rebuild and update Recent News even if content is unchanged
 title: Wilson et al. # in top navigation bar (navbar) and <head>
 description: Projects led by Thomas E. Wilson, Professor of Pathology and Human Genetics, University of Michigan Medical School # description in <head>
 author: Thomas E. Wilson                    # for copyright statement in footer
