@@ -25,7 +25,7 @@ Dr. Wilson acts a co-PI of the SCSAP, along with Drs. Evan Keller, Jun Li, Sunit
 
 #### Connection to Wilson research efforts
 
-I pursued a leadership role in the SCSAP in part due to its close ties with the [Advanced Genomics Core](https://wilsonte-umich.github.io/projects/advanced-genomics-core/). However, we also have a (perhaps lofty) goal of advancing the state of DNA monitoring, i.e., mutation detection, within tissues. Current spatial technologies mainly focus on RNA as a more abundant and more easily measured target. In recent years, we have developed extensive expertise in single-cell DNA sequencing (scDNA-seq) and are interested in applying those skill sets to intact tissue to be able to probe how tissue factors such as microenvironments influence the accumulation of the somatic mutations that eventually lead to cancer other outcomes. 
+I pursued a leadership role in the SCSAP in part due to its close ties with the [Advanced Genomics Core](https://wilsonte-umich.github.io/projects/advanced-genomics-core/). However, we also have a (perhaps lofty) goal of advancing the state of DNA monitoring, _i.e._, mutation detection, within tissues. Current spatial technologies mainly focus on RNA as a more abundant and more easily measured target. In recent years, we have developed extensive expertise in single-cell DNA sequencing (scDNA-seq) and are interested in applying those skill sets to intact tissue to probe how tissue factors such as microenvironments influence the accumulation of the somatic mutations that eventually lead to cancer and other outcomes. 
 
 #### Learn more
 

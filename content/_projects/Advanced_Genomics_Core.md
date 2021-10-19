@@ -4,7 +4,7 @@ subtitle: Enabling access to genomic technologies
 description: Promoting the availability and use of leading-edge genomic technologies at the University of Michigan
 order: 50
 active: true
-card_image: null # "assets/images/pexels-stanislav-kondratiev-2908984-downsize.jpg"
+card_image: null 
 card_title: AGC # used if card_image is null; defaults to title
 categories: 
     - Genomic Technologies

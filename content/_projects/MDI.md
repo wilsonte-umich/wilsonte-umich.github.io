@@ -20,7 +20,7 @@ Dr. Wilson is the lead developer of the MDI and seeks to use it as a platform fo
 
 #### Learn more
 
-The following link provides extensive documentatation of the MDI and its goals:
+The following link provides extensive documentation of the MDI and its goals:
 
 <https://midataint.github.io/>
 

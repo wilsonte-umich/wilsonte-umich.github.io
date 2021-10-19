@@ -16,17 +16,16 @@ categories:
 
 #### Overview
 
-Dr. Wilson has worked for more than a decade with Dr. Tom Glover, an expert cytogeneticist and world leader in the study of chromosomal common fragile sites (CFSs). CFSs are regions of chromosomes that are highly susceptible to forming lesions, known as "breaks" and "gaps", on metaphase chromosomes. They are often used as a hallmark of genomic instability upon replication stress. 
+Dr. Wilson has worked for more than a decade with Dr. Tom Glover, an expert cytogeneticist and leader in the study of chromosomal common fragile sites (CFSs). CFSs are regions of chromosomes that are highly susceptible to forming lesions, known as "breaks" and "gaps", on metaphase chromosomes. They are often used as a hallmark of genomic instability upon replication stress. 
 
-Together we have explored whether CFSs are also subject to mutation accumulation in response to replication stresses, in particularly chromosomal rearrangements in the form of copy number variants (CNVs) or other structural variants (SVs). Indeed they are, but with a specific pattern where hotspots of mainly deletion CNV formation are observed in a subset of human genes that are extremely large (>0.5 Mb). Over many collaborative papers we have shown that many forms of replication stress will induce this CNV pattern, but only at large genes that are actively transcribed. 
+Together we have explored whether CFSs are also subject to mutation accumulation in response to replication stresses, in particular chromosomal rearrangements in the form of copy number variants (CNVs) or other structural variants (SVs). Indeed they are, but with a specific pattern where hotspots of mainly deletion CNV formation are observed in a subset of human genes that are extremely large (>0.5 Mb). Over a series of collaborative papers we have shown that many forms of replication stress will induce this CNV pattern, but only at large genes that are actively transcribed. 
 
-In recent studies, we presented data consistent with other literature that transcription causes CFS genes to undergo extremely late replication in the cell cycle, even in M-phase by Mitotis DNA Synthesis (MiDAS) as described by Hickson and colleagues. This late replication is the best candidate for the association of CFSs with CNV formation. In contrast, our work, supported by analysis from other labs, showed that R-loop formation was not abundant at these loci and thus did not appear likely to be a main contributor to their instability.
+In recent studies, we presented data consistent with other literature that transcription causes CFS genes to undergo extremely late replication in the cell cycle, even in M-phase by Mitotis DNA Synthesis (MiDAS) as described by Hickson and colleagues {% include citation.html search="hickson i midas" %}. This late replication is the best candidate for the association of CFSs with CNV formation. In contrast, our work, supported by analysis from other labs, showed that R-loop formation was not abundant at these loci and thus did not appear likely to be a main contributor to their instability.
 
 #### Goals and directions
 
 Future goals are to:
 
-- better understand the precise mechanisms by which _de novo_ CNV/SV junctions form at CFS 
-loci
+- better understand the precise mechanisms by which _de novo_ CNV/SV junctions form at CFS loci
 - establish the biological significance of mutations formed at CFS genes _in vivo_
 - extend the concepts learned at CFS loci to the rest of the genome through continued advances in associated genomic technologies

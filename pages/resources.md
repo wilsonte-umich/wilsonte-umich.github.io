@@ -6,6 +6,6 @@ banner_image: null
 permalink: /resources/
 ---
 
-Please stay tuned for a listing and description of the protocols and computational and other data resources made available by our research groups.
+Please stay tuned for information about the protocols and computational and data resources made available by our research groups.
 
 ------------

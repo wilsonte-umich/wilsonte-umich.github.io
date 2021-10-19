@@ -13,9 +13,9 @@ categories:
 
 #### Overview
 
-Molecular Diagnostics, or Molecular Genetic Pathology (MGP), is the application of RNA and DNA-based analysis methods for the diagnosis, prognosis and therapeutic stratification of human diseases. MGP is a subtype of the discipline of Clinical Pathology, i.e., Laboratory Medicine.
+Molecular Diagnostics, or Molecular Genetic Pathology (MGP), is the application of RNA and DNA-based analysis methods for the diagnosis, prognosis and therapeutic stratification of human diseases. MGP is a subtype of the discipline of Clinical Pathology, _i.e._, Laboratory Medicine.
 
-Dr. Wilson in Associate Director of the Molecular Diagnostics Laboratory at Michigan Medicine where his main activity is in the genetic analysis of human cancers.
+Dr. Wilson is Associate Director of the Molecular Diagnostics Laboratory at Michigan Medicine where his main activity is in the genetic analysis of human cancers.
 
 #### Learn more
 

@@ -18,8 +18,7 @@ In the past, it was prohibitive to find the causative alleles in these strains. 
 cheap to sequence the yeast genome. Still, many have found it hard to know which of the many variants in their strains causes the phenotype of interest.
 
 Working with Drs. Lois Weisman, Anuj Kumar, and others, we developed a simple approach to not just sequence the yeast genome, but to do so in a way that
-makes it easy to be confident which single mutation on the variant list is the one that is causing the mutant phenotype. Briefly, by sequencing 
-two pools of haploid spore clones derived from a cross of wild-type and mutant yeast, we exploit linkage and high sequencing depth to rapidly identify the locus and causative mutation.
+makes it easy to be confident which single mutation on the variant list is the one that causes the mutant phenotype. Briefly, by sequencing 
+two pools of haploid spore clones derived from a cross of wild-type and mutant yeast, we exploit linkage and high sequencing depth to rapidly identify the causative alteration.
 
-See our publications for various applications of this approach and let us know if you'd like help applying it. With the low cost of sequencing today, it is possible to quickly and cheaply characterize even hundreds of mutants, potentially enabling interesting new apporaches for saturation mutagenesis of the yeast genome with respect to a target phenotype.
-
+See our publications for various applications of this approach and let us know if you'd like help applying it. With the low cost of sequencing today, it is possible to quickly and cheaply characterize even hundreds of mutants, potentially enabling interesting new approaches for saturation mutagenesis of the yeast genome with respect to a target phenotype.
