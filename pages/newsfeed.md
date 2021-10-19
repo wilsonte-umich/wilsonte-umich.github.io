@@ -2,7 +2,7 @@
 layout: newsfeed
 title: News Blog
 subtitle: null
-banner_image: /assets/images/vintage-newspaper-print-downsize.jpg
+banner_image: assets/images/banners/news.jpg
 permalink: /newsfeed/
 ---
 

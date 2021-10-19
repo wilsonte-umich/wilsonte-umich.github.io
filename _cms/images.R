@@ -9,14 +9,14 @@ imagesDir <- file.path(rootDir, relImagesDir)
 
 # set behavior for cropping and resizing
 cropAttributes <- list(
-    person = list(x = 150, y = 150),
-    banner = list(x = 800)
+    person_150_150 = list(x = 150, y = 150),
+    banner_800 = list(x = 800),
+    banner_1200 = list(x = 1200)
 )
-cropAttributes$project  <- cropAttributes$banner
-cropAttributes$resource <- cropAttributes$banner
 
 # render the file tree
 getImageFileTree <- function(){
+
     # collect and sort the files list
     treeFiles <<- list.files(imagesDir, recursive = TRUE)
     x <- strsplit(treeFiles, '/')
@@ -42,13 +42,15 @@ getImageFileTree <- function(){
         names(list) <- uniqNames
         list
     }
-    parseLevel(rowIs, 1) # recurse through the file structure
+
+    # recurse through the file structure
+    parseLevel(rowIs, 1) 
 }
 output$fileTree <- renderTree({
     getImageFileTree()
 })
 
-# respond to a file tree click
+# respond to a file tree click, i.e., the current selected image
 selectedImagePath <- reactive({
     req(input$fileTree)
     x <- get_selected(input$fileTree)
@@ -58,9 +60,10 @@ selectedImagePath <- reactive({
     req(x %in% treeFiles)
     relPath <- file.path(relImagesDir, x)
     updateTextInput(session, 'imagePathCopy', value = relPath)
+    updateAdjustedImage(0)
     file.path(rootDir, relPath)
 })
-getImageSize <- function(path){
+getImageSize <- function(path){ # provide feedback about an image properties
     req(path)
     img <- image_read(path)
     info <- image_info(img)
@@ -71,12 +74,12 @@ getImageSize <- function(path){
 output$imageSize <- renderText({
     getImageSize(selectedImagePath())    
 })
-output$selectedImage <- renderImage({
+output$selectedImage <- renderImage({ # show the selected image, with brush selection for cropping
     req(selectedImagePath())    
     list(
         src = selectedImagePath(),
         width = '100%',
-        style = "margin-top: 10px;"
+        style = "margin-top: 10px; border: 1px solid grey;"
     )
 }, deleteFile = FALSE)
 
@@ -92,19 +95,24 @@ observeEvent(input$imageBrush, {
     attr <- cropAttributes[[input$imageType]]
     if(is.null(attr$y)){ # control image width only
     } else { # enforce a specific aspect ratio
+
+print(paste(xmin, xmax, ymin, ymax))
+
         targetAspectRatio <- attr$y / attr$x
         selectedWidth <- xmax - xmin
         selectedHeight <- ymax - ymin
         selectedAspectRatio <- selectedHeight / selectedWidth
+
+        print(selectedAspectRatio)
+
         if(selectedAspectRatio >= targetAspectRatio){
             ymax <- round(ymin + selectedHeight * targetAspectRatio / selectedAspectRatio)
-            scale <-  as.character(attr$x)
         } else {
             xmax <- round(xmin + selectedWidth * selectedAspectRatio / targetAspectRatio)
         }
     }
     crop <- paste0(xmax - xmin, 'x', ymax - ymin, '+', xmin, '+', ymin)
-    scale <-  as.character(attr$x)
+    scale <- as.character(attr$x)
     image_read(selectedImagePath()) %>% 
     image_crop(crop) %>% 
     image_scale(scale) %>% 
@@ -117,7 +125,7 @@ output$adjustedImageSize <- renderText({
     req(updateAdjustedImage() > 0)
     getImageSize(tmpFile)    
 })
-output$adjustedImage <- renderImage({
+output$adjustedImage <- renderImage({ # preview the cropped and scaled image prior to saving
     req(updateAdjustedImage() > 0)
     list(
         src = tmpFile,
@@ -127,7 +135,7 @@ output$adjustedImage <- renderImage({
 }, deleteFile = FALSE)
 
 # handle a file save click
-adjustedFileName <- reactive({
+adjustedFileName <- reactive({ # set the file path from the input
     req(input$adjustedFileName)
     filename <- paste0(input$adjustedFileName, '.jpg')
     list(
@@ -135,10 +143,10 @@ adjustedFileName <- reactive({
         absolute = file.path(imagesDir,    filename)
     )
 })
-observeEvent(input$saveAdjustedImage, {
+observeEvent(input$saveAdjustedImage, { # confirm the image save action
     req(adjustedFileName())
     showModal(modalDialog(
-        tags$p('Create file?'),
+        tags$p('Create new image file?'),
         tags$p(adjustedFileName()$relative),
         footer = tagList(
             modalButton("Cancel"),
@@ -146,7 +154,7 @@ observeEvent(input$saveAdjustedImage, {
         )
     ))
 })
-observeEvent(input$doSaveAdjustedImaged, {
+observeEvent(input$doSaveAdjustedImaged, { # commit the new image file
     file.copy(tmpFile, adjustedFileName()$absolute)
     updateTree(session, 'fileTree', getImageFileTree())
     removeModal()

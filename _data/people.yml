@@ -11,7 +11,7 @@
   name: Tom Glover
   role: Professor
   program: Department of Human Genetics
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: glover@umich.edu
   github: ~
@@ -24,7 +24,7 @@
   name: Mats Ljungman
   role: Professor
   program: Department of Radiation Oncology
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: ljungman@umich.edu
   github: ~
@@ -37,7 +37,7 @@
   name: Samreen Ahmed
   role: Research Technician
   program: ~
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: samreena@umich.edu
   github: ~
@@ -51,7 +51,7 @@
   name: Jim Daley
   role: Research Investigator
   program: Department of Biological Chemistry
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: ~
   github: ~
@@ -64,7 +64,7 @@
   name: McKenna Defoer
   role: Rotating PhD Student
   program: ~
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: defoer@umich.edu
   github: ~
@@ -76,7 +76,7 @@
   name: Saanvi Juneja
   role: UROP Student
   program: ~
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: saanvij@umich.edu
   github: ~
@@ -88,7 +88,7 @@
   name: Faraz Hassan
   role: UROP Student
   program: ~
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: farazbh@umich.edu
   github: ~
@@ -100,7 +100,7 @@
   name: Pam Bennett-Baker
   role: Research Technician
   program: ~
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: bennett@umich.edu
   github: ~
@@ -116,7 +116,7 @@
   name: Dominic Bazzano
   role: Master's Student
   program: Genetics and Genomics Program
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: dbazzano@umich.edu
   github: ~
@@ -132,7 +132,7 @@
   name: Stephanie Lomonaco
   role: Postdoctoral Fellow
   program: ~
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: ~
   github: ~
@@ -146,7 +146,7 @@
   name: So Hae (Irene) Park
   role: PhD Student
   program: Genetics and Genomics Program
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: sohae@umich.edu
   github: ~
@@ -161,7 +161,7 @@
 - id: Martin_Arlt
   name: Martin Arlt
   role: Research Investigator
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: arltm@umich.edu
   github: ~
@@ -178,7 +178,7 @@
 - id: Diane_Flasch
   name: Diane Flasch
   role: Genetics and Genomics Program
-  image: assets/images/vippng.com-face-silhouette-png-56170.png
+  image: assets/images/people/person-no-pic.jpg
   orcid: ~
   email: ~
   github: ~

@@ -72,8 +72,9 @@ imagesUI <- function(...){
             textInput('imagePathCopy', '', ''),
             textOutput('imageSize'),
             selectInput('imageType', 'Image Type', choices = c(
-                'person',
-                'project'
+                'person_150_150',
+                'banner_800',
+                'banner_1200'
             )),
             imageOutput(
                 'selectedImage', 
