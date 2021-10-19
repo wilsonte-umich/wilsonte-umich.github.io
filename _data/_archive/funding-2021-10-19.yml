@@ -1,0 +1,33 @@
+- id: GM120767
+  sponsor: NIH/NIGMS
+  sponsor_id: GM120767-14
+  sponsor_link: https://reporter.nih.gov/search/ZBDA5h93H0qMxITs5aN_uw/projects?shared=true
+  grant_type: R01
+  start_date: '2004-08-01'
+  end_date: '2021-06-30'
+  title: Systematic Genetic Analysis of Yeast NHEJ
+  description: Basic science studies of DNA double-strand break repair executed mainly
+    via genetic approaches in the yeast model organism.
+  badges:
+  - project=Yeast_DSB_Repair
+  - publication=Bazzano_2021
+  - publication=Wilson_2020
+  - publication=Sunder_2019
+  - publication=Liang_2016
+  - publication=Chiruvella_2014
+  - project=Mutation_ID
+- id: CA200731
+  sponsor: NIH/NCI
+  sponsor_id: CA200731-05
+  sponsor_link: https://reporter.nih.gov/search/yNJ7x6pcQ0mwzQ3be0LACw/project-details/9993309
+  grant_type: R01
+  start_date: 20016-09-01
+  end_date: '2022-08-31'
+  title: 'Extreme genomic instability at large transcribed genes: mechanisms and consequences
+    for the cancer genome'
+  description: Seeks to understand the molecular mechanisms of copy number variant
+    (CNV) formation at common fragile sites (CFSs)
+  badges:
+  - publication=Park_2021
+  - publication=Glover_2020
+  - project=CNV_Mechanisms

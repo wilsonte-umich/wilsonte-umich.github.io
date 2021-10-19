@@ -24,9 +24,9 @@ Cells have (at least) two DSB repair mechanisms to restore genomic integrity: no
     caption="DSB repair is best thought of as an integrated set of processes in which coordinated, sequential actions help to optimize repair accuracy in different cellular contexts."
 %}
 
-We put our work on yeast DSB repair into the broader context of Dr. Wilson's efforts. We use yeast as a model that allows certain classes of experiments to be performed _in vivo_ that are still not possible in mammalian cells. Our other project areas show how an understanding of basic DSB repair mechanisms developed in reductionist systems can directly impact studies of mammalian mutagenesis. 
-
 #### Goals and directions
+
+We put our work on yeast DSB repair into the broader context of Dr. Wilson's efforts. We use yeast as a model that allows certain classes of experiments to be performed _in vivo_ that are still not possible in mammalian cells. Our other project areas show how an understanding of basic DSB repair mechanisms developed in reductionist systems can directly impact studies of mammalian mutagenesis. 
 
 Current focus areas in the yeast lab include:
 

@@ -1,3 +1,4 @@
+#-------------------------------
 - id: Tom_Wilson
   name: Tom Wilson
   role: Principal Investigator
@@ -7,6 +8,9 @@
   github: wilsonte-umich
   twitter: ~
   status: active
+
+
+#-------------------------------
 - id: Tom_Glover
   name: Tom Glover
   role: Professor
@@ -20,6 +24,9 @@
     our CNV projects
   status: collaborator
   badges: project=CNV_Mechanisms
+
+
+#-------------------------------
 - id: Mats_Ljungman
   name: Mats Ljungman
   role: Professor
@@ -29,10 +36,13 @@
   email: ljungman@umich.edu
   github: ~
   twitter: ~
-  description: Transcription-coupled DNA repair expert who branched to nascent RNA
-    sequencing and beyond
+  description: Transcription-coupled DNA repair expert who branched to
+    nascent RNA sequencing and beyond
   status: collaborator
   badges: project=Bru_seq
+
+
+#-------------------------------
 - id: Samreen_Ahmed
   name: Samreen Ahmed
   role: Research Technician
@@ -47,7 +57,9 @@
   badges:
   - project=Yeast_DSB_Repair
   - project=CNV_Mechanisms
-  - publication=Park_2021
+
+
+#-------------------------------
 - id: Jim_Daley
   name: Jim Daley
   role: Research Investigator
@@ -57,10 +69,13 @@
   email: ~
   github: ~
   twitter: ~
-  description: Our former PhD student back at Michigan to pursue collaborative work
-    with Dr. Patrick O'Brien
+  description: Our former PhD student back at Michigan to pursue
+    collaborative work with Dr. Patrick O'Brien
   status: active
   badges: project=Yeast_DSB_Repair
+
+
+#-------------------------------
 - id: McKenna_Defoer
   name: McKenna Defoer
   role: Rotating PhD Student
@@ -73,6 +88,9 @@
   description: Working on metabolic effects on yeast DSB repair
   status: active
   badges: project=Yeast_DSB_Repair
+
+
+#-------------------------------
 - id: Saanvi_Juneja
   name: Saanvi Juneja
   role: UROP Student
@@ -85,6 +103,9 @@
   description: ~
   status: active
   badges: project=MDI
+
+
+#-------------------------------
 - id: Faraz_Hassan
   name: Faraz Hassan
   role: UROP Student
@@ -97,6 +118,9 @@
   description: ~
   status: active
   badges: project=MDI
+
+
+#-------------------------------
 - id: Pam_Bennett-Baker
   name: Pam Bennett-Baker
   role: Research Technician
@@ -113,6 +137,9 @@
   badges:
   - project=CNV_Mechanisms
   - publication=Park_2021
+
+
+#-------------------------------
 - id: Dominic_Bazzano
   name: Dominic Bazzano
   role: Master's Student
@@ -129,6 +156,9 @@
   badges:
   - project=Yeast_DSB_Repair
   - publication=Bazzano_2021
+
+
+#-------------------------------
 - id: Stephanie_Lomonaco
   name: Stephanie Lomonaco
   role: Postdoctoral Fellow
@@ -142,9 +172,10 @@
     on DSB repair
   status: past
   current_position: ~
-  badges:
-  - project=Yeast_DSB_Repair
-  - publication=Lomonaco_2021
+  badges: project=Yeast_DSB_Repair
+
+
+#-------------------------------
 - id: Sham_Sunder_Sharma
   name: Sham Sunder Sharma
   role: Postdoctoral Fellow
@@ -154,14 +185,13 @@
   email: ssham@umich.edu
   github: ~
   twitter: ~
-  description: Examined NHEJ-dependent translocation as a function of pre-damage nuclear
-    proximity of DSBs
+  description: Examined NHEJ-dependent translocation as a function of pre-damage nuclear proximity of DSBs
   status: past
   current_position: Anuj Kumar laboratory, University of Michigan
   badges:
   - project=Yeast_DSB_Repair
-  - publication=Wilson_2020
-  - publication=Sunder_2019
+
+#-------------------------------
 - id: Irene_Park
   name: So Hae (Irene) Park
   role: PhD Student
@@ -178,6 +208,9 @@
   badges:
   - project=CNV_Mechanisms
   - publication=Park_2021
+
+
+#-------------------------------
 - id: Martin_Arlt
   name: Martin Arlt
   role: Research Investigator
@@ -195,6 +228,8 @@
   - publication=Arlt_2018
   - publication=Arlt_2014
   - publication=Arlt_2012
+
+#-------------------------------
 - id: Zhuobin_Liang
   name: Zhuobin (Ben) Liang
   role: PhD Student
@@ -209,7 +244,8 @@
   current_position: Junior Principal Investigator, Shenzhen Bay Laboratory, China
   badges:
   - project=Yeast_DSB_Repair
-  - publication=Liang_2016
+
+#-------------------------------
 - id: Diane_Flasch
   name: Diane Flasch
   role: Genetics and Genomics Program
@@ -224,6 +260,8 @@
   badges:
   - project=L1
   - publication=Flasch_2019
+
+#-------------------------------
 - id: Kishore_Chiruvella
   name: Kishore Chiruvella
   role: Postdoctoral Fellow
@@ -238,6 +276,3 @@
   current_position: Ramsden laboratory, University of North Carolina
   badges:
   - project=Yeast_DSB_Repair
-  - publication=Chiruvella_2014
-  - publication=Chiruvella_2013
-  - publication=Chiruvella_2013b

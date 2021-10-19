@@ -21,7 +21,6 @@
   - project=CNV_Mechanisms
   - person=Pam_Bennett-Baker
   - funding=CA200731
-  - person=Samreen_Ahmed
   abstract: Impaired replication progression leads to de novo copy number variant
     (CNV)  formation at common fragile sites (CFSs). We previously showed that these
     hotspots  for genome instability reside in late-replicating domains associated
@@ -113,25 +112,7 @@
     presented here across multiple cell types add to our understanding  of the complexity
     in RNA splicing, wherein RNA-binding proteins may play important  roles in determining
     splicing outcomes in a cell type- and intron-specific manner.
-  badges: project=Bru_seq
-- id: Lomonaco_2021
-  date: '2021-02-26'
-  pmid: ~
-  pmcid: ~
-  authors:
-  - Lomonaco S
-  - Bazzano D
-  - Wilson TE
-  title: Multiple metabolic signals including AMPK and PKA regulate glucose-stimulated
-    double strand break resection in yeast
-  journal: bioRxiv
-  citation: ~
-  year: 2021
-  url: https://www.biorxiv.org/content/10.1101/2021.02.26.433101v1
-  badges:
-  - funding=GM120767
-  - project=Yeast_DSB_Repair
-  - person=Stephanie_Lomonaco
+  badges: ~
 - id: Glover_2020
   date: '2020-11-01'
   pmid: 32665662
@@ -144,9 +125,7 @@
   citation: 30(11):944-945
   year: 2020
   url: ~
-  badges:
-  - funding=CA200731
-  - project=CNV_Mechanisms
+  badges: funding=CA200731
 - id: Bedi_2020
   date: '2020-03-01'
   pmid: 31709421
@@ -180,7 +159,7 @@
     here reveals a greater complexity in miRNA  regulation than previously known and
     provides a framework for identifying cell-type  specific differences in miRNA
     transcription in cancer and cell transition states.
-  badges: project=Bru_seq
+  badges: ~
 - id: Wilson_2020
   date: '2020-02-01'
   pmid: 31321486
@@ -203,10 +182,7 @@
     that might account for these unexpected results. While DSB movement is  necessary
     to explain our findings, many questions remain about the nature and timing  of
     that motion.
-  badges:
-  - funding=GM120767
-  - project=Yeast_DSB_Repair
-  - person=Sham_Sunder_Sharma
+  badges: funding=GM120767
 - id: Sunder_2019
   date: '2019-05-07'
   pmid: 31019070
@@ -239,10 +215,7 @@
     of trans repair to genomic position. Our results  support a model in which yeast
     cells mobilize, and perhaps compartmentalize,  multiple DSBs in a manner that
     no longer reflects the predamage position of two  broken loci.
-  badges:
-  - funding=GM120767
-  - project=Yeast_DSB_Repair
-  - person=Sham_Sunder_Sharma
+  badges: funding=GM120767
 - id: Flasch_2019
   date: '2019-05-02'
   pmid: 30955886
@@ -276,9 +249,7 @@
     L1 retrotransposition in a Fanconi anemia cell line. Thus,  acquisition of an
     endonuclease domain, in conjunction with the ability to integrate  into replicating
     DNA, allowed L1 to become an autonomous, interspersed  retrotransposon.
-  badges:
-  - person=Diane_Flasch
-  - project=L1
+  badges: person=Diane_Flasch
 - id: Moorthy_2019
   date: '2019-03-07'
   pmid: 30679249
@@ -313,9 +284,7 @@
     endocytic coat factors. Overall, our data show that PAL2 is the SCD1 locus and  the
     Pal2 protein has characteristics of an early factor involved in  clathrin-mediated
     endocytosis.
-  badges:
-  - project=Mutation_ID
-  - funding=GM120767
+  badges: ~
 - id: Arlt_2018
   date: '2018-10-01'
   pmid: 30218578
@@ -355,10 +324,7 @@
     formation during mammalian  spermatogenesis, perhaps due to highly toxic effects
     on sperm development or  experimental variables related to HU pharmacology in
     mice. Environ. Mol. Mutagen.  59:698-714, 2018. © 2018 Wiley Periodicals, Inc.
-  badges:
-  - person=Martin_Arlt
-  - project=CNV_Mechanisms
-  - funding=ES020875
+  badges: person=Martin_Arlt
 - id: Glover_2017
   date: '2017-07-25'
   pmid: 28740117
@@ -381,9 +347,7 @@
     new insights into  the mechanisms of CFS instability, their effect on genome instability,
     and their  role in generating focal copy number alterations that affect the genomic
     landscape  of many cancers.
-  badges:
-  - project=CNV_Mechanisms
-  - funding=CA200731
+  badges: ~
 - id: Venkata_2017
   date: '2017-03-03'
   pmid: 28256581
@@ -422,7 +386,7 @@
     Our study is the first of its kind that independently assessed the  effects of
     ionizing radiation on transcription and post-transcriptional regulation  in normal
     human cells.
-  badges: project=Bru_seq
+  badges: ~
 - id: Eyler_2017
   date: '2017-01-01'
   pmid: 28333944
@@ -492,10 +456,7 @@
     was recruited to only 5' DSBs in a Ku-independent manner. These results suggest  distinct
     DSB handling based on overhang polarity that impacts NHEJ kinetics and  fidelity
     through differential recruitment and action of DSB modifying enzymes.
-  badges:
-  - funding=GM120767
-  - project=Yeast_DSB_Repair
-  - person=Zhuobin_Liang
+  badges: funding=GM120767
 - id: Glover_2016
   date: '2016-04-07'
   pmid: 27007850
@@ -508,7 +469,7 @@
   citation: 532(7597):46-7
   year: 2016
   url: ~
-  badges: project=CNV_Mechanisms
+  badges: ~
 - id: Magnuson_2015
   date: '2015-12-11'
   pmid: 26656874
@@ -544,7 +505,7 @@
     induced by tumor necrosis  factor (TNF) treatment concomitant with expression
     of nearby TNF-induced genes.  Taken together, BruUV-seq is a powerful new approach
     for identifying TSSs and active  enhancer elements genome-wide in intact cells.
-  badges: project=Bru_seq
+  badges: ~
 - id: Wilson_2015
   date: '2015-02-01'
   pmid: 25373142
@@ -582,9 +543,7 @@
     indicate that active large transcription units drive  extreme locus- and cell-type-specific
     genomic instability under replication stress,  resulting in both CNVs and CFSs
     as different manifestations of perturbed replication  dynamics.
-  badges:
-  - project=CNV_Mechanisms
-  - funding=CA200731
+  badges: ~
 - id: Chiruvella_2014
   date: '2014-12-01'
   pmid: 25457772
@@ -619,10 +578,7 @@
     separation-of-function mutants  indicate that Dnl4 BRCT1 supports DSB recruitment
     and NHEJ in a manner distinct from  Lif1 binding and reveal a complexity of Dnl4
     BRCT domain functions in support of  stable DSB association.
-  badges:
-  - funding=GM120767
-  - project=Yeast_DSB_Repair
-  - person=Kishore_Chiruvella
+  badges: funding=GM120767
 - id: Song_2014
   date: '2014-08-01'
   pmid: 25144783
@@ -661,9 +617,7 @@
     new determinants of pseudohyphal growth, while highlighting the  coevolution of
     protein complexes and organelle structures within a given genome in  specifying
     complex phenotypes.
-  badges:
-  - project=Mutation_ID
-  - funding=GM120767
+  badges: ~
 - id: Veloso_2014
   date: '2014-06-01'
   pmid: 24714810
@@ -698,7 +652,7 @@
     rates and that cells may alter elongation rates by  epigenetic regulation. The
     BruDRB-seq technique offers new opportunities to  interrogate mechanisms of regulation
     of transcription elongation.
-  badges: project=Bru_seq
+  badges: ~
 - id: Paulsen_2014
   date: '2014-05-01'
   pmid: 23973811
@@ -730,7 +684,7 @@
     methodologies in detail and highlight their usefulness in assessing RNA  synthesis
     and stability as well as splicing kinetics with examples of specific genes  from
     different human cell lines.
-  badges: project=Bru_seq
+  badges: ~
 - id: Yau_2014
   date: '2014-03-10'
   pmid: 24636257
@@ -761,7 +715,7 @@
     Notably, we find that the termination of peroxisome transport also  requires Dma1.
     We predict that this is a general mechanism that detaches myosin V  from select
     cargoes.
-  badges: project=Mutation_ID
+  badges: ~
 - id: Arlt_2014
   date: '2014-03-01'
   pmid: 24327335
@@ -799,9 +753,7 @@
     cells were held for 48 hr before replating after  irradiation. These results predict
     that any environmental DNA damaging agent that  impairs replication is capable
     of creating CNVs.
-  badges:
-  - person=Martin_Arlt
-  - project=CNV_Mechanisms
+  badges: person=Martin_Arlt
 - id: Chiruvella_2013
   date: '2013-06-01'
   pmid: 23825968
@@ -837,10 +789,6 @@
     5' resection that was unimpeded  by the presence of catalytically inactive Dnl4.
     These findings indicate that Dnl4  can promote mutagenic end joining independently
     of its catalytic activity, likely by  a mechanism that involves Cdc9.
-  badges:
-  - project=Yeast_DSB_Repair
-  - person=Kishore_Chiruvella
-  - funding=GM120767
 - id: Chiruvella_2013b
   date: '2013-05-01'
   pmid: 23637284
@@ -865,10 +813,7 @@
     backup reactions. There is great interest in defining alt-NHEJ more  precisely,
     including its regulation relative to c-NHEJ, in light of evidence that  alt-NHEJ
     can execute chromosome rearrangements. Progress toward these goals is  reviewed.
-  badges:
-  - funding=GM120767
-  - project=Yeast_DSB_Repair
-  - person=Kishore_Chiruvella
+  badges: funding=GM120767
 - id: Wilson_2013
   date: '2013-04-01'
   pmid: 23444128
@@ -957,7 +902,7 @@
     study by  Barlow and colleagues in Cell reports on genomic regions, termed early
     replicating  fragile sites, that may explain many AID-independent DSBs and creates
     a compelling  link between replication stress, transcription, and chromosome rearrangements.
-  badges: project=CNV_Mechanisms
+  badges: ~
 - id: Paulsen_2013
   date: '2013-02-05'
   pmid: 23345452
@@ -996,7 +941,7 @@
     BruChase-Seq allows for a much deeper understanding of mechanisms of gene  regulation
     than afforded by the analysis of steady-state total RNA and should be  useful
     in many biological settings.
-  badges: project=Bru_seq
+  badges: ~
 - id: Yauk_2013
   date: '2013-01-01'
   pmid: 22935230
@@ -1088,7 +1033,7 @@
     Top1 lesions. These findings of the effects of camptothecin  on transcription
     have important implications for its anti-cancer activities and may  aid in the
     design of improved combinatorial treatments involving Top1 poisons.
-  badges: project=Bru_seq
+  badges: ~
 - id: Arlt_2012
   date: '2012-09-01'
   pmid: 23028374
@@ -1126,9 +1071,7 @@
     including an example of a catastrophic,  chromothripsis event. These results establish
     that nonrecurrent CNVs can be, and  frequently are, formed by mechanisms other
     than Xrcc4-dependent NHEJ.
-  badges:
-  - person=Martin_Arlt
-  - project=CNV_Mechanisms
+  badges: person=Martin_Arlt
 - id: Arlt_2012b
   date: '2012-06-01'
   pmid: 22365495
@@ -1152,7 +1095,7 @@
     of  replication stress, including hydroxyurea and aphidicolin, are potent inducers
     of  nonrecurrent CNVs in cultured human cells. These findings have broad implications  for
     identifying CNV risk factors and for hydroxyurea-related therapies in humans.
-  badges: project=CNV_Mechanisms
+  badges: ~
 - id: McLaughlin_2012
   date: '2012-01-01'
   pmid: 22009580
@@ -1230,7 +1173,7 @@
     stress has the potential to  induce deleterious CNVs. In addition, they point
     to a need for further study of the  genomic consequences of the therapeutic use
     of hydroxyurea.
-  badges: project=CNV_Mechanisms
+  badges: ~
 - id: Arlt_2011b
   date: '2011-03-01'
   pmid: 21212237
@@ -1263,7 +1206,7 @@
     constitutional  events even when mate-pair data were considered. Aphidicolin thus
     appears to  stimulate formation of CNVs that closely resemble human pathogenic
     CNVs and the  subset of larger nonhomologous constitutional CNVs.
-  badges: project=CNV_Mechanisms
+  badges: ~
 - id: Birkeland_2010
   date: '2010-12-01'
   pmid: 20923977
@@ -1295,7 +1238,7 @@
     novel Ty insertion.  The results provide a snapshot of the ongoing genomic changes
     that ultimately result  in strain divergence and evolution, as well as a general
     model for the discovery of  functional mutations in many organisms.
-  badges: project=Mutation_ID
+  badges: ~
 - id: McLaughlin_2010
   date: '2010-10-08'
   pmid: 20920668
