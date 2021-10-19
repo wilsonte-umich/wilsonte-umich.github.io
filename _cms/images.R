@@ -92,19 +92,15 @@ observeEvent(input$imageBrush, {
     xmax <- round(box$xmax)
     ymin <- round(box$ymin)
     ymax <- round(box$ymax)
+    if(xmin <= 1) x <- 1
+    if(ymin <= 1) x <- 1
     attr <- cropAttributes[[input$imageType]]
     if(is.null(attr$y)){ # control image width only
     } else { # enforce a specific aspect ratio
-
-print(paste(xmin, xmax, ymin, ymax))
-
         targetAspectRatio <- attr$y / attr$x
         selectedWidth <- xmax - xmin
         selectedHeight <- ymax - ymin
         selectedAspectRatio <- selectedHeight / selectedWidth
-
-        print(selectedAspectRatio)
-
         if(selectedAspectRatio >= targetAspectRatio){
             ymax <- round(ymin + selectedHeight * targetAspectRatio / selectedAspectRatio)
         } else {
@@ -113,6 +109,10 @@ print(paste(xmin, xmax, ymin, ymax))
     }
     crop <- paste0(xmax - xmin, 'x', ymax - ymin, '+', xmin, '+', ymin)
     scale <- as.character(attr$x)
+
+print(crop)
+print(scale)
+
     image_read(selectedImagePath()) %>% 
     image_crop(crop) %>% 
     image_scale(scale) %>% 
@@ -130,7 +130,7 @@ output$adjustedImage <- renderImage({ # preview the cropped and scaled image pri
     list(
         src = tmpFile,
         width = '100%',
-        style = "margin-top: 10px;"
+        style = "margin-top: 10px; border: 1px solid grey;"
     )
 }, deleteFile = FALSE)
 
@@ -146,7 +146,7 @@ adjustedFileName <- reactive({ # set the file path from the input
 observeEvent(input$saveAdjustedImage, { # confirm the image save action
     req(adjustedFileName())
     showModal(modalDialog(
-        tags$p('Create new image file?'),
+        tags$p('Create/overwrite image file?'),
         tags$p(adjustedFileName()$relative),
         footer = tagList(
             modalButton("Cancel"),
@@ -155,7 +155,7 @@ observeEvent(input$saveAdjustedImage, { # confirm the image save action
     ))
 })
 observeEvent(input$doSaveAdjustedImaged, { # commit the new image file
-    file.copy(tmpFile, adjustedFileName()$absolute)
+    file.copy(tmpFile, adjustedFileName()$absolute, overwrite = TRUE)
     updateTree(session, 'fileTree', getImageFileTree())
     removeModal()
 })
