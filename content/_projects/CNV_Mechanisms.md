@@ -21,7 +21,7 @@ Dr. Wilson has worked for more than a decade with Dr. Tom Glover, an expert cyto
 {% include figure.html  
     image="assets/images/projects/cnv/cfs.jpg"
     title="Common fragile sites (CFSs)"
-    caption="Typical breaks and gaps seen on metaphase chromosomes at CFS loci FRA3B (the <i>FHIT</i> gene) and FRA16D (the <i>WWOX/<i> gene) upon replication stress."
+    caption="Typical breaks and gaps seen on metaphase chromosomes at CFS loci FRA3B (the <i>FHIT</i> gene) and FRA16D (the <i>WWOX/</i> gene) upon replication stress."
 %}
 
 Together we have explored whether CFSs are also subject to mutation accumulation in response to replication stresses, in particular chromosomal rearrangements in the form of copy number variants (CNVs) or other structural variants (SVs). Indeed they are, but with a specific pattern where hotspots of mainly deletion CNV formation are observed in a subset of human genes that are extremely large (>0.5 Mb). Over a series of collaborative papers we have shown that many forms of replication stress will induce this CNV pattern, but only at large genes that are actively transcribed. 
