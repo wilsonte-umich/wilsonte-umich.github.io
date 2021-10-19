@@ -2,7 +2,7 @@
 layout: publications
 title: Publications
 subtitle: Research articles and scholarly works
-banner_image: assets/images/banners/publications_800.jpg
+banner_image: assets/images/banners/publications_1200.jpg
 permalink: /publications/
 ---
 

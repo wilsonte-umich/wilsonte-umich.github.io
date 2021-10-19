@@ -4,7 +4,7 @@ subtitle: null
 description: Clinical activity in the diagnosis of human cancer through RNA and DNA-based analytics
 order: 100
 active: true
-card_image: assets/images/projects/MDL/HER2POSCS-100721.jpg 
+card_image: assets/images/projects/MDL/HER2.jpg 
 card_title: null # used if card_image is null; defaults to title
 categories: 
     - Clinical Pathology

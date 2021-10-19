@@ -109,10 +109,6 @@ observeEvent(input$imageBrush, {
     }
     crop <- paste0(xmax - xmin, 'x', ymax - ymin, '+', xmin, '+', ymin)
     scale <- as.character(attr$x)
-
-print(crop)
-print(scale)
-
     image_read(selectedImagePath()) %>% 
     image_crop(crop) %>% 
     image_scale(scale) %>% 
@@ -145,17 +141,19 @@ adjustedFileName <- reactive({ # set the file path from the input
 })
 observeEvent(input$saveAdjustedImage, { # confirm the image save action
     req(adjustedFileName())
-    showModal(modalDialog(
-        tags$p('Create/overwrite image file?'),
-        tags$p(adjustedFileName()$relative),
-        footer = tagList(
-            modalButton("Cancel"),
-            actionButton("doSaveAdjustedImaged", "OK")
-        )
-    ))
-})
-observeEvent(input$doSaveAdjustedImaged, { # commit the new image file
     file.copy(tmpFile, adjustedFileName()$absolute, overwrite = TRUE)
     updateTree(session, 'fileTree', getImageFileTree())
-    removeModal()
+    # showModal(modalDialog(
+    #     tags$p('Create/overwrite image file?'),
+    #     tags$p(adjustedFileName()$relative),
+    #     footer = tagList(
+    #         modalButton("Cancel"),
+    #         actionButton("doSaveAdjustedImaged", "OK")
+    #     )
+    # ))
 })
+# observeEvent(input$doSaveAdjustedImaged, { # commit the new image file
+#     file.copy(tmpFile, adjustedFileName()$absolute, overwrite = TRUE)
+#     updateTree(session, 'fileTree', getImageFileTree())
+#     removeModal()
+# })
