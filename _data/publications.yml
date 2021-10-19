@@ -17,11 +17,11 @@
   year: 2021
   url: ~
   badges:
-  - person=Irene_Park
   - project=CNV_Mechanisms
+  - person=Irene_Park
   - person=Pam_Bennett-Baker
-  - funding=CA200731
   - person=Samreen_Ahmed
+  - funding=CA200731
   abstract: Impaired replication progression leads to de novo copy number variant
     (CNV)  formation at common fragile sites (CFSs). We previously showed that these
     hotspots  for genome instability reside in late-replicating domains associated
@@ -71,8 +71,8 @@
     them to show the combined influence of  sequence specificity and access restrictions
     on Mre11 and Exo1 nucleases.
   badges:
-  - person=Dominic_Bazzano
   - project=Yeast_DSB_Repair
+  - person=Dominic_Bazzano
   - funding=GM120767
 - id: Bedi_2021
   date: '2021-05-11'
@@ -129,9 +129,9 @@
   year: 2021
   url: https://www.biorxiv.org/content/10.1101/2021.02.26.433101v1
   badges:
-  - funding=GM120767
   - project=Yeast_DSB_Repair
   - person=Stephanie_Lomonaco
+  - funding=GM120767
 - id: Glover_2020
   date: '2020-11-01'
   pmid: 32665662
@@ -145,8 +145,8 @@
   year: 2020
   url: ~
   badges:
-  - funding=CA200731
   - project=CNV_Mechanisms
+  - funding=CA200731
 - id: Bedi_2020
   date: '2020-03-01'
   pmid: 31709421
@@ -204,9 +204,9 @@
     to explain our findings, many questions remain about the nature and timing  of
     that motion.
   badges:
-  - funding=GM120767
   - project=Yeast_DSB_Repair
   - person=Sham_Sunder_Sharma
+  - funding=GM120767
 - id: Sunder_2019
   date: '2019-05-07'
   pmid: 31019070
@@ -240,9 +240,9 @@
     cells mobilize, and perhaps compartmentalize,  multiple DSBs in a manner that
     no longer reflects the predamage position of two  broken loci.
   badges:
-  - funding=GM120767
   - project=Yeast_DSB_Repair
   - person=Sham_Sunder_Sharma
+  - funding=GM120767
 - id: Flasch_2019
   date: '2019-05-02'
   pmid: 30955886
@@ -277,8 +277,8 @@
     endonuclease domain, in conjunction with the ability to integrate  into replicating
     DNA, allowed L1 to become an autonomous, interspersed  retrotransposon.
   badges:
-  - person=Diane_Flasch
   - project=L1
+  - person=Diane_Flasch
 - id: Moorthy_2019
   date: '2019-03-07'
   pmid: 30679249
@@ -356,8 +356,8 @@
     on sperm development or  experimental variables related to HU pharmacology in
     mice. Environ. Mol. Mutagen.  59:698-714, 2018. © 2018 Wiley Periodicals, Inc.
   badges:
-  - person=Martin_Arlt
   - project=CNV_Mechanisms
+  - person=Martin_Arlt
   - funding=ES020875
 - id: Glover_2017
   date: '2017-07-25'
@@ -460,7 +460,6 @@
     the  relative activities and abundance of many DNA replication and repair proteins
     when  considering mutator phenotypes, as they are relevant to the development
     of cancer  and its resistance to treatment.
-  badges: ~
 - id: Liang_2016
   date: '2016-04-07'
   pmid: 26773053
@@ -493,9 +492,9 @@
     DSB handling based on overhang polarity that impacts NHEJ kinetics and  fidelity
     through differential recruitment and action of DSB modifying enzymes.
   badges:
-  - funding=GM120767
   - project=Yeast_DSB_Repair
   - person=Zhuobin_Liang
+  - funding=GM120767
 - id: Glover_2016
   date: '2016-04-07'
   pmid: 27007850
@@ -620,9 +619,9 @@
     and NHEJ in a manner distinct from  Lif1 binding and reveal a complexity of Dnl4
     BRCT domain functions in support of  stable DSB association.
   badges:
-  - funding=GM120767
   - project=Yeast_DSB_Repair
   - person=Kishore_Chiruvella
+  - funding=GM120767
 - id: Song_2014
   date: '2014-08-01'
   pmid: 25144783
@@ -800,8 +799,8 @@
     that any environmental DNA damaging agent that  impairs replication is capable
     of creating CNVs.
   badges:
-  - person=Martin_Arlt
   - project=CNV_Mechanisms
+  - person=Martin_Arlt
 - id: Chiruvella_2013
   date: '2013-06-01'
   pmid: 23825968
@@ -866,9 +865,9 @@
     including its regulation relative to c-NHEJ, in light of evidence that  alt-NHEJ
     can execute chromosome rearrangements. Progress toward these goals is  reviewed.
   badges:
-  - funding=GM120767
   - project=Yeast_DSB_Repair
   - person=Kishore_Chiruvella
+  - funding=GM120767
 - id: Wilson_2013
   date: '2013-04-01'
   pmid: 23444128
@@ -898,7 +897,6 @@
     respects the rich  history of a Society founded in 1969 and reflects the many
     advances in our  understanding of the nature and breadth of gene-environment interactions
     during the  intervening 43 years.
-  badges: ~
 - id: Velusamy_2013
   date: '2013-02-19'
   pmid: 23382248
@@ -939,7 +937,6 @@
     and colony formation of MEC1 and JVM3 cells, implying a role in the  pathogenesis
     of mature B-cell leukemia. These studies uncover a potential role for  recurrent
     RNA chimeras involving phosphatases in the pathogenesis of a common form  of leukemia.
-  badges: ~
 - id: Glover_2013
   date: '2013-02-11'
   pmid: 23410970
@@ -1050,7 +1047,6 @@
     cigarette smoke, and air pollution as germ-cell mutagens. Research is  urgently
     needed to establish the health consequences of parental exposures on  subsequent
     generations.
-  badges: ~
 - id: Veloso_2013
   date: '2013-01-01'
   pmid: 24194914
@@ -1127,8 +1123,8 @@
     that nonrecurrent CNVs can be, and  frequently are, formed by mechanisms other
     than Xrcc4-dependent NHEJ.
   badges:
-  - person=Martin_Arlt
   - project=CNV_Mechanisms
+  - person=Martin_Arlt
 - id: Arlt_2012b
   date: '2012-06-01'
   pmid: 22365495
@@ -1195,7 +1191,6 @@
     recurrent p.Arg329His AARS mutation. Together, our data suggest that impaired  tRNA
     charging plays a role in the molecular pathology of CMT2N, and that patients  with
     CMT should be directly tested for the p.Arg329His AARS mutation.
-  badges: ~
 - id: Arlt_2011
   date: '2011-10-18'
   pmid: 21987784
@@ -1347,7 +1342,6 @@
     sequelae. Based on these data, KARS becomes the fourth ARS gene  associated with
     CMT disease, indicating that this family of enzymes is specifically  critical
     for axon function.
-  badges: ~
 - id: Brady_2010
   date: '2010-04-01'
   pmid: 20154138
@@ -1378,7 +1372,6 @@
     target, superoxide dismutase 1, rather than proteasomal degradation.  Collectively,
     our results reveal novel links among apoptosis, copper metabolism, and  redox
     regulation through the XIAP-CCS complex.
-  badges: ~
 - id: O'Konek_2009
   date: '2009-09-01'
   pmid: 19300472
@@ -1411,7 +1404,6 @@
     These data suggest that MLH1 can prevent cytotoxicity with GCV.  Targeting mismatch
     repair-deficient tumors may increase efficacy of this suicide  gene therapy approach
     to cancer treatment.
-  badges: ~
 - id: Palmbos_2008
   date: '2008-12-01'
   pmid: 18832348
@@ -1447,7 +1439,6 @@
     NHEJ and DNA ligase IV recruitment to a DSB. The  collected results indicate that
     the Xrs-Lif1 and Yku80-Dnl4 interactions are  important for formation of a productive
     ligase-DSB intermediate.'
-  badges: ~
 - id: Wu_2008
   date: '2008-03-01'
   pmid: 18245831
@@ -1479,7 +1470,6 @@
     in MRX mutants with persistently bound Ku. These findings reveal the in vivo  assembly
     of the NHEJ repair complex and shed light on the mechanisms controlling DSB  repair
     pathway utilization.'
-  badges: ~
 - id: Daley_2008
   date: '2008-01-01'
   pmid: 17881298
@@ -1512,7 +1502,6 @@
     of Pol4 lyase  activity. The 5' flap endonuclease Rad27 was not required for repair
     in this or any  situation tested, indicating that still other NHEJ 5' nucleases
     must exist.
-  badges: ~
 - id: Deshpande_2007
   date: '2007-10-01'
   pmid: 17567543
@@ -1544,7 +1533,6 @@
     and DNA ligase IV. The  implications of these findings for DNA ligase IV function
     are considered in light of  the evolutionary pattern in the XLF/XRCC4 and XLF/Nej1
     family.
-  badges: ~
 - id: Pratt-Hyatt_2006
   date: '2006-06-01'
   pmid: 16792506
@@ -1571,7 +1559,6 @@
     genes on recombination between  the direct terminal repeats of a neighboring retrotransposon,
     since most Ty  retrotransposons reside next to tRNA genes, and the selective advantage
     of this  arrangement is not known.
-  badges: ~
 - id: Palmbos_2005
   date: '2005-12-01'
   pmid: 16314503
@@ -1604,7 +1591,6 @@
     identify a novel role in yeast NHEJ for the poorly characterized Ku80  C-terminal
     and Xrs2 FHA domains, and they suggest that redundant binding of DNA  ligase IV
     facilitates completion of this DNA repair event.'
-  badges: ~
 - id: Daley_2005
   date: '2005-08-12'
   pmid: 15964833
@@ -1638,7 +1624,6 @@
     Pol X polymerases were able to differentially complement a pol4 mutation  depending
     on the joint structure, demonstrating that these polymerases can  participate
     in yeast NHEJ but with distinct properties.
-  badges: ~
 - id: Karumbati_2005
   date: '2005-04-01'
   pmid: 15687272
@@ -1668,7 +1653,6 @@
     instability. We propose a model in which recombinational repair during S  phase
     coupled with failure of the metaphase-anaphase checkpoint allows for tolerance  of
     persistent single-strand breaks at the expense of genome stability.
-  badges: ~
 - id: Daley_2005b
   date: '2005-02-01'
   pmid: 15657419
@@ -1700,7 +1684,6 @@
     their repair dramatically,  to less than NHEJ of comparable short overhangs. These
     data support a model in which  annealing energy is a primary determinant of the
     rejoining efficiency and mechanism.'
-  badges: ~
 - id: Daley_2005c
   date: '2005-01-01'
   pmid: 16285867
@@ -1727,7 +1710,6 @@
     influence the accuracy of break repair. We also consider how the balance  between
     NHEJ and homologous repair is regulated by cell state to promote genome  preservation.
     The principles discussed are instructive to NHEJ in all organisms.
-  badges: ~
 - id: Deshpande_2004
   date: '2004-07-06'
   pmid: 15222769
@@ -1759,7 +1741,6 @@
     support D35 as being the point of covalent attachment. On the basis of these  similarities
     in mutant phenotypes of Tpp1 and phosphoserine phosphatase, we propose  a reaction
     mechanism for Tpp1 which explains its strict phosphate specificity.
-  badges: ~
 - id: Karumbati_2003
   date: '2003-08-15'
   pmid: 12783866
@@ -1797,7 +1778,6 @@
     these phosphates remains enigmatic, however, because  apn1 tpp1 rad1 slow growth
     could be correlated with neither the presence of a yeast  delta-lyase, the activity
     of the 3'-phosphate-generating enzyme Tdp1, nor levels of  endogenous oxidation.
-  badges: ~
 - id: Wilson_2003
   date: '2003-02-01'
   pmid: 12575991
@@ -1818,7 +1798,6 @@
     of this repair  pathway, and suggest that one function driving the selection of
     NHEJ in bacteria,  and perhaps eukaryotes, relates to prolonged periods of mitotic
     exit.
-  badges: ~
 - id: Wilson_2002
   date: '2002-10-01'
   pmid: 12399380
@@ -1847,7 +1826,6 @@
     was deficient  in other mutants (especially doa1, fyv6, and mck1). These results
     are discussed in  the context of the minimal set of required proteins and regulatory
     inputs for NHEJ.
-  badges: ~
 - id: Karathanasis_2002
   date: '2002-07-01'
   pmid: 12136007
@@ -1878,7 +1856,6 @@
     against a model in which pathway utilization is determined by a passive  competition.
     Instead, they demonstrate an active regulation designed to optimize the  likelihood
     of genome restoration based on cell state.
-  badges: ~
 - id: Vance_2001
   date: '2001-11-01'
   pmid: 11585902
@@ -1909,7 +1886,6 @@
     repair in the  removal of unrepaired 3'-terminal lesions resulting from endogenous
     damage. Taken  together, these results demonstrate a clear role for the lesion-specific
     enzyme,  Tpp1, in the repair of a subset of DNA strand breaks.
-  badges: ~
 - id: Vance_2001b
   date: '2001-05-04'
   pmid: 11278831
@@ -1940,4 +1916,3 @@
     as compared with metazoans. Repair of transformed  dephosphorylated plasmids,
     and 5'-hydroxyl blocking lesions more generally, likely  proceeds by a cycle of
     base removal and resynthesis.
-  badges: ~

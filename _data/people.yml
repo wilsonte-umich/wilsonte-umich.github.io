@@ -45,8 +45,8 @@
   description: Master of many trades, fills many roles as needed
   status: active
   badges:
-  - project=Yeast_DSB_Repair
   - project=CNV_Mechanisms
+  - project=Yeast_DSB_Repair
   - publication=Park_2021
 - id: Jim_Daley
   name: Jim Daley
@@ -160,8 +160,8 @@
   current_position: Anuj Kumar laboratory, University of Michigan
   badges:
   - project=Yeast_DSB_Repair
-  - publication=Wilson_2020
   - publication=Sunder_2019
+  - publication=Wilson_2020
 - id: Irene_Park
   name: So Hae (Irene) Park
   role: PhD Student
@@ -192,9 +192,9 @@
   current_position: Research Scientist, Jacob Mueller laboratory, Michigan
   badges:
   - project=CNV_Mechanisms
-  - publication=Arlt_2018
-  - publication=Arlt_2014
   - publication=Arlt_2012
+  - publication=Arlt_2014
+  - publication=Arlt_2018
 - id: Zhuobin_Liang
   name: Zhuobin (Ben) Liang
   role: PhD Student
@@ -238,6 +238,6 @@
   current_position: Ramsden laboratory, University of North Carolina
   badges:
   - project=Yeast_DSB_Repair
-  - publication=Chiruvella_2014
   - publication=Chiruvella_2013
   - publication=Chiruvella_2013b
+  - publication=Chiruvella_2014

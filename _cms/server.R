@@ -47,7 +47,7 @@ server <- function(input, output, session) {
             if(remove) badges <- x$badges[x$badges != changingBadge]
                 else badges <- unique(c(x$badges, changingBadge))
             if(length(badges) == 0) badges <- NULL
-            cfg[[c$name]][[x$i]]$badges <<- badges
+            cfg[[c$name]][[x$i]]$badges <<- sortItemBadges(badges) 
             out <- cfg[[c$name]]
             names(out) <- NULL
             outFile     <- paste0(rootDir, '/', '_data/', c$name, '.yml')

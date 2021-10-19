@@ -21,18 +21,18 @@
   description: Basic science studies of DNA double-strand break repair executed mainly
     via genetic approaches in the yeast model organism.
   badges:
+  - project=Mutation_ID
   - project=Yeast_DSB_Repair
   - publication=Bazzano_2021
-  - publication=Wilson_2020
-  - publication=Sunder_2019
-  - publication=Liang_2016
-  - publication=Chiruvella_2014
-  - project=Mutation_ID
-  - publication=Lomonaco_2021
   - publication=Chiruvella_2013
   - publication=Chiruvella_2013b
+  - publication=Chiruvella_2014
+  - publication=Liang_2016
+  - publication=Lomonaco_2021
   - publication=Moorthy_2019
   - publication=Song_2014
+  - publication=Sunder_2019
+  - publication=Wilson_2020
 - id: CA200731
   sponsor: NIH/NCI
   sponsor_id: CA200731-05
@@ -45,10 +45,10 @@
   description: Seeks to understand the molecular mechanisms of copy number variant
     (CNV) formation at common fragile sites (CFSs).
   badges:
-  - publication=Park_2021
-  - publication=Glover_2020
   - project=CNV_Mechanisms
   - publication=Glover_2017
+  - publication=Glover_2020
+  - publication=Park_2021
   - publication=Wilson_2015
 - id: ES022311
   sponsor: NIH/NIEHS

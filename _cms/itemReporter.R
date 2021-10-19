@@ -34,7 +34,6 @@ observe({
 # show the title to help identify the item
 output$itemTitle <- renderText({
     req(item$item())
-    str(item$item)
     item$item()$title
 })
 

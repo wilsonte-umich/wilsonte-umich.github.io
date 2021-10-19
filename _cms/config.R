@@ -20,6 +20,22 @@ ItemTypes <- list(
 DataTypes <- c('people', 'publications', 'funding', 'resources', 'events') # found in _data
 ContentTypes <- c('projects', 'newsfeed') # not found in _data, always have a markdown file
 
+# help enforce a consistent sorting and grouping of badges in UI
+sortItemBadges <- function(badgesIn){
+    if(is.null(badgesIn)) return(badgesIn)
+    unname( unlist( lapply(ItemTypes, function(itemType) sort(badgesIn[startsWith(badgesIn, itemType)])) ) )
+}
+sortAllBadges <- function(cfg){
+    for(collection in names(cfg)){
+        if(length(cfg[[collection]]) > 0){
+            for(i in seq_along(cfg[[collection]])){
+                cfg[[collection]][[i]]$badges <- sortItemBadges(cfg[[collection]][[i]]$badges)
+            }
+        }
+    }
+    cfg
+}
+
 # load and save the site's configuration data files
 # List of 9
 #  $ people        :List of 3
@@ -48,6 +64,9 @@ loadSiteConfig <- function(){
             }
         }
     }
+
+    # sort existing badges
+    config <- sortAllBadges(config)
 
     # extract all known badges
     config$allowedBadges <- unname(unlist( lapply(c(ContentTypes, DataTypes), function(type){
