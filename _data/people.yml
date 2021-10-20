@@ -12,7 +12,7 @@
   role: Professor
   program: Department of Human Genetics
   image: assets/images/people/tom-glover.jpg
-  orcid: ~
+  orcid: 0000-0003-4408-515X
   email: glover@umich.edu
   github: ~
   twitter: ~
@@ -118,7 +118,7 @@
   role: Master's Student
   program: Genetics and Genomics Program
   image: assets/images/people/person-no-pic.jpg
-  orcid: ~
+  orcid: 0000-0002-6073-5821
   email: dbazzano@umich.edu
   github: ~
   twitter: ~
@@ -150,7 +150,7 @@
   role: Postdoctoral Fellow
   program: ~
   image: assets/images/people/person-no-pic.jpg
-  orcid: ~
+  orcid: 0000-0002-8399-8229
   email: ssham@umich.edu
   github: ~
   twitter: ~
@@ -166,7 +166,7 @@
   name: So Hae (Irene) Park
   role: PhD Student
   program: Genetics and Genomics Program
-  image: assets/images/people/person-no-pic.jpg
+  image: assets/images/people/irene-park.jpg
   orcid: ~
   email: sohae@umich.edu
   github: ~
@@ -181,8 +181,8 @@
 - id: Martin_Arlt
   name: Martin Arlt
   role: Research Investigator
-  image: assets/images/people/person-no-pic.jpg
-  orcid: ~
+  image: assets/images/people/martin-arlt.jpg
+  orcid: 0000-0002-4716-8295
   email: arltm@umich.edu
   github: ~
   twitter: ~
@@ -199,8 +199,8 @@
   name: Zhuobin (Ben) Liang
   role: PhD Student
   program: Molecular Cellular and Developmental Biology
-  image: assets/images/people/person-no-pic.jpg
-  orcid: ~
+  image: assets/images/people/ben-liang.jpg
+  orcid: 0000-0002-5121-2113
   email: zbliang@szbl.ac.cn
   github: ~
   twitter: ~
@@ -213,8 +213,8 @@
 - id: Diane_Flasch
   name: Diane Flasch
   role: Genetics and Genomics Program
-  image: assets/images/people/person-no-pic.jpg
-  orcid: ~
+  image: assets/images/people/diane-flasch.jpg
+  orcid: 0000-0003-4825-2621
   email: ~
   github: ~
   twitter: ~
