@@ -20,7 +20,7 @@ Cells have (at least) two DSB repair mechanisms to restore genomic integrity: no
 
 {% include figure.html  
     image="assets/images/projects/yeast_dsb/dsb_repair_pathways.jpg"
-    title="DNA double-strand break (DSB) repair pathways"
+    title="DNA double-strand break (DSB) repair pathways."
     caption="DSB repair is best thought of as an integrated set of processes in which coordinated, sequential actions help to optimize repair accuracy in different cellular contexts."
 %}
 

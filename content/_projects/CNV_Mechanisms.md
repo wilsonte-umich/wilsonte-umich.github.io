@@ -20,7 +20,7 @@ Dr. Wilson has worked for more than a decade with Dr. Tom Glover, an expert cyto
 
 {% include figure.html  
     image="assets/images/projects/cnv/cfs.jpg"
-    title="Common fragile sites (CFSs)"
+    title="Common fragile sites (CFSs)."
     caption="Typical breaks and gaps seen on metaphase chromosomes at CFS loci FRA3B (the <i>FHIT</i> gene) and FRA16D (the <i>WWOX</i> gene) upon replication stress."
 %}
 
@@ -30,7 +30,7 @@ In recent studies, we presented data consistent with other literature {% include
 
 {% include figure.html  
     image="assets/images/projects/cnv/hotspot.jpg"
-    title="CNV induction by transcription-dependent replication delay"
+    title="CNV induction by transcription-dependent replication delay."
     caption="CNV hotspots form when transcription of extremely large genes leads to a prolonged replication delay under stress (top). Poorly described repair mechanisms lead to replication rescue or CNV formation (bottom)."
 %}
 
