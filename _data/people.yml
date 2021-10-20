@@ -11,7 +11,7 @@
   name: Tom Glover
   role: Professor
   program: Department of Human Genetics
-  image: assets/images/people/person-no-pic.jpg
+  image: assets/images/people/tom-glover.jpg
   orcid: ~
   email: glover@umich.edu
   github: ~
@@ -24,7 +24,7 @@
   name: Mats Ljungman
   role: Professor
   program: Department of Radiation Oncology
-  image: assets/images/people/person-no-pic.jpg
+  image: assets/images/people/mats-ljungman.jpg
   orcid: ~
   email: ljungman@umich.edu
   github: ~
@@ -52,7 +52,7 @@
   name: Jim Daley
   role: Research Investigator
   program: Department of Biological Chemistry
-  image: assets/images/people/person-no-pic.jpg
+  image: assets/images/people/jim-daley.jpg
   orcid: ~
   email: ~
   github: ~
