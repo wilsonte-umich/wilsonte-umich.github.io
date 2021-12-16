@@ -19,11 +19,11 @@ and interactive, graphical web tools.
 Please see the following links for access to the 
 repositories on GitHub and for more information.
 
-[MDI GitHub Organization](https://github.com/MiDataInt)
+- [MDI GitHub Organization](https://github.com/MiDataInt)
 
-[MDI Main Documentation Page](https://midataint.github.io/docs/overview/)
+- [MDI Main Documentation Page](https://midataint.github.io/docs/overview/)
 
-This announcement should be considered beta release. 
+This announcement should be considered a beta release. 
 We still have work to do to extend the documentation,
 but the pieces are there and sufficiently documented
 for anyone to get going. With more community users
