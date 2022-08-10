@@ -3,7 +3,7 @@ date: 2022-08-08
 title: Now Hiring!
 subtitle: Seeking postdocs, graduate students and/or staff for our yeast DNA repair projects
 description: Seeking postdocs, graduate students and/or staff for our yeast DNA repair projects
-event_type: people # primary type of the event, used to create the small, colored post callout
+event_type: person # primary type of the event, used to create the small, colored post callout
 banner_image_source: project=Yeast_DSB_Repair # the item whose banner image will be adopted by this event
 badges:
   - project=Yeast_DSB_Repair
@@ -17,7 +17,7 @@ seeking outstanding candidates to work on our yeast DNA repair projects.
 - high-resolution analysis of double-strand break resection
 - high-throughput genomic studies of the nuclear biology of chromosomal translocation
 - the intersection of metabolism and DNA repair
-- your own interest areas in DNA repair and genetics approachable in yeast
+- your own interest areas in DNA repair and genetics, approachable in yeast
 
 **Successful candidates** will bring:
 - an enthusiastic interest in molecular genetics and mutagenesis
