@@ -34,8 +34,9 @@
   badges:
     - project=MDI
     - project=CNV_Mechanisms
+    - publication=Wilson_2022
 
-- id: genomx_mdi_tools # internal identifier used in newsfeed posts and other places
+- id: genomex_mdi_tools # internal identifier used in newsfeed posts and other places
   title: Genomics MDI Tools
   type: software
   description: Shared MDI tools, modules, environments, and options for pipelines and apps that perform genomic data analysis
