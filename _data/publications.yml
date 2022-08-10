@@ -1,3 +1,24 @@
+- id: Wilson_2022
+  date: '2022-07-07'
+  pmid: ~
+  pmcid: ~
+  authors:
+  - Wilson TE
+  - Ahmed S
+  - Higgins J
+  - Salk JJ
+  - Glover TW
+  title: "svCapture: Efficient and specific detection of very low frequency structural variant junctions by error-minimized capture sequencing"
+  journal: bioRxiv
+  citation: https://doi.org/10.1101/2022.07.07.497948
+  year: 2022
+  url: ~
+  badges:
+  - project=CNV_Mechanisms
+  - project=MDI
+  - person=Samreen_Ahmed
+  - funding=CA200731
+  abstract: Error-corrected sequencing of genomic targets enriched by probe-based capture has become a standard approach for detecting single-nucleotide variants (SNVs) and small insertion/deletions (indels) present at very low variant allele frequencies. Less attention has been given to strategies for comparable detection of rare structural variant (SV) junctions, where different error mechanisms must be addressed. Working from cell samples with known SV properties, we demonstrate that Duplex Sequencing (DuplexSeq), which demands confirmation of variants on both strands of a source DNA molecule, eliminates false SV junctions arising from chimeric PCR. DuplexSeq could not address frequent intermolecular ligation artifacts that arise during Y-adapter addition prior to strand denaturation without requiring multiple source molecules. In contrast, tagmentation libraries coupled with data filtering based on strand family size greatly reduced both artifact classes and enabled efficient and specific detection of even single-molecule SV junctions. The throughput of SV capture sequencing (svCapture) and the high base-level accuracy of DuplexSeq provided detailed views of the microhomology profile and limited occurrence of de novo SNVs near the junctions of hundreds of sub-clonal and newly created SVs, suggesting end joining as a predominant formation mechanism. The open source svCapture pipeline enables rare SV detection as a routine addition to SNVs/indels in properly prepared capture sequencing libraries.
 - id: Park_2021
   date: '2021-07-21'
   pmid: 34181717
