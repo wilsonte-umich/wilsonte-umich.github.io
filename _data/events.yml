@@ -23,7 +23,9 @@
   title: ICEM 2022
   type: Conference
   date: 2022-08-27
-  description: 13th International Conference on Environmental Mutagens
+  description: |
+    13th International Conference on Environmental Mutagens
+    Maintaining Genomic Health in a Changing World
   location: Ottawa, Canada # where the event will be held
   url: https://www.emgs-us.org/p/cm/ld/fid=269
   badges: 

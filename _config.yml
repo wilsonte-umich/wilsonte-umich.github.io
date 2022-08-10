@@ -75,7 +75,7 @@ collections:
     item: event
     link: hash_always
     output: true   
-    hue: 315 # magenta
+    hue: 90 # limegreen
   newsfeed: 
     name: newsfeed
     item: post
