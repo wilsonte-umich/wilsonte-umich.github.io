@@ -70,6 +70,12 @@ collections:
     link: hash_always
     output: true   
     hue: 270 # purple
+  events: 
+    name: events
+    item: event
+    link: hash_always
+    output: true   
+    hue: 315 # magenta
   newsfeed: 
     name: newsfeed
     item: post
@@ -126,6 +132,13 @@ defaults:
     values:
       permalink: "/resources/:slug/"
       layout: "items/resource" 
+  -
+    scope:
+      path: ""
+      type: "events"
+    values:
+      permalink: "/events/:slug/"
+      layout: "items/event" 
   -
     scope:
       path: ""
