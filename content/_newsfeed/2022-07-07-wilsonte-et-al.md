@@ -32,3 +32,9 @@ through the
 Stay tuned for the journal submission of this work and its companion
 biological study, where we will use svCapture to explore the 
 timing and mechanisms of chromosomal rearrangement formation at chromosome fragile sites.
+
+{% include figure.html  
+    image="assets/images/publications/cnv/svCapture-APH-deletions.png"
+    title="Detecting aphidicolin-induced deletions by svCapture."
+    caption="Demonstration of the clear induction of structural variants above a low background signal, after error suppression and correction by svCapture."
+%}
