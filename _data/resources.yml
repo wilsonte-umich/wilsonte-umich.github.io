@@ -25,3 +25,28 @@
 #   badges:
 #     - person=John_Doe
 #     - project=project3
+
+- id: svx_mdi_tools # internal identifier used in newsfeed posts and other places
+  title: SVX MDI Tools
+  type: software
+  description: MDI pipelines and apps for genome structural variant analysis by different library strategies
+  url: https://github.com/wilsontelab/svx-mdi-tools
+  badges:
+    - project=MDI
+    - project=CNV_Mechanisms
+
+- id: genomx_mdi_tools # internal identifier used in newsfeed posts and other places
+  title: Genomics MDI Tools
+  type: software
+  description: Shared MDI tools, modules, environments, and options for pipelines and apps that perform genomic data analysis
+  url: https://github.com/wilsontelab/genomex-mdi-tools
+  badges:
+    - project=MDI
+    
+- id: MDI # internal identifier used in newsfeed posts and other places
+  title: Michigan Data Interface
+  type: software
+  description: A standardized framework for developing, installing and running HPC data analysis pipelines and interactive R Shiny visualization applications.
+  url: https://midataint.github.io/docs/overview/
+  badges:
+    - project=MDI
