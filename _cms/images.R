@@ -142,6 +142,7 @@ adjustedFileName <- reactive({ # set the file path from the input
 observeEvent(input$saveAdjustedImage, { # confirm the image save action
     req(adjustedFileName())
     file.copy(tmpFile, adjustedFileName()$absolute, overwrite = TRUE)
+    unlink(tmpFile)
     updateTree(session, 'fileTree', getImageFileTree())
     # showModal(modalDialog(
     #     tags$p('Create/overwrite image file?'),
