@@ -10,6 +10,7 @@ badges:
   - project=MDI
   - person=Samreen_Ahmed
   - publication=Wilson_2022
+  - event=ICEM_2022  
   - funding=CA200731
 ---
 
