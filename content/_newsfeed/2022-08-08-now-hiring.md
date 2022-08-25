@@ -29,3 +29,5 @@ Our research group is diverse and our positions are ideal for:
 - **beginners**: people seeking to get their feet wet in molecular genetics research and bioinformatics - many people "cut their teeth" on projects like these.
 - **fellows**: experienced yeast researchers seeking to
 apply next-generation approaches to important problems in DNA repair - there is great potential for career-launching innovation.
+
+<img src="{{ /assets/images/news/trainee-flyer.jpg | relative_url }}" style="width: 100%;" />
