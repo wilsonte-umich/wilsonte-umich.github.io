@@ -30,4 +30,4 @@ Our research group is diverse and our positions are ideal for:
 - **fellows**: experienced yeast researchers seeking to
 apply next-generation approaches to important problems in DNA repair - there is great potential for career-launching innovation.
 
-<img src="{{ /assets/images/news/trainee-flyer.jpg | relative_url }}" style="width: 100%;" />
+<img src="/assets/images/news/trainee-flyer.jpg" style="width: 100%;" />
