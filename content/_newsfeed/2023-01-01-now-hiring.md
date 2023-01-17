@@ -6,6 +6,7 @@ description: Seeking postdocs, graduate students and/or staff for our DNA repair
 event_type: person # primary type of the event, used to create the small, colored post callout
 banner_image_source: project=Yeast_DSB_Repair # the item whose banner image will be adopted by this event
 badges:
+  - person=Now_Hiring
   - project=Yeast_DSB_Repair
   - project=CNV_Mechanisms
   - funding=GM120767
@@ -40,4 +41,4 @@ Our research group is diverse and our positions are ideal for:
 - **fellows**: experienced researchers seeking to
 apply next-generation approaches to important problems in DNA repair - there is great potential for career-launching innovation.
 
-<img src="/assets/images/news/trainee-flyer.jpg" style="width: 100%;" />
+<img src="/assets/images/news/trainee-flyer-2023.jpg" style="width: 100%;" />
