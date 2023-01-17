@@ -1,22 +1,3 @@
-- id: Moran_2022
-  date: '2022-09-29'
-  pmid: 36179663
-  pmcid: ~
-  authors:
-  - Moran JV
-  - Wilson TE
-  title: 'Reverse transcriptase meets DNA, again: Possible roles for transposable
-    elements in host DNA repair'
-  journal: Cell
-  citation: 185(20):3643-3645
-  year: 2022
-  url: ~
-  abstract: Retrotransposons are selfish genetic elements that encode an enzyme, reverse  transcriptase
-    (RT), which converts the element-encoded RNA into DNA prior to or  during genomic
-    integration. New studies provide compelling evidence that a  bacterial group II
-    intron-like RT has adapted enzymatic activities associated  with RTs to function
-    in host DNA repair.
-  badges: project=L1
 - id: Wilson_2022
   date: '2022-07-07'
   pmid: ~
@@ -27,8 +8,7 @@
   - Higgins J
   - Salk JJ
   - Glover TW
-  title: 'svCapture: Efficient and specific detection of very low frequency structural
-    variant junctions by error-minimized capture sequencing'
+  title: "svCapture: Efficient and specific detection of very low frequency structural variant junctions by error-minimized capture sequencing"
   journal: bioRxiv
   citation: https://doi.org/10.1101/2022.07.07.497948
   year: 2022
@@ -38,92 +18,7 @@
   - project=MDI
   - person=Samreen_Ahmed
   - funding=CA200731
-  abstract: Error-corrected sequencing of genomic targets enriched by probe-based
-    capture has become a standard approach for detecting single-nucleotide variants
-    (SNVs) and small insertion/deletions (indels) present at very low variant allele
-    frequencies. Less attention has been given to strategies for comparable detection
-    of rare structural variant (SV) junctions, where different error mechanisms must
-    be addressed. Working from cell samples with known SV properties, we demonstrate
-    that Duplex Sequencing (DuplexSeq), which demands confirmation of variants on
-    both strands of a source DNA molecule, eliminates false SV junctions arising from
-    chimeric PCR. DuplexSeq could not address frequent intermolecular ligation artifacts
-    that arise during Y-adapter addition prior to strand denaturation without requiring
-    multiple source molecules. In contrast, tagmentation libraries coupled with data
-    filtering based on strand family size greatly reduced both artifact classes and
-    enabled efficient and specific detection of even single-molecule SV junctions.
-    The throughput of SV capture sequencing (svCapture) and the high base-level accuracy
-    of DuplexSeq provided detailed views of the microhomology profile and limited
-    occurrence of de novo SNVs near the junctions of hundreds of sub-clonal and newly
-    created SVs, suggesting end joining as a predominant formation mechanism. The
-    open source svCapture pipeline enables rare SV detection as a routine addition
-    to SNVs/indels in properly prepared capture sequencing libraries.
-- id: Jin_2022
-  date: '2022-04-05'
-  pmid: 35166010
-  pmcid: PMC8982600
-  authors:
-  - Jin Y
-  - Jin N
-  - Oikawa Y
-  - Benyair R
-  - Koizumi M
-  - Wilson TE
-  - Ohsumi Y
-  - Weisman LS
-  title: Bur1 functions with TORC1 for vacuole-mediated cell cycle progression
-  journal: EMBO Rep
-  citation: 23(4):e53477
-  year: 2022
-  url: ~
-  abstract: The vacuole/lysosome plays essential roles in the growth and proliferation
-    of  many eukaryotic cells via the activation of target of rapamycin complex 1  (TORC1).
-    Moreover, the yeast vacuole/lysosome is necessary for progression of the  cell
-    division cycle, in part via signaling through the TORC1 pathway. Here, we  show
-    that an essential cyclin-dependent kinase, Bur1, plays a critical role in  cell
-    cycle progression in cooperation with TORC1. A mutation in BUR1 combined  with
-    a defect in vacuole inheritance shows a synthetic growth defect.  Importantly,
-    the double mutant, as well as a bur1-267 mutant on its own, has a  severe defect
-    in cell cycle progression from G(1) phase. In further support that  BUR1 functions
-    with TORC1, mutation of bur1 alone results in high sensitivity to  rapamycin,
-    a TORC1 inhibitor. Mechanistic insight for Bur1 function comes from  the findings
-    that Bur1 directly phosphorylates Sch9, a target of TORC1, and that  both Bur1
-    and TORC1 are required for the activation of Sch9. Together, these  discoveries
-    suggest that multiple signals converge on Sch9 to promote cell cycle  progression.
-- id: Bazzano_2021
-  date: '2021-12-16'
-  pmid: 34263309
-  authors:
-  - Bazzano D
-  - Lomonaco S
-  - Wilson TE
-  title: Mapping yeast mitotic 5' resection at base resolution reveals the sequence
-    and positional dependence of nucleases in vivo
-  journal: Nucleic Acids Res
-  citation: 49(22):12607-12621
-  year: 2021
-  url: ~
-  abstract: Resection of the 5'-terminated strand at DNA double-strand breaks (DSBs)
-    is the  critical regulated step in the transition to homologous recombination.
-    Recent  studies have described a multi-step model of DSB resection where endonucleolytic  cleavage
-    mediated by Mre11 and Sae2 leads to further degradation mediated by  redundant
-    pathways catalyzed by Exo1 and Sgs1/Dna2. These models have not been  well tested
-    at mitotic DSBs in vivo because most methods used to monitor  resection cannot
-    precisely map early cleavage events. Here we report resection  monitoring with
-    high-throughput sequencing using molecular identifiers, allowing  exact counting
-    of cleaved 5' ends at base resolution. Mutant strains, including  exo1Δ, mre11-H125N
-    and exo1Δ sgs1Δ, revealed a major Mre11-dependent cleavage  position 60-70 bp
-    from the DSB end whose exact position depended on local  sequence. They further
-    revealed an Exo1-dependent pause point approximately 200  bp from the DSB. Suppressing
-    resection extension in exo1Δ sgs1Δ yeast exposed a  footprint of regions where
-    cleavage was restricted within 119 bp of the DSB.  These results provide detailed
-    in vivo views of prevailing models of DSB  resection and extend them to show the
-    combined influence of sequence specificity  and access restrictions on Mre11 and
-    Exo1 nucleases.
-  badges:
-  - project=Yeast_DSB_Repair
-  - person=Dominic_Bazzano
-  - funding=GM120767
-  pmcid: PMC8682756
+  abstract: Error-corrected sequencing of genomic targets enriched by probe-based capture has become a standard approach for detecting single-nucleotide variants (SNVs) and small insertion/deletions (indels) present at very low variant allele frequencies. Less attention has been given to strategies for comparable detection of rare structural variant (SV) junctions, where different error mechanisms must be addressed. Working from cell samples with known SV properties, we demonstrate that Duplex Sequencing (DuplexSeq), which demands confirmation of variants on both strands of a source DNA molecule, eliminates false SV junctions arising from chimeric PCR. DuplexSeq could not address frequent intermolecular ligation artifacts that arise during Y-adapter addition prior to strand denaturation without requiring multiple source molecules. In contrast, tagmentation libraries coupled with data filtering based on strand family size greatly reduced both artifact classes and enabled efficient and specific detection of even single-molecule SV junctions. The throughput of SV capture sequencing (svCapture) and the high base-level accuracy of DuplexSeq provided detailed views of the microhomology profile and limited occurrence of de novo SNVs near the junctions of hundreds of sub-clonal and newly created SVs, suggesting end joining as a predominant formation mechanism. The open source svCapture pipeline enables rare SV detection as a routine addition to SNVs/indels in properly prepared capture sequencing libraries.
 - id: Park_2021
   date: '2021-07-21'
   pmid: 34181717
@@ -149,23 +44,57 @@
   - person=Samreen_Ahmed
   - funding=CA200731
   abstract: Impaired replication progression leads to de novo copy number variant
-    (CNV)  formation at common fragile sites (CFSs). We previously showed that these  hotspots
-    for genome instability reside in late-replicating domains associated  with large
-    transcribed genes and provided indirect evidence that transcription is  a factor
-    in their instability. Here, we compared aphidicolin (APH)-induced CNV  and CFS
-    frequency between wild-type and isogenic cells in which FHIT gene  transcription
-    was ablated by promoter deletion. Two promoter-deletion cell lines  showed reduced
-    or absent CNV formation and CFS expression at FHIT despite  continued instability
-    at the NLGN1 control locus. APH treatment led to critical  replication delays
-    that remained unresolved in G2/M in the body of many, but not  all, large transcribed
-    genes, an effect that was reversed at FHIT by the promoter  deletion. Altering
-    RNase H1 expression did not change CNV induction frequency and  DRIP-seq showed
-    a paucity of R-loop formation in the central regions of large  genes, suggesting
-    that R-loops are not the primary mediator of the transcription  effect. These
-    results demonstrate that large gene transcription is a determining  factor in
-    replication stress-induced genomic instability and support models that  CNV hotspots
-    mainly result from the transcription-dependent passage of  unreplicated DNA into
+    (CNV)  formation at common fragile sites (CFSs). We previously showed that these
+    hotspots  for genome instability reside in late-replicating domains associated
+    with large  transcribed genes and provided indirect evidence that transcription
+    is a factor in  their instability. Here, we compared aphidicolin (APH)-induced
+    CNV and CFS frequency  between wild-type and isogenic cells in which FHIT gene
+    transcription was ablated by  promoter deletion. Two promoter-deletion cell lines
+    showed reduced or absent CNV  formation and CFS expression at FHIT despite continued
+    instability at the NLGN1  control locus. APH treatment led to critical replication
+    delays that remained  unresolved in G2/M in the body of many, but not all, large
+    transcribed genes, an  effect that was reversed at FHIT by the promoter deletion.
+    Altering RNase H1  expression did not change CNV induction frequency and DRIP-seq
+    showed a paucity of  R-loop formation in the central regions of large genes, suggesting
+    that R-loops are  not the primary mediator of the transcription effect. These
+    results demonstrate that  large gene transcription is a determining factor in
+    replication stress-induced  genomic instability and support models that CNV hotspots
+    mainly result from the  transcription-dependent passage of unreplicated DNA into
     mitosis.
+- id: Bazzano_2021
+  date: '2021-07-15'
+  pmid: 34263309
+  authors:
+  - Bazzano D
+  - Lomonaco S
+  - Wilson TE
+  title: Mapping yeast mitotic 5' resection at base resolution reveals the sequence
+    and positional dependence of nucleases in vivo
+  journal: Nucleic Acids Res
+  citation: gkab597
+  year: 2021
+  url: ~
+  abstract: Resection of the 5'-terminated strand at DNA double-strand breaks (DSBs)
+    is the  critical regulated step in the transition to homologous recombination.
+    Recent  studies have described a multi-step model of DSB resection where endonucleolytic  cleavage
+    mediated by Mre11 and Sae2 leads to further degradation mediated by  redundant
+    pathways catalyzed by Exo1 and Sgs1/Dna2. These models have not been well  tested
+    at mitotic DSBs in vivo because most methods used to monitor resection cannot  precisely
+    map early cleavage events. Here we report resection monitoring with  high-throughput
+    sequencing using molecular identifiers, allowing exact counting of  cleaved 5'
+    ends at base resolution. Mutant strains, including exo1<U+0394>, mre11-H125N and  exo1<U+0394>
+    sgs1<U+0394>, revealed a major Mre11-dependent cleavage position 60-70 bp from
+    the  DSB end whose exact position depended on local sequence. They further revealed
+    an  Exo1-dependent pause point approximately 200 bp from the DSB. Suppressing
+    resection  extension in exo1<U+0394> sgs1<U+0394> yeast exposed a footprint of
+    regions where cleavage was  restricted within 119 bp of the DSB. These results
+    provide detailed in vivo views of  prevailing models of DSB resection and extend
+    them to show the combined influence of  sequence specificity and access restrictions
+    on Mre11 and Exo1 nucleases.
+  badges:
+  - project=Yeast_DSB_Repair
+  - person=Dominic_Bazzano
+  - funding=GM120767
 - id: Bedi_2021
   date: '2021-05-11'
   pmid: 33975916
@@ -192,19 +121,19 @@
     the co-transcriptional splicing efficiencies of 17,000  introns expressed across
     6 human cell lines. We found that less than half of all  introns across these
     6 cell lines were co-transcriptionally spliced. Splicing  efficiencies for individual
-    introns showed variations across cell lines,  suggesting that splicing may be
-    regulated in a cell-type specific manner.  Moreover, the splicing efficiency of
-    introns varied within genes. The efficiency  of co-transcriptional splicing did
-    not correlate with gene length, intron  position, splice site strengths, or the
-    intron/neighboring exons GC content.  However, we identified binding signals from
-    multiple RNA binding proteins (RBPs)  that correlated with splicing efficiency,
-    including core spliceosomal machinery  components-such as SF3B4, U2AF1 and U2AF2
-    showing higher binding signals in  poorly spliced introns. In addition, multiple
-    RBPs, such as BUD13, PUM1 and SND1,  showed preferential binding in exons that
-    flank introns with high splicing  efficiencies. The nascent RNA splicing patterns
-    presented here across multiple  cell types add to our understanding of the complexity
-    in RNA splicing, wherein  RNA-binding proteins may play important roles in determining
-    splicing outcomes in  a cell type- and intron-specific manner.
+    introns showed variations across cell lines, suggesting  that splicing may be
+    regulated in a cell-type specific manner. Moreover, the  splicing efficiency of
+    introns varied within genes. The efficiency of  co-transcriptional splicing did
+    not correlate with gene length, intron position,  splice site strengths, or the
+    intron/neighboring exons GC content. However, we  identified binding signals from
+    multiple RNA binding proteins (RBPs) that correlated  with splicing efficiency,
+    including core spliceosomal machinery components-such as  SF3B4, U2AF1 and U2AF2
+    showing higher binding signals in poorly spliced introns. In  addition, multiple
+    RBPs, such as BUD13, PUM1 and SND1, showed preferential binding  in exons that
+    flank introns with high splicing efficiencies. The nascent RNA  splicing patterns
+    presented here across multiple cell types add to our understanding  of the complexity
+    in RNA splicing, wherein RNA-binding proteins may play important  roles in determining
+    splicing outcomes in a cell type- and intron-specific manner.
   badges: project=Bru_seq
 - id: Lomonaco_2021
   date: '2021-02-26'
@@ -254,24 +183,24 @@
   citation: 2(1):lqz014
   year: 2020
   url: ~
-  abstract: MicroRNAs (miRNAs) are key contributors to gene regulatory networks. Because  miRNAs
-    are processed from RNA polymerase II transcripts, insight into miRNA  regulation
-    requires a comprehensive understanding of the regulation of primary  miRNA transcripts.
+  abstract: MicroRNAs (miRNAs) are key contributors to gene regulatory networks. Because
+    miRNAs  are processed from RNA polymerase II transcripts, insight into miRNA regulation  requires
+    a comprehensive understanding of the regulation of primary miRNA  transcripts.
     We used Bru-seq nascent RNA sequencing and hidden Markov model  segmentation to
     map primary miRNA transcription units (TUs) across 32 human cell  lines, allowing
     us to describe TUs encompassing 1443 miRNAs from miRBase and 438  from MirGeneDB.
-    We identified TUs for 61 miRNAs with an unknown CAGE TSS signal  for MirGeneDB
-    miRNAs. Many primary transcripts containing miRNA sequences failed  to generate
+    We identified TUs for 61 miRNAs with an unknown CAGE TSS signal for  MirGeneDB
+    miRNAs. Many primary transcripts containing miRNA sequences failed to  generate
     mature miRNAs, suggesting that miRNA biosynthesis is under both  transcriptional
     and post-transcriptional control. In addition to constitutive and  cell-type specific
     TU expression regulated by differential promoter usage, miRNA  synthesis can be
     regulated by transcription past polyadenylation sites  (transcriptional read through)
     and promoter divergent transcription (PROMPTs). We  identified 197 miRNA TUs with
-    novel promoters, 97 with transcriptional  read-throughs and 3 miRNA TUs that resemble
-    PROMPTs in at least one cell line.  The miRNA TU annotation data resource described
-    here reveals a greater complexity  in miRNA regulation than previously known and
-    provides a framework for  identifying cell-type specific differences in miRNA
-    transcription in cancer and  cell transition states.
+    novel promoters, 97 with transcriptional read-throughs  and 3 miRNA TUs that resemble
+    PROMPTs in at least one cell line. The miRNA TU  annotation data resource described
+    here reveals a greater complexity in miRNA  regulation than previously known and
+    provides a framework for identifying cell-type  specific differences in miRNA
+    transcription in cancer and cell transition states.
   badges: project=Bru_seq
 - id: Wilson_2020
   date: '2020-02-01'
@@ -552,19 +481,6 @@
     the  relative activities and abundance of many DNA replication and repair proteins
     when  considering mutator phenotypes, as they are relevant to the development
     of cancer  and its resistance to treatment.
-- id: Glover_2016
-  date: '2016-04-07'
-  pmid: 27007850
-  pmcid: .na.character
-  authors:
-  - Glover TW
-  - Wilson TE
-  title: 'Molecular biology: Breaks in the brain'
-  journal: Nature
-  citation: 532(7597):46-7
-  year: 2016
-  url: ~
-  badges: project=CNV_Mechanisms
 - id: Liang_2016
   date: '2016-04-07'
   pmid: 26773053
@@ -600,6 +516,19 @@
   - project=Yeast_DSB_Repair
   - person=Zhuobin_Liang
   - funding=GM120767
+- id: Glover_2016
+  date: '2016-04-07'
+  pmid: 27007850
+  pmcid: .na.character
+  authors:
+  - Glover TW
+  - Wilson TE
+  title: 'Molecular biology: Breaks in the brain'
+  journal: Nature
+  citation: 532(7597):46-7
+  year: 2016
+  url: ~
+  badges: project=CNV_Mechanisms
 - id: Magnuson_2015
   date: '2015-12-11'
   pmid: 26656874
@@ -1086,44 +1015,6 @@
     than afforded by the analysis of steady-state total RNA and should be  useful
     in many biological settings.
   badges: project=Bru_seq
-- id: Veloso_2013
-  date: '2013-01-01'
-  pmid: 24194914
-  pmcid: PMC3806802
-  authors:
-  - Veloso A
-  - Biewen B
-  - Paulsen MT
-  - Berg N
-  - Carmo de Andrade Lima L
-  - Prasad J
-  - Bedi K
-  - Magnuson B
-  - Wilson TE
-  - Ljungman M
-  title: Genome-wide transcriptional effects of the anti-cancer agent camptothecin
-  journal: PLoS One
-  citation: 8(10):e78190
-  year: 2013
-  url: ~
-  abstract: The anti-cancer drug camptothecin inhibits replication and transcription
-    by trapping  DNA topoisomerase I (Top1) covalently to DNA in a "cleavable complex".
-    To examine  the effects of camptothecin on RNA synthesis genome-wide we used Bru-Seq
-    and show  that camptothecin treatment primarily affected transcription elongation.
-    We also  observed that camptothecin increased RNA reads past transcription termination
-    sites  as well as at enhancer elements. Following removal of camptothecin, transcription  spread
-    as a wave from the 5'-end of genes with no recovery of transcription apparent  from
-    RNA polymerases stalled in the body of genes. As a result, camptothecin  preferentially
-    inhibited the expression of large genes such as proto-oncogenes, and  anti-apoptotic
-    genes while smaller ribosomal protein genes, pro-apoptotic genes and  p53 target
-    genes showed relative higher expression. Cockayne syndrome group B  fibroblasts
-    (CS-B), which are defective in transcription-coupled repair (TCR),  showed an
-    RNA synthesis recovery profile similar to normal fibroblasts suggesting  that
-    TCR is not involved in the repair of or RNA synthesis recovery from  transcription-blocking
-    Top1 lesions. These findings of the effects of camptothecin  on transcription
-    have important implications for its anti-cancer activities and may  aid in the
-    design of improved combinatorial treatments involving Top1 poisons.
-  badges: project=Bru_seq
 - id: Yauk_2013
   date: '2013-01-01'
   pmid: 22935230
@@ -1177,6 +1068,44 @@
     cigarette smoke, and air pollution as germ-cell mutagens. Research is  urgently
     needed to establish the health consequences of parental exposures on  subsequent
     generations.
+- id: Veloso_2013
+  date: '2013-01-01'
+  pmid: 24194914
+  pmcid: PMC3806802
+  authors:
+  - Veloso A
+  - Biewen B
+  - Paulsen MT
+  - Berg N
+  - Carmo de Andrade Lima L
+  - Prasad J
+  - Bedi K
+  - Magnuson B
+  - Wilson TE
+  - Ljungman M
+  title: Genome-wide transcriptional effects of the anti-cancer agent camptothecin
+  journal: PLoS One
+  citation: 8(10):e78190
+  year: 2013
+  url: ~
+  abstract: The anti-cancer drug camptothecin inhibits replication and transcription
+    by trapping  DNA topoisomerase I (Top1) covalently to DNA in a "cleavable complex".
+    To examine  the effects of camptothecin on RNA synthesis genome-wide we used Bru-Seq
+    and show  that camptothecin treatment primarily affected transcription elongation.
+    We also  observed that camptothecin increased RNA reads past transcription termination
+    sites  as well as at enhancer elements. Following removal of camptothecin, transcription  spread
+    as a wave from the 5'-end of genes with no recovery of transcription apparent  from
+    RNA polymerases stalled in the body of genes. As a result, camptothecin  preferentially
+    inhibited the expression of large genes such as proto-oncogenes, and  anti-apoptotic
+    genes while smaller ribosomal protein genes, pro-apoptotic genes and  p53 target
+    genes showed relative higher expression. Cockayne syndrome group B  fibroblasts
+    (CS-B), which are defective in transcription-coupled repair (TCR),  showed an
+    RNA synthesis recovery profile similar to normal fibroblasts suggesting  that
+    TCR is not involved in the repair of or RNA synthesis recovery from  transcription-blocking
+    Top1 lesions. These findings of the effects of camptothecin  on transcription
+    have important implications for its anti-cancer activities and may  aid in the
+    design of improved combinatorial treatments involving Top1 poisons.
+  badges: project=Bru_seq
 - id: Arlt_2012
   date: '2012-09-01'
   pmid: 23028374

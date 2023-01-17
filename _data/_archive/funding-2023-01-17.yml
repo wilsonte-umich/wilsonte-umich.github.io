@@ -12,19 +12,17 @@
   badges: project=SCSAP
 - id: GM120767
   sponsor: NIH/NIGMS
-  sponsor_id: GM120767-15
+  sponsor_id: GM120767-14
   sponsor_link: https://reporter.nih.gov/search/ZBDA5h93H0qMxITs5aN_uw/projects?shared=true
   grant_type: R01
   start_date: '2004-08-01'
-  end_date: '2026-08-31'
-  title: Early events in double-strand break repair in local, genomic and metabolic
-    contexts
+  end_date: '2021-06-30'
+  title: Systematic Genetic Analysis of Yeast NHEJ
   description: Basic science studies of DNA double-strand break repair executed mainly
     via genetic approaches in the yeast model organism.
   badges:
   - project=Mutation_ID
   - project=Yeast_DSB_Repair
-  - person=Mikael_Dunn
   - publication=Bazzano_2021
   - publication=Chiruvella_2013
   - publication=Chiruvella_2013b
@@ -35,20 +33,6 @@
   - publication=Song_2014
   - publication=Sunder_2019
   - publication=Wilson_2020
-- id: GM147026
-  sponsor: NIH/NIGMS
-  sponsor_id: GM147026-01
-  sponsor_link: ~
-  grant_type: R01
-  start_date: '2023-04-01'
-  end_date: '2027-03-31'
-  title: Cell cycle timing and molecular mechanisms of structural variant formation
-    following incomplete replication
-  description: Seeks to understand the molecular mechanisms of copy number variant
-    (CNV) formation at common fragile sites (CFSs) - in follow up to NCI grant CA200731.
-  badges:
-  - project=CNV_Mechanisms
-  - person=Tom_Glover
 - id: CA200731
   sponsor: NIH/NCI
   sponsor_id: CA200731-05
@@ -62,7 +46,6 @@
     (CNV) formation at common fragile sites (CFSs).
   badges:
   - project=CNV_Mechanisms
-  - person=Tom_Glover
   - publication=Glover_2017
   - publication=Glover_2020
   - publication=Park_2021
