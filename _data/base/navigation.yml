@@ -28,5 +28,8 @@
   - text: Funding # simpler data set set in funding.yml
     href: /funding/  
 
+  - text: Internal # hard link to TEWLAB Google Drive
+    href: https://drive.google.com/drive/folders/1dxf0_fxqrhHgd33z7qcE3bHdfN_IQsUv
+
   - text: Contact # simple page unto itself, no connections to other data types
     href: /contact/

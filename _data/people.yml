@@ -15,7 +15,7 @@
   email: ~
   github: ~
   twitter: ~
-  description: Please see our related news item - we are hiring for two fully funded
+  description: Please see our related news item - we are hiring for fully funded
     positions!
   status: active
 - id: Tom_Glover
@@ -61,6 +61,20 @@
   - project=CNV_Mechanisms
   - project=Yeast_DSB_Repair
   - publication=Park_2021
+  - funding=GM147026
+- id: Jim_Daley
+  name: Jim Daley
+  role: Research Investigator
+  program: Department of Biological Chemistry
+  image: assets/images/people/jim-daley.jpg
+  orcid: ~
+  email: daleyj@umich.edu
+  github: ~
+  twitter: ~
+  description: Our former PhD student back at Michigan to pursue collaborative DNA
+    repair work with Dr. Patrick O'Brien
+  status: active
+  badges: project=Yeast_DSB_Repair
 - id: Mikael_Dunn
   name: Mikael Dunn
   role: Research Technician
@@ -76,6 +90,20 @@
   badges:
   - project=Yeast_DSB_Repair
   - funding=GM120767
+- id: Alex_Hawks
+  name: Alex Hawks
+  role: Postdoctoral Fellow
+  program: ~
+  image: assets/images/people/person-no-pic.jpg
+  orcid: ~
+  email: alhawks@g.clemson.edu
+  github: ~
+  twitter: ~
+  description: Not quite here yet! Will work on mechanisms of structural variant formation genome wide
+  status: active
+  badges:
+  - project=CNV_Mechanisms
+  - funding=GM147026
 - id: Amanda_Winningham
   name: Amanda Winningham
   role: Research Technician
@@ -86,21 +114,8 @@
   github: ~
   twitter: ~
   description: Awesome help on the CNV projects when we needed it
-  status: active
+  status: past
   badges: project=CNV_Mechanisms
-- id: Jim_Daley
-  name: Jim Daley
-  role: Research Investigator
-  program: Department of Biological Chemistry
-  image: assets/images/people/jim-daley.jpg
-  orcid: ~
-  email: daleyj@umich.edu
-  github: ~
-  twitter: ~
-  description: Our former PhD student back at Michigan to pursue collaborative DNA
-    repair work with Dr. Patrick O'Brien
-  status: active
-  badges: project=Yeast_DSB_Repair
 - id: Saanvi_Juneja
   name: Saanvi Juneja
   role: UROP Student

@@ -19,6 +19,15 @@
 #   badges: 
 #     - project=project3 # e.g. person=John_Doe, project=project1 (no spaces)
 
+- id: MWDRS_2023 # internal identifier used in newsfeed posts and other places
+  title: Midwest DNA Repair Symposium (MWDRS) 2023
+  type: Conference
+  date: 2023-05-03
+  description: |
+    22nd Annual Midwest DNA Repair Symposium
+  location: University of Iowa, Iowa City, Iowa # where the event will be held
+  url: https://midwestdnarepair.conference.uiowa.edu/
+
 - id: ICEM_2022 # internal identifier used in newsfeed posts and other places
   title: ICEM 2022
   type: Conference
