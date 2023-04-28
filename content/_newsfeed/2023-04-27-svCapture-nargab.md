@@ -20,7 +20,7 @@ has been accepted for publication in
 [NAR Genomics and Bioinformatics](https://academic.oup.com/nargab).
 
 The paper is currently available in 
-[preprint form](https://doi.org/10.1101/2022.07.07.497948 (2022)) 
+[preprint form](https://www.biorxiv.org/content/10.1101/2022.07.07.497948v1) 
 on bioRxiv.
 
 The approach builds on the concepts of 

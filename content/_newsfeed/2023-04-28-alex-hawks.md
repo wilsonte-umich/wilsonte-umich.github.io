@@ -6,8 +6,9 @@ description: Welcome to our newest lab member, Alex Hawks
 event_type: person # primary type of the event, used to create the small, colored post callout
 banner_image_source: project=CNV_Mechanisms # the item whose banner image will be adopted by this event
 badges:
-  - person=CNV_Mechanisms
-  - project=GM147026
+  - person=Alex_Hawks
+  - project=CNV_Mechanisms
+  - funding=GM147026
 ---
 
 We are thrilled to welcome postdoctoral fellow Alexandra Hawks to our CNV mechanisms group!
