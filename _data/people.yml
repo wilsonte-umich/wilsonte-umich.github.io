@@ -7,17 +7,6 @@
   github: wilsonte-umich
   twitter: wilsonte_umich
   status: active
-- id: Now_Hiring
-  name: Now Hiring!
-  role: Postdoctoral Fellow
-  image: assets/images/people/person-no-pic.jpg
-  orcid: ~
-  email: ~
-  github: ~
-  twitter: ~
-  description: Please see our related news item - we are hiring for fully funded
-    positions!
-  status: active
 - id: Tom_Glover
   name: Tom Glover
   role: Professor
@@ -104,6 +93,20 @@
   badges:
   - project=CNV_Mechanisms
   - funding=GM147026
+- id: Jeanmarie_Mishler
+  name: Jeanmarie Mishler
+  role: Research Technician
+  program: ~
+  image: assets/images/people/person-no-pic.jpg
+  orcid: ~
+  email: mishlerjeanmarie@gmail.com
+  github: ~
+  twitter: ~
+  description: Newest lab member rejoining the ranks of DNA repair scientists
+  status: active
+  badges:
+  - project=Yeast_DSB_Repair
+  - funding=GM120767
 - id: Amanda_Winningham
   name: Amanda Winningham
   role: Research Technician
