@@ -2,5 +2,5 @@
 # it is called by scripts run_remote_cms.sh/bat
 
 module load R/4.4.3
-cd /nfs/turbo/path-wilsonte-turbo/website
+cd /nfs/turbo/path-wilsonte-turbo/website/wilsonte-umich.github.io
 Rscript cms.R
