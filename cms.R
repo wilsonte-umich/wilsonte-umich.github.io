@@ -1,5 +1,12 @@
+
+# to run the Wilson web page Content Management System (CMS)
+#   run R in a console
+#   run `setwd()` to the root directory of the website repo, containing this script cms.R
+#   run `source('cms.R')`
+
 # set directories
-rootDir <- dirname(parent.frame(2)$ofile)
+# rootDir <- path.expand(dirname(parent.frame(2)$ofile))
+rootDir <- getwd()
 setwd(rootDir)
 setwd('_cms')
 
@@ -37,4 +44,4 @@ package.check <- lapply(
 )
 
 # run the Shiny app
-runApp(launch.browser = TRUE, port = 8000)
+runApp(launch.browser = TRUE, port = 3840)

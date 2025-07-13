@@ -51,3 +51,11 @@
   url: https://midataint.github.io/docs/overview/
   badges:
     - project=MDI
+
+- id: Penelope_P2 # internal identifier used in newsfeed posts and other places
+  title: Promethion P2 Sequencer
+  type: sequencer
+  description: Long-read sequencer for which we are optimizing new protocols for high accuracy detection of rare structural variants (SVs) - nicknamed Penelope (get it?).
+  url: null
+  badges:
+    - project=CNV_Mechanisms
