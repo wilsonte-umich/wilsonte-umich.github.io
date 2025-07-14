@@ -44,4 +44,9 @@ package.check <- lapply(
 )
 
 # run the Shiny app
-runApp(launch.browser = TRUE, port = 3840)
+message("")
+message("launch the following URL in a web browser:")
+message("")
+message("https://localhost:3841")
+message("")
+runApp(launch.browser = FALSE, port = 3841)
