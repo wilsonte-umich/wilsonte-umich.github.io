@@ -29,7 +29,7 @@ to lead our genomics efforts in yeast.
 - team spirit in pursuit of our goals
 - (preferred) experience working with yeast and/or genomic approaches 
 
-Our research group is diverse and our positions are ideal for:
+Our research group is broadly based and our positions are ideal for:
 - **beginners**: people seeking to get their feet wet in molecular genetics research and bioinformatics - 
 many people "cut their teeth" on yeast projects like ours.
 - **fellows**: experienced researchers seeking to

@@ -15,8 +15,6 @@ Please contact Carrie early, especially for matters relating to Dr. Wilson's sch
 
 ### Principal Investigator
 
-Pronouns: he/his/him
-
 **Thomas E. Wilson, M.D. Ph.D.**  
 Professor, Departments of Pathology and Human Genetics  
 Faculty Director, Michigan Advanced Genomics Core  

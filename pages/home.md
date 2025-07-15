@@ -19,7 +19,7 @@ genomic technologies in core facilities, and
 bioinformatics, including projects aimed at standardizing and
 sharing data analysis tools. 
 
-Education and mentorship of diverse trainees
+Education and mentorship of many trainee levels
 is critical to our mission and I 
 direct classes and UROP and other 
 research projects related to molecular genetics, 
