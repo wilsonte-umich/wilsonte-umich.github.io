@@ -64,6 +64,7 @@ importPubMed <- function(){
             mon00 <- sprintf('%02d', mon0)
             day00 <- if(is.absent(DP[3])) '01' else sprintf('%02d', as.integer(DP[3]))
         }
+
         df[i, 'DATE'] <- paste(df[i, 'YEAR'], mon00, day00, sep = "-")
         df[i, 'CIT'] <- if(is.absent(df[i, 'VI'])){
             x <- strsplit(df[i, 'SO'], '. doi')[[1]][1]
@@ -102,7 +103,7 @@ importPubMed <- function(){
                 isNew <- !is.absent(new)
                 if((!wasOld && isNew) ||
                    (wasOld && !isNew) ||
-                   (wasOld && isNew && old != new)) citationChanged <- 1
+                   (wasOld && isNew && !identical(old, new))) citationChanged <- 1
                 publications[[j]][[field]] <- new
             } 
             nChangedCitations <- nChangedCitations + citationChanged

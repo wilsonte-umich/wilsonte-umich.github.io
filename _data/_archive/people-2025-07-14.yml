@@ -21,8 +21,6 @@
   status: collaborator
   badges:
   - project=CNV_Mechanisms
-  - publication=Wilson_2023
-  - publication=Wilson_2024
   - funding=CA200731
 - id: Mats_Ljungman
   name: Mats Ljungman
@@ -36,10 +34,9 @@
   description: Transcription-coupled DNA repair expert who branched to nascent RNA
     sequencing and targeted cancer therapeutics
   status: collaborator
-  badges:
+  badges: 
   - project=Bru_seq
   - project=KLIPP_Tx
-  - publication=Bedi_2024
 - id: Samreen_Ahmed
   name: Samreen Ahmed
   role: Research Technician
@@ -55,8 +52,6 @@
   - project=CNV_Mechanisms
   - project=Yeast_DSB_Repair
   - publication=Park_2021
-  - publication=Wilson_2023
-  - publication=Wilson_2024
   - funding=GM147026
 - id: Jim_Daley
   name: Jim Daley
@@ -95,8 +90,7 @@
   email: allhawks@umich.edu
   github: ~
   twitter: ~
-  description: Working on mechanisms of structural variant formation genome wide,
-    in particulate in BRCA-deficient cells
+  description: Working on mechanisms of structural variant formation genome wide, in particulate in BRCA-deficient cells
   status: active
   badges:
   - project=CNV_Mechanisms
@@ -110,15 +104,14 @@
   email: mishlerjeanmarie@gmail.com
   github: ~
   twitter: ~
-  description: Newest lab member rejoining the ranks of DNA repair scientists; handler
-    of Penelope our new Oxford Nanopore P2 sequencer
+  description: Newest lab member rejoining the ranks of DNA repair scientists; handler of Penelope our new Oxford Nanopore P2 sequencer
   status: active
   badges:
   - project=Yeast_DSB_Repair
-  - resource=Penelope_P2
-  - funding=ES034143
   - funding=GM120767
+  - funding=ES034143
   - funding=Research_Scouts
+  - resource=Penelope_P2
 - id: Joey_Stewart
   name: Joey Stewart
   role: Postdoctoral Fellow
@@ -128,15 +121,14 @@
   email: sjosep@umich.edu
   github: ~
   twitter: ~
-  description: Working toward an LGG Fellowship by learning human genomics, sequencing
-    technologies, and bioinformatics
+  description: Working toward an LGG Fellowship by learning human genomics, sequencing technologies, and bioinformatics
   status: active
   badges:
-  - project=CNV_Mechanisms
   - project=Yeast_DSB_Repair
-  - funding=ES034143
+  - project=CNV_Mechanisms
   - funding=GM120767
   - funding=GM147026
+  - funding=ES034143
   - funding=Research_Scouts
 - id: Li-Ching_Chen
   name: Li-Ching Chen
@@ -147,10 +139,10 @@
   email: cliching@umich.edu
   github: ~
   twitter: ~
-  description: Master's student in Genetics and Genomics, working on bioinformatics
-    aspects of SV sequencing technologies
+  description: Master's student in Genetics and Genomics, working on bioinformatics aspects of SV sequencing technologies
   status: active
-  badges: project=CNV_Mechanisms
+  badges:
+  - project=CNV_Mechanisms
 - id: Amanda_Winningham
   name: Amanda Winningham
   role: Research Technician

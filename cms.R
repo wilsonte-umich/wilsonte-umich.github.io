@@ -1,11 +1,9 @@
 
 # to run the Wilson web page Content Management System (CMS)
-#   run R in a console
-#   run `setwd()` to the root directory of the website repo, containing this script cms.R
-#   run `source('cms.R')`
+#   double-click file `run_local_cms.bat` from your Windows Explorer
+#   point your web browser to `https://localhost:8000`
 
 # set directories
-# rootDir <- path.expand(dirname(parent.frame(2)$ofile))
 rootDir <- getwd()
 setwd(rootDir)
 setwd('_cms')
@@ -47,6 +45,6 @@ package.check <- lapply(
 message("")
 message("launch the following URL in a web browser:")
 message("")
-message("https://localhost:3841")
+message("https://localhost:8000")
 message("")
-runApp(launch.browser = FALSE, port = 3841)
+runApp(launch.browser = FALSE, port = 8000)

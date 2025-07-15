@@ -49,8 +49,6 @@
   badges:
   - project=CNV_Mechanisms
   - person=Tom_Glover
-  - publication=Wilson_2023
-  - publication=Wilson_2024
 - id: ES034143
   sponsor: NIH/NIEHS
   sponsor_id: ES034143-01
@@ -58,11 +56,9 @@
   grant_type: R21
   start_date: '2023-07-14'
   end_date: '2026-06-30'
-  title: Error-suppressed whole genome sequencing for genotoxicant-induced structural
-    variant detection
-  description: The goal of this exploratory technology project is to develop sequencing
-    approaches for detecting ultra-rare single-copy structural variant junctions in
-    biological samples for genotoxcity and experimental applications.
+  title: Error-suppressed whole genome sequencing for genotoxicant-induced structural variant detection
+  description: The goal of this exploratory technology project is to develop sequencing approaches for detecting ultra-rare
+    single-copy structural variant junctions in biological samples for genotoxcity and experimental applications.
   badges:
   - project=CNV_Mechanisms
   - person=Jeanmarie_Mishler
@@ -75,12 +71,9 @@
   grant_type: Internal
   start_date: '2024-06-01'
   end_date: '2025-05-30'
-  title: Diversification of cortical function in health and disease via developmentally
-    programmed deletions in large, brain-specific genes
-  description: We hypothesized for years that large brain-specific genes will harbor
-    replication-stress-induced structural variants (SVs); this project aims to definitively
-    determine the burden of such mutations using new error-suppressed whole genome
-    sequencing approaches.
+  title: Diversification of cortical function in health and disease via developmentally programmed deletions in large, brain-specific genes
+  description: We hypothesized for years that large brain-specific genes will harbor replication-stress-induced structural variants (SVs); 
+    this project aims to definitively determine the burden of such mutations using new error-suppressed whole genome sequencing approaches.
   badges:
   - project=CNV_Mechanisms
   - person=Jeanmarie_Mishler
@@ -104,7 +97,6 @@
   - publication=Glover_2020
   - publication=Park_2021
   - publication=Wilson_2015
-  - publication=Wilson_2023
 - id: ES022311
   sponsor: NIH/NIEHS
   sponsor_id: ES022311-02
