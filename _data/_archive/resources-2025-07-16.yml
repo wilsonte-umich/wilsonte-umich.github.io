@@ -28,8 +28,7 @@
   description: Long-read sequencer for which we are optimizing new protocols for high
     accuracy detection of rare structural variants (SVs) - nicknamed Penelope (get
     it?).
+  url: ~
   badges:
   - person=Jeanmarie_Mishler
   - project=CNV_Mechanisms
-  card_image: assets/images/resources/Penelope.jpg
-  url: https://nanoporetech.com/products/sequence/promethion-2

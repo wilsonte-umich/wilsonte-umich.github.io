@@ -5,6 +5,7 @@ server <- function(input, output, session) {
     # load all site data
     source('config.R', local = TRUE)
     source('dataTypes.R', local = TRUE)
+    source('contentTypes.R', local = TRUE)
     config <- reactiveVal( loadSiteConfig() )
 
     # load the content tab servers

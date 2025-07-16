@@ -98,14 +98,24 @@ output$edit_person_ui <- renderUI({
             ),
             fluidRow(
                 column(
-                    width = 12,
-                    textInput("edit_person_image", "Image", value = person$image)
+                    width = 6,
+                    textInput("edit_person_image", "Headshot Image", value = person$image)
+                ),
+                column(
+                    width = 6,
+                    textInput("edit_person_card_image", "Card Image", value = person$card_image)
                 )
             ),
             fluidRow(
                 column(
                     width = 12,
                     textInput("edit_person_description", "Description", value = person$description)
+                )
+            ),
+            fluidRow(
+                column(
+                    width = 12,
+                    markdownEditorUI("person", "people", person)
                 )
             )
         )
@@ -130,11 +140,22 @@ observeEvent(input$people_rank_lists, {
 # save person edits
 observeEvent(input$edit_person_save, {
     update_data_yaml("people", 'edit_person_id', callback = function(person){
-        for(field in c('name', 'role', 'program', 'status', 'email', 'orcid', 'github', 'twitter', 'image', 'description')){
+        for(field in c('name', 'role', 'program', 'status', 'email', 'orcid', 'github', 'twitter', 'image', 'card_image', 'description')){
             value <- trimws(input[[paste0('edit_person_', field)]])
             if(value == '') value <- NULL
             person[[field]] <- value
         }
+        write_item_markdown(
+            "people", 
+            person, 
+            list(
+                title      = person$name,
+                subtitle   = person$role,
+                card_image = person$card_image,
+                card_title = NULL
+            ), 
+            input$edit_person_markdown
+        )
         person
     })
 })

@@ -50,6 +50,10 @@ output$edit_resource_ui <- renderUI({
                 column(
                     width = 3,
                     textInput("edit_resource_type", "Type", value = resource$type)
+                ),
+                column(
+                    width = 6,
+                    textInput("edit_resource_card_image", "Card Image", value = resource$card_image)
                 )
             ),
             fluidRow(
@@ -62,6 +66,12 @@ output$edit_resource_ui <- renderUI({
                 column(
                     width = 12,
                     textInput("edit_resource_description", "Description", value = resource$description)
+                )
+            ),
+            fluidRow(
+                column(
+                    width = 12,
+                    markdownEditorUI("resource", "resources", resource)
                 )
             )
         )
@@ -83,11 +93,22 @@ observeEvent(input$resources_rank_list, {
 # save resource edits
 observeEvent(input$edit_resource_save, {
     update_data_yaml("resources", 'edit_resource_id', callback = function(resource){
-        for(field in c('title', 'type', 'url', 'description')){
+        for(field in c('title', 'type', 'card_image', 'url', 'description')){
             value <- trimws(input[[paste0('edit_resource_', field)]])
             if(value == '') value <- NULL
             resource[[field]] <- value
         }
+        write_item_markdown(
+            "resources", 
+            resource, 
+            list(
+                title      = resource$title,
+                subtitle   = NULL,
+                card_image = resource$card_image,
+                card_title = NULL
+            ), 
+            input$edit_resource_markdown
+        )
         resource
     })
 })

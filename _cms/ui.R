@@ -3,10 +3,50 @@
 #----------------------------------------------------------------------
 landingPageUI <- function(...){
     fluidRow(
-        style = "margin: 10px;",
-        tags$h3("Wilson Lab Website Content Management System (CMS)"),
+        style = "margin-left: 10px;",
+        tags$h2("Wilson Lab Website - Content Management System (CMS)"),
         tags$p("Use the tabs at the left to navigate the CMS."),
-        tags$p("Follow the instructions on each page to add, edit, or delete content.")
+        tags$p("Follow the instructions on each page to add, edit, or delete content, i.e, items of various types."),
+        tags$p("Compare the website and existing files as a further guide to understanding how content gets displayed."),
+
+        tags$h3("Badges that link items"),
+        tags$p("Essentially all items have associated 'badges' that link them to other items."),
+        tags$p("You should nearly always create badges using the 'Badges' tab, but can also manually edit YAML and markdown files."),
+
+        tags$h3("Standard markdown elements"),
+        tags$p("Projects and the Newsfeed require item markdown files.",
+               "Other data types can be optionally extended with item markdown files."),
+        tags$p("Any standard markdown elements can be used in item markdown files that will be nicely formatted on the website - here are the most common."),
+        tags$p("Use #, ##, ### to create headings at different levels."),
+        tags$p("Use - to create bullet points."),
+        tags$p("Use [Link Text](https://link.target.com) to create a link to an external web page, or simply wrap the URL as <https://link.target.com>."),
+        tags$pre("
+### Section Heading
+
+Paragraph text, with a link to [Link Text](https://link.target.com), 
+or <https://link.target.com>.
+
+Additional information:
+- Bullet point 1
+- Bullet point 2"),
+
+        tags$h3("Formatted elements to include in item markdown files"),
+        tags$p("The following shows how to create formatted elements within your markdown files using Jekyll 'include' syntax."),
+        tags$h4("Embedded Figure", style = "margin-top: 20px;"),
+        tags$p("Create an embedded figure (use width==12 for full page width). The image file must be in the assets/images folder in any subfolder."),
+        tags$pre("
+{% include figure.html
+    image=\"assets/images/xxx.jpg\"
+    title=\"Figure Title\"
+    caption=\"Figure caption text.\"
+    width=8
+%}"),
+        tags$h4("PubMed Citation Link", style = "margin-top: 20px;"),
+        tags$p("Create a PubMed citation link ('search' can be any PubMed query; one or more PMIDs is typical)."),
+        tags$pre("
+{% include citation.html search=\"32665662 30598553\" %}"),
+
+        tags$p("", style = "margin-bottom: 50px;"),
     )
 }
 #----------------------------------------------------------------------

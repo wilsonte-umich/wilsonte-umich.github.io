@@ -1,5 +1,10 @@
 # functions to support DataTypes stored in _data YAML files
 
+# title: title # shown in the top banner
+# subtitle: A bit more explanation # shown in the top banner
+# card_image: "/assets/images/restricted/portal_blur_200px.png" # optional image for the top banner
+# card_title: null # used if card_image is null; defaults to title
+
 # parse data/content file paths
 data_yaml_file <- function(type, archive = FALSE){
     if(archive) {
@@ -84,6 +89,23 @@ update_data_yaml <- function(type, data_id_name, callback = NULL){
     i <- which(sapply(cfg[[type]], function(x) x$id == data_id))
     req(length(i) == 1)
     if(!is.null(callback)) cfg[[type]][[i]] <- callback(cfg[[type]][[i]])
+    write_data_yaml(cfg, type)
+    config(cfg)
+}
+
+# update a DataType item markdown content
+update_data_markdown <- function(type, markdown){
+    markdown <- trimws(markdown)
+    req(nchar(markdown) > 0)
+
+
+    cfg <- config()
+    data_id <- input[[paste0("edit_", tolower(type), "_id")]]
+    req(cfg, data_id)
+    req(type %in% DataTypes)
+    i <- which(sapply(cfg[[type]], function(x) x$id == data_id))
+    req(length(i) == 1)
+    cfg[[type]][[i]]$markdown <- markdown
     write_data_yaml(cfg, type)
     config(cfg)
 }

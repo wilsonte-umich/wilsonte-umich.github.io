@@ -25,7 +25,8 @@ packages <- c(
     'yaml',
     'sortable',
     'shinyBS',
-    'shinyalert'
+    'shinyalert',
+    'shinyAce'
 )
 package.check <- lapply(
     packages,
