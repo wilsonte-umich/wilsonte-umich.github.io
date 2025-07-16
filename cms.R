@@ -1,6 +1,6 @@
 
 # to run the Wilson web page Content Management System (CMS)
-#   double-click file `run_local_cms.bat` from your Windows Explorer
+#   double-click file `run_cms.bat` from your Windows Explorer
 #   point your web browser to `https://localhost:8000`
 
 # set directories
@@ -22,7 +22,10 @@ packages <- c(
     'shinyTree',
     'shinyjs',
     'magick',
-    'yaml'
+    'yaml',
+    'sortable',
+    'shinyBS',
+    'shinyalert'
 )
 package.check <- lapply(
     packages,

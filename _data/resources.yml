@@ -1,3 +1,17 @@
+- id: MDI
+  title: Michigan Data Interface
+  type: software
+  description: A standardized framework for developing, installing and running HPC
+    data analysis pipelines and interactive R Shiny visualization applications.
+  url: https://midataint.github.io/docs/overview/
+  badges: project=MDI
+- id: genomex_mdi_tools
+  title: Genomics MDI Tools
+  type: software
+  description: Shared MDI tools, modules, environments, and options for pipelines
+    and apps that perform genomic data analysis
+  url: https://github.com/wilsontelab/genomex-mdi-tools
+  badges: project=MDI
 - id: svx_mdi_tools
   title: SVX MDI Tools
   type: software
@@ -8,20 +22,6 @@
   - project=CNV_Mechanisms
   - project=MDI
   - publication=Wilson_2022
-- id: genomex_mdi_tools
-  title: Genomics MDI Tools
-  type: software
-  description: Shared MDI tools, modules, environments, and options for pipelines
-    and apps that perform genomic data analysis
-  url: https://github.com/wilsontelab/genomex-mdi-tools
-  badges: project=MDI
-- id: MDI
-  title: Michigan Data Interface
-  type: software
-  description: A standardized framework for developing, installing and running HPC
-    data analysis pipelines and interactive R Shiny visualization applications.
-  url: https://midataint.github.io/docs/overview/
-  badges: project=MDI
 - id: Penelope_P2
   title: Promethion P2 Sequencer
   type: sequencer
@@ -30,5 +30,5 @@
     it?).
   url: ~
   badges:
-  - project=CNV_Mechanisms
   - person=Jeanmarie_Mishler
+  - project=CNV_Mechanisms

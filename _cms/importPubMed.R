@@ -1,3 +1,5 @@
+confirmPubmedData <- reactiveVal(NULL)
+
 # parse the incoming PubMed formatted citations and compare to existing citations
 importPubMed <- function(){
     confirmPubmedData(NULL)
@@ -164,6 +166,11 @@ observeEvent(input$clearPubmedImport, {
     req(input$clearPubmedImport)
     updateTextAreaInput(session, 'pubmedImport', value = "")
 })
+
+# observers
+observeEvent(input$pubmedImport, { importPubMed() })
+output$confirmPubmedImport <- renderUI({ confirmPubmedImport() })
+
 
 # List of 39
 #  $ PMID: chr "30955886"

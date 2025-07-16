@@ -7,7 +7,6 @@
   github: wilsonte-umich
   twitter: wilsonte_umich
   status: active
-  program: xxxx
 - id: Samreen_Ahmed
   name: Samreen Ahmed
   role: Research Technician
@@ -41,6 +40,21 @@
   badges:
   - funding=GM120767
   - project=Yeast_DSB_Repair
+- id: Alex_Hawks
+  name: Alex Hawks
+  role: Postdoctoral Fellow
+  program: ~
+  image: assets/images/people/alex-hawks.jpg
+  orcid: 0000-0003-0480-7082
+  email: allhawks@umich.edu
+  github: ~
+  twitter: ~
+  description: Working on mechanisms of structural variant formation genome wide,
+    in particulate in BRCA-deficient cells
+  status: active
+  badges:
+  - funding=GM147026
+  - project=CNV_Mechanisms
 - id: Jeanmarie_Mishler
   name: Jeanmarie Mishler
   role: Research Technician
@@ -59,21 +73,6 @@
   - funding=Research_Scouts
   - project=Yeast_DSB_Repair
   - resource=Penelope_P2
-- id: Alex_Hawks
-  name: Alex Hawks
-  role: Postdoctoral Fellow
-  program: ~
-  image: assets/images/people/alex-hawks.jpg
-  orcid: 0000-0003-0480-7082
-  email: allhawks@umich.edu
-  github: ~
-  twitter: ~
-  description: Working on mechanisms of structural variant formation genome wide,
-    in particulate in BRCA-deficient cells
-  status: active
-  badges:
-  - funding=GM147026
-  - project=CNV_Mechanisms
 - id: Joey_Stewart
   name: Joey Stewart
   role: Postdoctoral Fellow
@@ -111,9 +110,12 @@
   role: Research Investigator
   program: Department of Biological Chemistry
   image: assets/images/people/jim-daley.jpg
+  orcid: ~
   email: daleyj@umich.edu
+  github: ~
+  twitter: ~
   description: Our former PhD student back at Michigan to pursue collaborative DNA
-    repair work with biochemist Dr. Patrick O'Brien
+    repair work with Dr. Patrick O'Brien
   status: active
   badges: project=Yeast_DSB_Repair
 - id: Tom_Glover

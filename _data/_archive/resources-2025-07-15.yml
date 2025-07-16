@@ -1,0 +1,34 @@
+- id: svx_mdi_tools
+  title: SVX MDI Tools
+  type: software
+  description: MDI pipelines and apps for genome structural variant analysis by different
+    library strategies
+  url: https://github.com/wilsontelab/svx-mdi-tools
+  badges:
+  - project=CNV_Mechanisms
+  - project=MDI
+  - publication=Wilson_2022
+- id: genomex_mdi_tools
+  title: Genomics MDI Tools
+  type: software
+  description: Shared MDI tools, modules, environments, and options for pipelines
+    and apps that perform genomic data analysis
+  url: https://github.com/wilsontelab/genomex-mdi-tools
+  badges: project=MDI
+- id: MDI
+  title: Michigan Data Interface
+  type: software
+  description: A standardized framework for developing, installing and running HPC
+    data analysis pipelines and interactive R Shiny visualization applications.
+  url: https://midataint.github.io/docs/overview/
+  badges: project=MDI
+- id: Penelope_P2
+  title: Promethion P2 Sequencer
+  type: sequencer
+  description: Long-read sequencer for which we are optimizing new protocols for high
+    accuracy detection of rare structural variants (SVs) - nicknamed Penelope (get
+    it?).
+  url: ~
+  badges:
+  - project=CNV_Mechanisms
+  - person=Jeanmarie_Mishler

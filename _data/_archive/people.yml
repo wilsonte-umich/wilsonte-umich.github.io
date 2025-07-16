@@ -7,115 +7,6 @@
   github: wilsonte-umich
   twitter: wilsonte_umich
   status: active
-  program: xxxx
-- id: Samreen_Ahmed
-  name: Samreen Ahmed
-  role: Research Technician
-  program: ~
-  image: assets/images/people/person-no-pic.jpg
-  orcid: ~
-  email: samreena@umich.edu
-  github: ~
-  twitter: ~
-  description: Senior lab member, master of many trades, fills many roles as needed
-  status: active
-  badges:
-  - funding=GM147026
-  - project=CNV_Mechanisms
-  - project=Yeast_DSB_Repair
-  - publication=Park_2021
-  - publication=Wilson_2023
-  - publication=Wilson_2024
-- id: Mikael_Dunn
-  name: Mikael Dunn
-  role: Research Technician
-  program: ~
-  image: assets/images/people/mikael-dunn.jpg
-  orcid: ~
-  email: dunnmk@umich.edu
-  github: ~
-  twitter: ~
-  description: Yeast biologist and geneticist exploring roles on metabolism in DNA
-    repair
-  status: active
-  badges:
-  - funding=GM120767
-  - project=Yeast_DSB_Repair
-- id: Jeanmarie_Mishler
-  name: Jeanmarie Mishler
-  role: Research Technician
-  program: ~
-  image: assets/images/people/person-no-pic.jpg
-  orcid: ~
-  email: mishlerjeanmarie@gmail.com
-  github: ~
-  twitter: ~
-  description: Newest lab member rejoining the ranks of DNA repair scientists; handler
-    of Penelope our new Oxford Nanopore P2 sequencer
-  status: active
-  badges:
-  - funding=ES034143
-  - funding=GM120767
-  - funding=Research_Scouts
-  - project=Yeast_DSB_Repair
-  - resource=Penelope_P2
-- id: Alex_Hawks
-  name: Alex Hawks
-  role: Postdoctoral Fellow
-  program: ~
-  image: assets/images/people/alex-hawks.jpg
-  orcid: 0000-0003-0480-7082
-  email: allhawks@umich.edu
-  github: ~
-  twitter: ~
-  description: Working on mechanisms of structural variant formation genome wide,
-    in particulate in BRCA-deficient cells
-  status: active
-  badges:
-  - funding=GM147026
-  - project=CNV_Mechanisms
-- id: Joey_Stewart
-  name: Joey Stewart
-  role: Postdoctoral Fellow
-  program: ~
-  image: assets/images/people/person-no-pic.jpg
-  orcid: ~
-  email: sjosep@umich.edu
-  github: ~
-  twitter: ~
-  description: Working toward an LGG Fellowship by learning human genomics, sequencing
-    technologies, and bioinformatics
-  status: active
-  badges:
-  - funding=ES034143
-  - funding=GM120767
-  - funding=GM147026
-  - funding=Research_Scouts
-  - project=CNV_Mechanisms
-  - project=Yeast_DSB_Repair
-- id: Li-Ching_Chen
-  name: Li-Ching Chen
-  role: Master's Student
-  program: Genetics and Genomics
-  image: assets/images/people/person-no-pic.jpg
-  orcid: ~
-  email: cliching@umich.edu
-  github: ~
-  twitter: ~
-  description: Master's student in Genetics and Genomics, working on bioinformatics
-    aspects of SV sequencing technologies
-  status: active
-  badges: project=CNV_Mechanisms
-- id: Jim_Daley
-  name: Jim Daley
-  role: Research Investigator
-  program: Department of Biological Chemistry
-  image: assets/images/people/jim-daley.jpg
-  email: daleyj@umich.edu
-  description: Our former PhD student back at Michigan to pursue collaborative DNA
-    repair work with biochemist Dr. Patrick O'Brien
-  status: active
-  badges: project=Yeast_DSB_Repair
 - id: Tom_Glover
   name: Tom Glover
   role: Professor
@@ -129,10 +20,10 @@
     our CNV projects
   status: collaborator
   badges:
-  - funding=CA200731
   - project=CNV_Mechanisms
   - publication=Wilson_2023
   - publication=Wilson_2024
+  - funding=CA200731
 - id: Mats_Ljungman
   name: Mats Ljungman
   role: Professor
@@ -149,6 +40,117 @@
   - project=Bru_seq
   - project=KLIPP_Tx
   - publication=Bedi_2024
+- id: Samreen_Ahmed
+  name: Samreen Ahmed
+  role: Research Technician
+  program: ~
+  image: assets/images/people/person-no-pic.jpg
+  orcid: ~
+  email: samreena@umich.edu
+  github: ~
+  twitter: ~
+  description: Senior lab member, master of many trades, fills many roles as needed
+  status: active
+  badges:
+  - project=CNV_Mechanisms
+  - project=Yeast_DSB_Repair
+  - publication=Park_2021
+  - publication=Wilson_2023
+  - publication=Wilson_2024
+  - funding=GM147026
+- id: Jim_Daley
+  name: Jim Daley
+  role: Research Investigator
+  program: Department of Biological Chemistry
+  image: assets/images/people/jim-daley.jpg
+  orcid: ~
+  email: daleyj@umich.edu
+  github: ~
+  twitter: ~
+  description: Our former PhD student back at Michigan to pursue collaborative DNA
+    repair work with Dr. Patrick O'Brien
+  status: active
+  badges: project=Yeast_DSB_Repair
+- id: Mikael_Dunn
+  name: Mikael Dunn
+  role: Research Technician
+  program: ~
+  image: assets/images/people/mikael-dunn.jpg
+  orcid: ~
+  email: dunnmk@umich.edu
+  github: ~
+  twitter: ~
+  description: Yeast biologist and geneticist exploring roles on metabolism in DNA
+    repair
+  status: active
+  badges:
+  - project=Yeast_DSB_Repair
+  - funding=GM120767
+- id: Alex_Hawks
+  name: Alex Hawks
+  role: Postdoctoral Fellow
+  program: ~
+  image: assets/images/people/alex-hawks.jpg
+  orcid: 0000-0003-0480-7082
+  email: allhawks@umich.edu
+  github: ~
+  twitter: ~
+  description: Working on mechanisms of structural variant formation genome wide,
+    in particulate in BRCA-deficient cells
+  status: active
+  badges:
+  - project=CNV_Mechanisms
+  - funding=GM147026
+- id: Jeanmarie_Mishler
+  name: Jeanmarie Mishler
+  role: Research Technician
+  program: ~
+  image: assets/images/people/person-no-pic.jpg
+  orcid: ~
+  email: mishlerjeanmarie@gmail.com
+  github: ~
+  twitter: ~
+  description: Newest lab member rejoining the ranks of DNA repair scientists; handler
+    of Penelope our new Oxford Nanopore P2 sequencer
+  status: active
+  badges:
+  - project=Yeast_DSB_Repair
+  - resource=Penelope_P2
+  - funding=ES034143
+  - funding=GM120767
+  - funding=Research_Scouts
+- id: Joey_Stewart
+  name: Joey Stewart
+  role: Postdoctoral Fellow
+  program: ~
+  image: assets/images/people/person-no-pic.jpg
+  orcid: ~
+  email: sjosep@umich.edu
+  github: ~
+  twitter: ~
+  description: Working toward an LGG Fellowship by learning human genomics, sequencing
+    technologies, and bioinformatics
+  status: active
+  badges:
+  - project=CNV_Mechanisms
+  - project=Yeast_DSB_Repair
+  - funding=ES034143
+  - funding=GM120767
+  - funding=GM147026
+  - funding=Research_Scouts
+- id: Li-Ching_Chen
+  name: Li-Ching Chen
+  role: Master's Student
+  program: Genetics and Genomics
+  image: assets/images/people/person-no-pic.jpg
+  orcid: ~
+  email: cliching@umich.edu
+  github: ~
+  twitter: ~
+  description: Master's student in Genetics and Genomics, working on bioinformatics
+    aspects of SV sequencing technologies
+  status: active
+  badges: project=CNV_Mechanisms
 - id: Amanda_Winningham
   name: Amanda Winningham
   role: Research Technician

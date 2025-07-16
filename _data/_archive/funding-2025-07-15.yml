@@ -1,3 +1,40 @@
+- id: Biosciences_Initiatives
+  sponsor: UM Biosciences_Initiatives
+  sponsor_id: SCSAP
+  sponsor_link: https://biosciences.umich.edu/
+  grant_type: Institutional
+  start_date: '2020-02-01'
+  end_date: '2026-01-31'
+  title: Single Cell Spatial Analysis Program
+  description: UM investment to grow high resolution genomic and imaging approaches
+    in cells and tissues through faculty recruitment, core facility development, and
+    community engagement.
+  badges: project=SCSAP
+- id: GM120767
+  sponsor: NIH/NIGMS
+  sponsor_id: GM120767-15
+  sponsor_link: https://reporter.nih.gov/search/ZBDA5h93H0qMxITs5aN_uw/projects?shared=true
+  grant_type: R01
+  start_date: '2004-08-01'
+  end_date: '2026-08-31'
+  title: Early events in double-strand break repair in local, genomic and metabolic
+    contexts
+  description: Basic science studies of DNA double-strand break repair executed mainly
+    via genetic approaches in the yeast model organism.
+  badges:
+  - project=Mutation_ID
+  - project=Yeast_DSB_Repair
+  - person=Mikael_Dunn
+  - publication=Bazzano_2021
+  - publication=Chiruvella_2013
+  - publication=Chiruvella_2013b
+  - publication=Chiruvella_2014
+  - publication=Liang_2016
+  - publication=Lomonaco_2021
+  - publication=Moorthy_2019
+  - publication=Song_2014
+  - publication=Sunder_2019
+  - publication=Wilson_2020
 - id: GM147026
   sponsor: NIH/NIGMS
   sponsor_id: GM147026-01
@@ -10,8 +47,8 @@
   description: Seeks to understand the molecular mechanisms of copy number variant
     (CNV) formation at common fragile sites (CFSs) - in follow up to NCI grant CA200731.
   badges:
-  - person=Tom_Glover
   - project=CNV_Mechanisms
+  - person=Tom_Glover
   - publication=Wilson_2023
   - publication=Wilson_2024
 - id: ES034143
@@ -27,35 +64,10 @@
     approaches for detecting ultra-rare single-copy structural variant junctions in
     biological samples for genotoxcity and experimental applications.
   badges:
+  - project=CNV_Mechanisms
   - person=Jeanmarie_Mishler
   - person=Joey_Stewart
-  - project=CNV_Mechanisms
   - resource=Penelope_P2
-- id: GM120767
-  sponsor: NIH/NIGMS
-  sponsor_id: GM120767-15
-  sponsor_link: https://reporter.nih.gov/search/ZBDA5h93H0qMxITs5aN_uw/projects?shared=true
-  grant_type: R01
-  start_date: '2004-08-01'
-  end_date: '2026-08-31'
-  title: Early events in double-strand break repair in local, genomic and metabolic
-    contexts
-  description: Basic science studies of DNA double-strand break repair executed mainly
-    via genetic approaches in the yeast model organism.
-  badges:
-  - person=Mikael_Dunn
-  - project=Mutation_ID
-  - project=Yeast_DSB_Repair
-  - publication=Bazzano_2021
-  - publication=Chiruvella_2013
-  - publication=Chiruvella_2013b
-  - publication=Chiruvella_2014
-  - publication=Liang_2016
-  - publication=Lomonaco_2021
-  - publication=Moorthy_2019
-  - publication=Song_2014
-  - publication=Sunder_2019
-  - publication=Wilson_2020
 - id: Research_Scouts
   sponsor: UM/Research_Scouts
   sponsor_id: ~
@@ -70,22 +82,10 @@
     determine the burden of such mutations using new error-suppressed whole genome
     sequencing approaches.
   badges:
+  - project=CNV_Mechanisms
   - person=Jeanmarie_Mishler
   - person=Joey_Stewart
-  - project=CNV_Mechanisms
   - resource=Penelope_P2
-- id: Biosciences_Initiatives
-  sponsor: UM Biosciences_Initiatives
-  sponsor_id: SCSAP
-  sponsor_link: https://biosciences.umich.edu/
-  grant_type: Institutional
-  start_date: '2020-02-01'
-  end_date: '2026-01-31'
-  title: Single Cell Spatial Analysis Program
-  description: UM investment to grow high resolution genomic and imaging approaches
-    in cells and tissues through faculty recruitment, core facility development, and
-    community engagement.
-  badges: project=SCSAP
 - id: CA200731
   sponsor: NIH/NCI
   sponsor_id: CA200731-05
@@ -98,8 +98,8 @@
   description: Seeks to understand the molecular mechanisms of copy number variant
     (CNV) formation at common fragile sites (CFSs).
   badges:
-  - person=Tom_Glover
   - project=CNV_Mechanisms
+  - person=Tom_Glover
   - publication=Glover_2017
   - publication=Glover_2020
   - publication=Park_2021
