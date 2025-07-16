@@ -1,16 +1,15 @@
 ---
 title: KLIPP Therapeutics
 subtitle: CRISPR Cancer Therapeutics
-description: Using CRISPR targeted to SV junctions to kill cancer cells with high
-  specificity, in collaboration with Dr. Mats Ljungman
-card_image: ~
-order: 20
-active: yes
-card_title: KLIPP Tx
-categories:
-- Genomic Technologies
-- Bioinformatics
-- Therapeutics
+description: Using CRISPR targeted to SV junctions to kill cancer cells with high specificity, in collaboration with Dr. Mats Ljungman
+order: 35
+active: true
+card_image: null
+card_title: KLIPP Tx # used if card_image is null; defaults to title
+categories: 
+    - Genomic Technologies
+    - Bioinformatics
+    - Therapeutics
 ---
 
 #### Overview
@@ -30,4 +29,3 @@ We all hope that the initial proof of principle studies Mats has reported will e
 <https://pubmed.ncbi.nlm.nih.gov/37214957/>
 
 <https://www.youtube.com/watch?v=-x82DDlChA4>
-

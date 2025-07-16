@@ -1,5 +1,5 @@
 # get events
-get_event_items <- function(){
+event_items <- reactive({
     cfg <- config()
     req(cfg$events)
     I <- 1:length(cfg$events)
@@ -16,13 +16,13 @@ get_event_items <- function(){
     })
     names(labels) <- sapply(I, function(i) cfg$events[[i]]$id)
     labels
-}
+})
 
 # sortable lists that support moving people between statuses
 output$events_rank_list_ui <- renderUI({
     rank_list(
         text = NULL, 
-        labels = get_event_items(),
+        labels = event_items(),
         input_id = "events_rank_list"
     )
 })
@@ -62,14 +62,24 @@ output$edit_event_ui <- renderUI({
             ),
             fluidRow(
                 column(
-                    width = 12,
+                    width = 6,
                     textInput("edit_event_url", "URL", value = event$url)
+                ),
+                column(
+                    width = 6,
+                    textInput("edit_event_card_image", "Card Image", value = event$card_image)
                 )
             ),
             fluidRow(
                 column(
                     width = 12,
                     textInput("edit_event_description", "Description", value = event$description)
+                )
+            ),
+            fluidRow(
+                column(
+                    width = 12,
+                    markdownEditorUI("event", "events", event)
                 )
             )
         )
@@ -91,11 +101,22 @@ observeEvent(input$events_rank_list, {
 # save event edits
 observeEvent(input$edit_event_save, {
     update_data_yaml("events", 'edit_event_id', callback = function(event){
-        for(field in c('title', 'type', 'date', 'location', 'url', 'description')){
+        for(field in c('title', 'type', 'date', 'location', 'url', 'card_image', 'description')){
             value <- trimws(input[[paste0('edit_event_', field)]])
             if(value == '') value <- NULL
             event[[field]] <- value
         }
+        write_item_markdown(
+            "events", 
+            event, 
+            list(
+                title      = event$title,
+                subtitle   = event$date,
+                card_image = event$card_image,
+                card_title = NULL
+            ), 
+            input$edit_event_markdown
+        )
         event
     })
 })

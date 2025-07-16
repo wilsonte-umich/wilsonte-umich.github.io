@@ -1,16 +1,15 @@
 ---
 title: Bru-seq
 subtitle: Nascent RNA sequencing
-description: Nascent RNA sequencing based on bromouridine labeling reveals cellular
-  transcription dynamics, in collaboration with Dr. Mats Ljungman
-card_image: assets/images/projects/bruseq/cluster.jpg
+description: Nascent RNA sequencing based on bromouridine labeling reveals cellular transcription dynamics, in collaboration with Dr. Mats Ljungman
 order: 30
-active: yes
-card_title: ~
-categories:
-- Transcription
-- Genomic Technologies
-- Bioinformatics
+active: true
+card_image: assets/images/projects/bruseq/cluster.jpg 
+card_title: null # used if card_image is null; defaults to title
+categories: 
+    - Transcription
+    - Genomic Technologies
+    - Bioinformatics
 ---
 
 #### Overview
@@ -22,4 +21,3 @@ Dr. Wilson has worked for more than a decade with Bru-seq inventor and project l
 #### Learn more about Bru-Seq
 
 <https://rna.umich.edu/research/cores/bru-seq-lab/>
-

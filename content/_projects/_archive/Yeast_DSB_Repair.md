@@ -1,16 +1,15 @@
 ---
 title: Yeast DSB Repair
 subtitle: End joining and recombination in <i>S. cerevisiae</i>
-description: Genetic studies of nonhomologous end joining (NHEJ) and homologous recombination
-  (HR) in <i>S. cerevisiae</i>
-card_image: assets/images/projects/yeast_dsb/heatmap.jpg
-order: 40
-active: yes
-card_title: ~
-categories:
-- Project Leader
-- DNA Repair
-- Yeast
+description: Genetic studies of nonhomologous end joining (NHEJ) and homologous recombination (HR) in <i>S. cerevisiae</i>
+order: 10
+active: true
+card_image: assets/images/projects/yeast_dsb/heatmap.jpg 
+card_title: null # used if card_image is null; defaults to title
+categories: 
+    - Project Leader
+    - DNA Repair
+    - Yeast
 ---
 
 #### Overview
@@ -34,4 +33,3 @@ Current focus areas in the yeast lab include:
 - understanding how spatial factors in the nucleus influence chromosomal rearrangement by NHEJ
 - continuing work to understand the biochemical events that coordinate NHEJ vs. HR execution in living cells
 - probing the influence of cellular metabolism on DSB repair decisions
-

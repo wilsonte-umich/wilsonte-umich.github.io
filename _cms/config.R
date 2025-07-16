@@ -61,7 +61,13 @@ loadSiteConfig <- function(){
                 x <- strsplit(x, "---\n")[[1]]
                 cfg[[type]][[id]] <- read_yaml(text = paste0("---\n", x[2]))
                 cfg[[type]][[id]]$id <- id
+                cfg[[type]][[id]]$content <- x[3]
             }
+        }
+        cfg[[type]] <- if(type == "newsfeed"){
+            cfg[[type]][order(sapply(cfg[[type]], function(x) x$date), decreasing = TRUE)]
+        } else if(type == "projects"){
+            cfg[[type]][order(sapply(cfg[[type]], function(x) x$order))]
         }
     }
 
@@ -122,5 +128,60 @@ item_edit_ui <- function(type, edit_prefix, callback){
                 bsButton(edit_input_name(edit_prefix, "delete"), "Delete Item", style = "danger", width = "100%")
             )
         )
+    )
+}
+
+# confirm new item addition of either item type
+add_item_alert <- function(singular, placeholder, callback){
+    shinyalert(
+        title = paste("Add New", singular),
+        type = "input",
+        showCancelButton = TRUE,
+        inputType = "text",
+        inputValue = "",
+        inputPlaceholder = placeholder,
+        confirmButtonText = paste("Add", singular),
+        confirmButtonCol = "#4CA63C",
+        callbackR = function(entry){
+            req(!is.logical(entry))
+            entry <- trimws(entry)
+            req(entry)
+            id <- gsub("  ", " ", entry)
+            id <- gsub(" ", "_", id)
+            callback(id, entry)
+        },
+        size = "s"
+    )
+}
+
+# delete a data item of either item type
+show_delete_alert <- function(type, data_id_name, archive = FALSE){
+    cfg <- config()
+    data_id <- input[[data_id_name]]
+    req(cfg, data_id)
+    shinyalert(
+        title = "Delete Item?",
+        text = paste(
+            "Are you sure you want to delete", data_id, 
+            "? This action cannot be undone (you MAY be able to recover it from archived YAML files)."
+        ),
+        type = "warning",
+        showCancelButton = TRUE,
+        confirmButtonCol = "#4CA63C",
+        callbackR = function(confirmed){
+            req(confirmed)
+            if(type %in% DataTypes) {
+                i <- which(sapply(cfg[[type]], function(x) x$id == data_id))
+                req(length(i) == 1)
+                cfg[[type]] <- cfg[[type]][-i]
+                write_data_yaml(cfg, type)
+            } else {
+                file <- data_markdown_file(type, cfg[[type]][[data_id]], archive = archive)
+                unlink(file, force = TRUE)
+                cfg[[type]][[data_id]] <- NULL
+            }
+            config(cfg)
+            shinyjs::runjs(paste0("Shiny.onInputChange('", data_id_name, "', 'CLEAR_ITEM')"))
+        }
     )
 }

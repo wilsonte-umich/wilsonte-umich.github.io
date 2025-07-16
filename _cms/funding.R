@@ -1,5 +1,5 @@
 # get funding
-get_funding_items <- function(){
+funding_items <- reactive({
     cfg <- config()
     req(cfg$funding)
     I <- 1:length(cfg$funding)
@@ -16,13 +16,13 @@ get_funding_items <- function(){
     })
     names(labels) <- sapply(I, function(i) cfg$funding[[i]]$id)
     labels
-}
+})
 
 # sortable lists that support moving people between statuses
 output$funding_rank_list_ui <- renderUI({
     rank_list(
         text = NULL, 
-        labels = get_funding_items(),
+        labels = funding_items(),
         input_id = "funding_rank_list"
     )
 })
@@ -64,6 +64,10 @@ output$edit_funding_ui <- renderUI({
                 column(
                     width = 3,
                     dateInput("edit_funding_end_date", "End Date", value = funding$end_date)
+                ),
+                column(
+                    width = 6,
+                    textInput("edit_funding_card_image", "Card Image", value = funding$card_image)
                 )
             ),
             fluidRow(
@@ -82,6 +86,12 @@ output$edit_funding_ui <- renderUI({
                 column(
                     width = 12,
                     textAreaInput("edit_funding_description", "Description", value = funding$description)
+                )
+            ),
+            fluidRow(
+                column(
+                    width = 12,
+                    markdownEditorUI("funding", "funding", funding)
                 )
             )
         )
@@ -103,11 +113,22 @@ observeEvent(input$funding_rank_list, {
 # save funding edits
 observeEvent(input$edit_funding_save, {
     update_data_yaml("funding", 'edit_funding_id', callback = function(funding){
-        for(field in c('sponsor', 'sponsor_id', 'grant_type', 'start_date', 'end_date', 'sponsor_link', 'title', 'description')){
+        for(field in c('sponsor', 'sponsor_id', 'grant_type', 'start_date', 'end_date', 'card_image', 'sponsor_link', 'title', 'description')){
             value <- trimws(input[[paste0('edit_funding_', field)]])
             if(value == '') value <- NULL
             funding[[field]] <- value
         }
+        write_item_markdown(
+            "funding", 
+            funding, 
+            list(
+                title      = funding$title,
+                subtitle   = paste(funding$start_date, "to", funding$end_date),
+                card_image = funding$card_image,
+                card_title = NULL
+            ), 
+            input$edit_funding_markdown
+        )
         funding
     })
 })

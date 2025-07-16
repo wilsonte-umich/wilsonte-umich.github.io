@@ -1,16 +1,15 @@
 ---
 title: Single Cell Spatial Analysis Program
-subtitle: ~
-description: Biosciences Initiative to build technologies and expertise in high resolution
-  tissue biology
-card_image: assets/images/projects/scsap/scsap_banner.jpg
-order: 70
-active: yes
-card_title: SCSAP
-categories:
-- Leadership Role
-- Genomic Technologies
-- Bioinformatics
+subtitle: null
+description: Biosciences Initiative to build technologies and expertise in high resolution tissue biology
+order: 35
+active: true
+card_image: assets/images/projects/scsap/scsap_banner.jpg 
+card_title: SCSAP # used if card_image is null; defaults to title
+categories: 
+    - Leadership Role
+    - Genomic Technologies
+    - Bioinformatics
 ---
 
 #### Overview
@@ -35,4 +34,3 @@ Please use the following links to learn more about how we are supporting single-
 <https://biosciences.umich.edu/>
 
 <https://singlecellspatialanalysis.umich.edu/>
-

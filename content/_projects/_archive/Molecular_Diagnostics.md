@@ -1,15 +1,14 @@
 ---
 title: Molecular Diagnostics
-subtitle: ~
-description: Clinical activity in the diagnosis of human cancer through RNA and DNA-based
-  analytics
-card_image: assets/images/projects/MDL/HER2.jpg
-order: 80
-active: yes
-card_title: ~
-categories:
-- Clinical Pathology
-- Associate Director
+subtitle: null
+description: Clinical activity in the diagnosis of human cancer through RNA and DNA-based analytics
+order: 100
+active: true
+card_image: assets/images/projects/MDL/HER2.jpg 
+card_title: null # used if card_image is null; defaults to title
+categories: 
+    - Clinical Pathology
+    - Associate Director
 ---
 
 #### Overview
@@ -21,4 +20,3 @@ Dr. Wilson is Associate Director of the Molecular Diagnostics Laboratory at Mich
 #### Learn more
 
 <https://www.pathology.med.umich.edu/molecular-diagnostics>
-

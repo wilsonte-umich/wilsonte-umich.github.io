@@ -1,10 +1,5 @@
 # functions to support DataTypes stored in _data YAML files
 
-# title: title # shown in the top banner
-# subtitle: A bit more explanation # shown in the top banner
-# card_image: "/assets/images/restricted/portal_blur_200px.png" # optional image for the top banner
-# card_title: null # used if card_image is null; defaults to title
-
 # parse data/content file paths
 data_yaml_file <- function(type, archive = FALSE){
     if(archive) {
@@ -39,27 +34,6 @@ reorder_data_yaml <- function(type, callback){
 }
 
 # add a new item to a DataType yaml file
-add_item_alert <- function(singular, placeholder, callback){
-    shinyalert(
-        title = paste("Add New", singular),
-        type = "input",
-        showCancelButton = TRUE,
-        inputType = "text",
-        inputValue = "",
-        inputPlaceholder = placeholder,
-        confirmButtonText = paste("Add", singular),
-        confirmButtonCol = "#4CA63C",
-        callbackR = function(entry){
-            req(!is.logical(entry))
-            entry <- trimws(entry)
-            req(entry)
-            id <- gsub("  ", " ", entry)
-            id <- gsub(" ", "_", id)
-            callback(id, entry)
-        },
-        size = "s"
-    )
-}
 add_data_yaml_item <- function(type, item){
     cfg <- config()
     req(cfg)
@@ -108,28 +82,4 @@ update_data_markdown <- function(type, markdown){
     cfg[[type]][[i]]$markdown <- markdown
     write_data_yaml(cfg, type)
     config(cfg)
-}
-
-# delete a data yaml item
-show_delete_alert <- function(type, data_id_name){
-    cfg <- config()
-    data_id <- input[[data_id_name]]
-    req(cfg, data_id)
-    req(type %in% DataTypes)
-    shinyalert(
-        title = "Delete Item?",
-        text = paste("Are you sure you want to delete", data_id, "? This action cannot be undone."),
-        type = "warning",
-        showCancelButton = TRUE,
-        confirmButtonCol = "#4CA63C",
-        callbackR = function(confirmed){
-            req(confirmed)
-            i <- which(sapply(cfg[[type]], function(x) x$id == data_id))
-            req(length(i) == 1)
-            cfg[[type]] <- cfg[[type]][-i]
-            write_data_yaml(cfg, type)
-            config(cfg)
-            shinyjs::runjs(paste0("Shiny.onInputChange('", data_id_name, "', 'CLEAR_ITEM')"))
-        }
-    )
 }

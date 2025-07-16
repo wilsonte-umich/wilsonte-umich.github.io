@@ -66,8 +66,59 @@ markdownEditorUI <- function(singular, plural, item) {
             theme       = "chrome",
             height      = "500px",
             value       = read_item_markdown(plural, item)$content,
-            placeholder = placeholder
+            placeholder = placeholder,
+            wordWrap    = TRUE,
+            fontSize    = 14
         )
     )
 }
 
+# rewrite all content files whose frontmatter order or active state has changed
+reorder_content_files <- function(type, frontmatter_fields, callback){
+    cfg <- config()
+    req(cfg)
+    req(type %in% ContentTypes)
+    ids_in <- names(cfg[[type]])
+    req(ids_in)
+    items <- callback(cfg)
+    if(!identical(ids_in, sapply(items, function(x) x$id))){
+        new <- list()
+        for(item in items){
+            id <- item$id
+            if(cfg[[type]][[id]]$active != item$active || 
+               cfg[[type]][[id]]$order  != item$order){
+                write_item_markdown(type, item, item[frontmatter_fields], item$content)
+            }
+            new[[id]] <- item
+        }
+        cfg[[type]] <- new
+        config(cfg)
+    }
+}
+
+# update a Content item
+update_content_markdown <- function(type, data_id_name, frontmatter_fields, callback = NULL){
+    cfg <- config()
+    data_id <- input[[data_id_name]]
+    req(cfg, data_id)
+    req(type %in% ContentTypes)
+    i <- which(names(cfg[[type]]) == data_id)
+    req(length(i) == 1)
+    if(!is.null(callback)) cfg[[type]][[data_id]] <- callback(cfg[[type]][[data_id]])
+    item <- cfg[[type]][[data_id]]
+    frontmatter <- setNames(lapply(frontmatter_fields, function(field) item[[field]]), frontmatter_fields)
+    write_item_markdown(type, item, frontmatter, item$content)
+    config(cfg)
+    item
+}
+
+# move a Content item to the archive
+move_content_to_archive <- function(type, item){
+    file         <- data_markdown_file(type, item)
+    archive_file <- data_markdown_file(type, item, archive = TRUE)
+    unlink(archive_file, force = TRUE) # remove any existing archive file
+    file.rename(file, archive_file)
+    cfg <- config()
+    cfg[[type]][[item$id]] <- NULL # remove from active list
+    config(cfg)
+}

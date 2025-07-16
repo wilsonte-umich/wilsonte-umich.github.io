@@ -1,5 +1,5 @@
 # get resources
-get_resource_items <- function(){
+resource_items <- reactive({
     cfg <- config()
     req(cfg$resources)
     I <- 1:length(cfg$resources)
@@ -16,13 +16,13 @@ get_resource_items <- function(){
     })
     names(labels) <- sapply(I, function(i) cfg$resources[[i]]$id)
     labels
-}
+})
 
 # sortable lists that support moving people between statuses
 output$resources_rank_list_ui <- renderUI({
     rank_list(
         text = NULL, 
-        labels = get_resource_items(),
+        labels = resource_items(),
         input_id = "resources_rank_list"
     )
 })

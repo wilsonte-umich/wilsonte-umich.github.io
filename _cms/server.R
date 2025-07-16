@@ -13,6 +13,8 @@ server <- function(input, output, session) {
     source('funding.R',   local = TRUE)
     source('people.R',    local = TRUE)
     source('resources.R', local = TRUE)
+    source('projects.R',  local = TRUE)
+    source('newsfeed.R',  local = TRUE)
 
     # load the special tab functions for handling badge link, image processing and PubMed import
     source('badges.R',       local = TRUE)

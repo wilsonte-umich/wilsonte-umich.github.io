@@ -1,18 +1,17 @@
 ---
 title: Mammalian CNV Formation
 subtitle: Mechanisms of genomic copy number and structural variant formation
-description: Mechanistic studies of genomic copy number and structural variant formation,
-  in collaboration with Dr. Tom Glover
-card_image: assets/images/projects/cnv/10xscCNV.jpg
-order: 10
-active: yes
-card_title: ~
-categories:
-- Project Leader
-- Copy Number Variant
-- Replication
-- Transcription
-- DNA Repair
+description: Mechanistic studies of genomic copy number and structural variant formation, in collaboration with Dr. Tom Glover
+order: 20
+active: true
+card_image: assets/images/projects/cnv/10xscCNV.jpg 
+card_title: null # used if card_image is null; defaults to title
+categories: 
+    - Project Leader
+    - Copy Number Variant
+    - Replication
+    - Transcription
+    - DNA Repair
 ---
 
 #### Overview
@@ -42,4 +41,3 @@ Future goals are to:
 - better understand the precise mechanisms by which _de novo_ CNV/SV junctions form at CFS loci
 - establish the biological significance of mutations formed at CFS genes _in vivo_
 - extend the concepts learned at CFS loci to the rest of the genome through continued advances in associated genomic technologies
-

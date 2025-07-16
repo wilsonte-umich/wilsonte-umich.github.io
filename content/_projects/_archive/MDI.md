@@ -2,14 +2,14 @@
 title: Michigan Data Interface (MDI)
 subtitle: A platform for developing and sharing data analysis tools
 description: A platform for developing and sharing data analysis tools
+order: 40
+active: true
 card_image: assets/images/projects/mdi/mdi-logo_256x256px.png
-order: 50
-active: yes
-card_title: ~
-categories:
-- Project Leader
-- R Shiny
-- Bioinformatics
+card_title: null # used if card_image is null; defaults to title
+categories: 
+    - Project Leader
+    - R Shiny
+    - Bioinformatics
 ---
 
 #### Overview
@@ -27,4 +27,3 @@ The following link provides extensive documentation of the MDI and its goals:
 This is the associated GitHub organization that houses our code and documentation repositories:
 
 <https://github.com/MiDataInt>
-

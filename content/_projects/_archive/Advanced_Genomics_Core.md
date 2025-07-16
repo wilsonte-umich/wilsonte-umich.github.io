@@ -1,15 +1,14 @@
 ---
 title: Advanced Genomics Core
 subtitle: Enabling access to genomic technologies
-description: Promoting the availability and use of leading-edge genomic technologies
-  at the University of Michigan
-card_image: assets/images/projects/AGC/sweatshirt.jpg
-order: 60
-active: yes
-card_title: AGC
-categories:
-- Genomic Technologies
-- Faculty Director
+description: Promoting the availability and use of leading-edge genomic technologies at the University of Michigan
+order: 50
+active: true
+card_image: assets/images/projects/AGC/sweatshirt.jpg  
+card_title: AGC # used if card_image is null; defaults to title
+categories: 
+    - Genomic Technologies
+    - Faculty Director
 ---
 
 #### Overview
@@ -21,4 +20,3 @@ Dr. Wilson is the Faculty Director of the AGC. He provides oversight to create a
 #### Learn more about the AGC
 
 <https://brcf.medicine.umich.edu/cores/advanced-genomics/>
-
