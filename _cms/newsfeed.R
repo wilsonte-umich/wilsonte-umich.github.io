@@ -51,7 +51,7 @@ observeEvent(input$add_new_newsfeed, {
                 description = NULL,
                 event_type  = 'person',
                 banner_image_source = 'project=MDI',
-                badges      = character(),
+                badges      = NULL,
                 content     = content
             )
             write_item_markdown("newsfeed", cfg$newsfeed[[id]], cfg$newsfeed[[id]][newsfeed_frontmatter_fields], content)

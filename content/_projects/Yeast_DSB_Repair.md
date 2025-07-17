@@ -32,6 +32,5 @@ We put our work on yeast DSB repair into the broader context of Dr. Wilson's eff
 Current focus areas in the yeast lab include:
 
 - understanding how spatial factors in the nucleus influence chromosomal rearrangement by NHEJ
-- continuing work to understand the biochemical events that coordinate NHEJ vs. HR execution in living cells
-- probing the influence of cellular metabolism on DSB repair decisions
+- continuing work to understand the precise biochemical events that coordinate NHEJ vs. HR execution in living cells
 

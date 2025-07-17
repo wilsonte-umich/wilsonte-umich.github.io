@@ -15,7 +15,9 @@ write_data_yaml <- function(cfg, type){# cfg assumed to hold the updated data
     main_file    <- data_yaml_file(type, archive = FALSE)
     archive_file <- data_yaml_file(type, archive = TRUE)
     file.copy(main_file, archive_file, overwrite = FALSE)
-    write_yaml(cfg[[type]], main_file)
+    out <- cfg[[type]]
+    names(out) <- NULL # ensures that data.yml files are lists of hashes; badge handling might have added names
+    write_yaml(out, main_file)
 }
 
 # reorder the entries in a DataType yaml file and save it

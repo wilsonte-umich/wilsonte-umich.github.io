@@ -20,6 +20,7 @@ resource_items <- reactive({
 
 # sortable lists that support moving people between statuses
 output$resources_rank_list_ui <- renderUI({
+    message("rendering resources rank list")
     rank_list(
         text = NULL, 
         labels = resource_items(),
@@ -80,6 +81,7 @@ output$edit_resource_ui <- renderUI({
 
 # resource reordering
 observeEvent(input$resources_rank_list, {
+    message("reordering resources rank list")
     reorder_data_yaml("resources", callback = function(cfg){
         resources <- list()
         for(id in input$resources_rank_list){

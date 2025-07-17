@@ -9,6 +9,7 @@ server <- function(input, output, session) {
     # config <- reactiveVal( loadSiteConfig() )
 
     # load the content tab servers
+    source('site.R',      local = TRUE)
     source('events.R',    local = TRUE)
     source('funding.R',   local = TRUE)
     source('people.R',    local = TRUE)

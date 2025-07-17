@@ -4,7 +4,7 @@ subtitle: ~
 description: Biosciences Initiative to build technologies and expertise in high resolution
   tissue biology
 card_image: assets/images/projects/scsap/scsap_banner.jpg
-order: 70
+order: 80
 active: yes
 card_title: SCSAP
 categories:
@@ -15,7 +15,7 @@ categories:
 
 #### Overview
 
-The Single Cell Spatial Analysis Program (SCSAP) seeks to develop the University of Michigan into a recognized leader in applying high-resolution spatially-resolved multi‑omic analysis within individual cells and in cells within tissues to drive next-generation solutions in biology and human health. We will achieve this goal by:
+The Single Cell Spatial Analysis Program (SCSAP) works to develop the University of Michigan into a recognized leader in applying high-resolution spatially-resolved multi‑omic analysis within individual cells and in cells within tissues to drive next-generation solutions in biology and human health. We achieve this goal by:
 
 - recruiting faculty experts to Michigan across the spatial analysis domains of technology development, data analysis and biological application
 - empowering Michigan researchers to use leading edge spatial technologies by supporting wet and dry lab core services

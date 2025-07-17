@@ -87,7 +87,8 @@ reorder_content_files <- function(type, frontmatter_fields, callback){
             id <- item$id
             if(cfg[[type]][[id]]$active != item$active || 
                cfg[[type]][[id]]$order  != item$order){
-                write_item_markdown(type, item, item[frontmatter_fields], item$content)
+                frontmatter <- setNames(lapply(frontmatter_fields, function(field) item[[field]]), frontmatter_fields)
+                write_item_markdown(type, item, frontmatter, item$content)
             }
             new[[id]] <- item
         }

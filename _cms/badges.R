@@ -23,17 +23,18 @@ observeEvent(input$removeLinkButton, { changeItemBadges(TRUE) })
 observeEvent(input$addLinkButton,    { changeItemBadges(FALSE) })
 
 # construct and dispatch the badge update action to Data or Content types
-changeItemBadge <- function(cfg, type, target, changingBadge, remove){
+changeItemBadge <- function(cfg, type, target, changingBadge, remove){ # target may not be a full item list, but has badges and id
     if(is.null(target$badges)) target$badges <- character()
     if(remove) badges <- target$badges[target$badges != changingBadge]
             else badges <- unique(c(target$badges, changingBadge))
     if(length(badges) == 0) badges <- NULL
-    cfg[[type]][[target$i]]$badges <- sortItemBadges(badges) 
+    i <- which(sapply(cfg[[type]], function(x) x$id == target$id))
+    cfg[[type]][[i]]$badges <- sortItemBadges(badges) 
     if(type %in% DataTypes){
         write_data_yaml(cfg, type)
     } else {
         # must be newsfeed, projects are not tagged with badges
-        item <- cfg[[type]][[target$i]]
+        item <- cfg[[type]][[i]]
         frontmatter <- setNames(lapply(newsfeed_frontmatter_fields, function(field) item[[field]]), newsfeed_frontmatter_fields)
         write_item_markdown(type, item, frontmatter, item$content)
     }

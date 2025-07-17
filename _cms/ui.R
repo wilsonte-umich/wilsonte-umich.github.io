@@ -51,6 +51,64 @@ Additional information:
     )
 }
 #----------------------------------------------------------------------
+# site editing UI, for more static page markdown and YAML configuration files
+#----------------------------------------------------------------------
+siteEditorUI <- function(...){
+    tagList(
+        fluidRow(
+            column(
+                width = 12,
+                tags$ul(
+                    tags$li(paste("Use this interface to edit the more fixed elements of page layouts (rather than the more frequently updated content items).")),
+                    tags$li(paste("Select a file from the dropdown menu to edit its header/up-front content as Markdown or YAML.")),
+                    tags$li(paste("Be sure to click the Save button, changes are NOT automatically saved!")),
+                )
+            )
+        ),
+        fluidRow(
+            box(
+                width = 12,
+                title = NULL,
+                status = 'primary',
+                solidHeader = FALSE,
+                fluidRow(
+                    style = "margin: 10px;",
+                    column(
+                        width = 4,
+                        offset = 4,
+                        selectInput(
+                            'site_file', 
+                            'Select Site File to Edit', 
+                            choices = c("pending"),
+                            selected = 'pending'
+                        )
+                    )
+                )
+            )
+        ),
+        fluidRow(
+            box(
+                width = 12,
+                title = "File Editor",
+                status = 'primary',
+                solidHeader = TRUE,
+                fluidRow(
+                    style = "margin: 10px;",
+                    column(
+                        width = 4,
+                        offset = 4,
+                        bsButton('save_site_file', 'Save Site File', style = "success", width = "100%")
+                    )
+                ),
+                fluidRow(
+                    style = "margin: 10px;",
+                    uiOutput("edit_site_file_ui")
+                )
+            )
+        )
+    )
+}
+#----------------------------------------------------------------------
 # people management UI
 #----------------------------------------------------------------------
 dataTypePageUI <- function(singular, plural, ui){
@@ -260,6 +318,7 @@ ui <- function(...){
         dashboardSidebar(
             sidebarMenu(id = "sidebarMenu",  
                 getTabMenuItem('overview',  'Overview'),
+                getTabMenuItem('site',      'Site Layout'),
                 getTabMenuItem('events',    'Events'),
                 getTabMenuItem('funding',   'Funding'),
                 getTabMenuItem('people',    'People'),
@@ -277,6 +336,7 @@ ui <- function(...){
             useShinyjs(), # enable shinyjs
             tabItems(
                 getTabItem('overview',  landingPageUI),
+                getTabItem('site',      siteEditorUI),
                 getTabItem('events',    eventsUI),
                 getTabItem('funding',   fundingUI),
                 getTabItem('people',    peopleUI),

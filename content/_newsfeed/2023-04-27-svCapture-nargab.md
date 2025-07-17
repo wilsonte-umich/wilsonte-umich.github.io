@@ -1,16 +1,15 @@
 ---
-date: 2023-04-27
+date: '2023-04-27'
 title: Wilson et al. 2023
-subtitle: "svCapture paper accepted"
-description: "svCapture paper accepted in NAR Genomics and Bioinformatics"
-event_type: publication # primary type of the event, used to create the small, colored post callout
-banner_image_source: project=CNV_Mechanisms # the item whose banner image will be adopted by this event
-badges: 
-  - project=CNV_Mechanisms
-  - project=MDI
-  - person=Samreen_Ahmed
-  - publication=Wilson_2022
-  - funding=CA200731
+subtitle: svCapture paper accepted
+description: svCapture paper accepted in NAR Genomics and Bioinformatics
+event_type: publication
+banner_image_source: project=CNV_Mechanisms
+badges:
+- funding=CA200731
+- person=Samreen_Ahmed
+- project=CNV_Mechanisms
+- project=MDI
 ---
 
 Our paper on the technical development of **svCapture** - 
@@ -43,3 +42,4 @@ regarding the cell cycle timing of structural variant formation.
     title="Detecting aphidicolin-induced deletions by svCapture."
     caption="Demonstration of the clear induction of structural variants above a low background signal, after error suppression and correction by svCapture."
 %}
+

@@ -43,10 +43,14 @@
 - id: Jeanmarie_Mishler
   name: Jeanmarie Mishler
   role: Research Technician
+  program: ~
   image: assets/images/people/person-no-pic.jpg
+  orcid: ~
   email: mishlerjeanmarie@gmail.com
-  description: Technician rejoining the ranks of DNA repair scientists; handler of
-    Penelope our new Oxford Nanopore P2 sequencer
+  github: ~
+  twitter: ~
+  description: Newest lab member rejoining the ranks of DNA repair scientists; handler
+    of Penelope our new Oxford Nanopore P2 sequencer
   status: active
   badges:
   - funding=ES034143

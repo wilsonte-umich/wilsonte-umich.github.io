@@ -22,8 +22,8 @@
   - text: Resources # simpler data set set in funding.yml
     href: /resources/  
 
-  - text: Events # simpler data set set in events.yml
-    href: /events/  
+#   - text: Events # simpler data set set in events.yml
+#     href: /events/  
 
   - text: Funding # simpler data set set in funding.yml
     href: /funding/  
@@ -33,3 +33,4 @@
 
   - text: Contact # simple page unto itself, no connections to other data types
     href: /contact/
+

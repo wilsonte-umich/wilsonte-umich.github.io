@@ -1,17 +1,18 @@
 ---
-date: 2022-07-07
+date: '2022-07-07'
 title: Wilson et al. 2022
-subtitle: "svCapture preprint reports new MDI tool suite for structural variant finding"
-description: "svCapture preprint reports new MDI tool suite for structural variant finding"
-event_type: publication # primary type of the event, used to create the small, colored post callout
-banner_image_source: project=CNV_Mechanisms # the item whose banner image will be adopted by this event
-badges: 
-  - project=CNV_Mechanisms
-  - project=MDI
-  - person=Samreen_Ahmed
-  - publication=Wilson_2022
-  - event=ICEM_2022  
-  - funding=CA200731
+subtitle: svCapture preprint reports new MDI tool suite for structural variant finding
+description: svCapture preprint reports new MDI tool suite for structural variant
+  finding
+event_type: publication
+banner_image_source: project=CNV_Mechanisms
+badges:
+- event=ICEM_2022
+- funding=CA200731
+- person=Samreen_Ahmed
+- project=CNV_Mechanisms
+- project=MDI
+- publication=Wilson_2023
 ---
 
 We are thrilled to report our work on the technical development of **svCapture**,
@@ -38,3 +39,4 @@ timing and mechanisms of chromosomal rearrangement formation at chromosome fragi
     title="Detecting aphidicolin-induced deletions by svCapture."
     caption="Demonstration of the clear induction of structural variants above a low background signal, after error suppression and correction by svCapture."
 %}
+
