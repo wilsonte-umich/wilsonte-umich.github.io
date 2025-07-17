@@ -24,7 +24,7 @@ a large number of cell lines were subjected to Bru-seq in parallel with other RN
 
 {% include figure.html
     image="assets/images/projects/bruseq/clusters-annotated.jpg"
-    title="Profiling transciption activity genome wide"
+    title="Profiling transciption activity genome wide."
     caption="The panels hint at the power of parallel assessments of nascent transcription - we now have thousands of such data sets to mine."
     width=8
 %}

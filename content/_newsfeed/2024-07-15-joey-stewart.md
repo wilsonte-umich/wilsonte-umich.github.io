@@ -5,6 +5,11 @@ subtitle: Welcome to our newest lab member, Joey Stewart
 description: Welcome to our newest lab member, Joey Stewart
 event_type: person
 banner_image_source: project=CNV_Mechanisms
+badges:
+- funding=ES034143
+- funding=GM120767
+- funding=GM147026
+- person=Joey_Stewart
 ---
 
 Welcome to Joey Stewart our newest postdoctoral fellow!

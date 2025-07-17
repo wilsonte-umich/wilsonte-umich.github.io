@@ -5,7 +5,7 @@ subtitle: Welcome to Li-Ching (Kelly) Chen
 description: Welcome to Li-Ching (Kelly) Chen
 event_type: person
 banner_image_source: project=CNV_Mechanisms
-badges: ~
+badges: person=Li-Ching_Chen
 ---
 
 We welcome Li-Ching Chen, who goes by her English name Kelly!

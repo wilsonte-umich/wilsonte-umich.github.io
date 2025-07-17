@@ -10,6 +10,7 @@ badges:
 - person=Samreen_Ahmed
 - project=CNV_Mechanisms
 - project=MDI
+- publication=Wilson_2023
 ---
 
 Our paper on the technical development of **svCapture** - 

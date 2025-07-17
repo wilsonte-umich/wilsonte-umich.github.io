@@ -40,7 +40,7 @@ SV formation in cells _as the junctions form_ - when there can only ever be one 
 We applied the technique to timed cell cultures to show that induced SVs form primarily after cells enter into mitosis, in a manner dependent on DNA Pol Theta (PolQ)-mediated end joining (TMEJ, also called MMEJ) {% include citation.html search="39505880" %}.
 
 {% include figure.html  
-    image="assets/images/projects/cnv/M-phase-graphical-abstract.png"
+    image="assets/images/publications/cnv/M-phase-graphical-abstract.png"
     title="Replication-stress-induced SV induction on entry into mitosis."
     caption="Remarkably, despite the stress occurring in S-phase, SVs do not form in cells until TMEJ-dependent processing in M."
 %}

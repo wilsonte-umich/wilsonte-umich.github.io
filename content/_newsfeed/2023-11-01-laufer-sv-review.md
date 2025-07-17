@@ -6,7 +6,10 @@ description: Applications of advanced technologies for detecting genomic structu
   variation
 event_type: publication
 banner_image_source: project=CNV_Mechanisms
-badges: publication=Laufer_2023
+badges:
+- funding=GM147026
+- project=CNV_Mechanisms
+- publication=Laufer_2023
 ---
 
 Please see our new, comprehensive review of the structural variant (SV) field, 

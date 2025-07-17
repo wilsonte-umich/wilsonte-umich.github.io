@@ -23,7 +23,7 @@ if those SV junctions could be specifically targeted with CRISPR.
 
 {% include figure.html
     image="assets/images/projects/KLIPP/klipp-banner-1200.jpg"
-    title="Targeting SV junctions with KLIPP"
+    title="Targeting SV junctions with KLIPP."
     caption="A CRISPR-guided nuclease breaks chromosomes in cancer cells specifically at tumor-specific SV junctions. Project and image courtesy of Mats Ljugnman."
     width=8
 %}
@@ -35,8 +35,8 @@ helping coordinate the bioinformatics efforts, just one part of this
 multi-disciplinary team.
 
 We all hope the initial proof of principle studies Mats has reported 
-{% include citation.html search="37214957" %} 
-can become a viable and important therapeutic option for patients.
+{% include citation.html search="37214957" %} can become a viable and important 
+therapeutic option for patients.
 
 #### Learn more about KLIPP
 
