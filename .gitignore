@@ -15,3 +15,5 @@ assets/images/_source
 
 # local R library for CMS
 _cms/lib
+.Rhistory
+.RData
