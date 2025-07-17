@@ -10,6 +10,7 @@ badges:
 - funding=GM120767
 - funding=GM147026
 - person=Joey_Stewart
+- project=CNV_Mechanisms
 ---
 
 Welcome to Joey Stewart our newest postdoctoral fellow!
