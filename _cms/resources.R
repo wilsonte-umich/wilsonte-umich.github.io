@@ -93,7 +93,11 @@ observeEvent(input$resources_rank_list, {
 # save resource edits
 observeEvent(input$edit_resource_save, {
     update_data_yaml("resources", 'edit_resource_id', callback = function(resource){
-        for(field in c('title', 'type', 'card_image', 'url', 'description')){
+        for(field in c(
+            'title', 'type', 'card_image', 
+            'url', 
+            'description'
+        )){
             value <- trimws(input[[paste0('edit_resource_', field)]])
             if(value == '') value <- NULL
             resource[[field]] <- value

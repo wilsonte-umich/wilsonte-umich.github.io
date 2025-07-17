@@ -1,5 +1,5 @@
 newsfeed_frontmatter_fields <- c(
-    "date", "title", "subtitle", "description", "event_type", "banner_image_source"
+    "date", "title", "subtitle", "description", "event_type", "banner_image_source","badges"
 )
 
 # get newsfeed items
@@ -51,6 +51,7 @@ observeEvent(input$add_new_newsfeed, {
                 description = NULL,
                 event_type  = 'person',
                 banner_image_source = 'project=MDI',
+                badges      = character(),
                 content     = content
             )
             write_item_markdown("newsfeed", cfg$newsfeed[[id]], cfg$newsfeed[[id]][newsfeed_frontmatter_fields], content)
@@ -117,7 +118,11 @@ observeEvent(input$edit_newsfeed_save, {
     id_in <- input$edit_newsfeed_id
     post <- update_content_markdown("newsfeed", 'edit_newsfeed_id', newsfeed_frontmatter_fields, callback = function(post){
         date_in <- post$date
-        for(field in c('date', 'title', 'subtitle', 'description', 'event_type', 'banner_image_source')){
+        for(field in c(
+            'date', 'title', 'subtitle', 
+            'event_type', 'banner_image_source',
+            'description'
+        )){
             value <- trimws(input[[paste0('edit_newsfeed_', field)]])
             if(value == '') value <- NULL
             post[[field]] <- value

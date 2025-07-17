@@ -113,7 +113,13 @@ observeEvent(input$funding_rank_list, {
 # save funding edits
 observeEvent(input$edit_funding_save, {
     update_data_yaml("funding", 'edit_funding_id', callback = function(funding){
-        for(field in c('sponsor', 'sponsor_id', 'grant_type', 'start_date', 'end_date', 'card_image', 'sponsor_link', 'title', 'description')){
+        for(field in c(
+            'sponsor', 'sponsor_id', 'grant_type', 
+            'start_date', 'end_date', 'card_image', 
+            'sponsor_link', 
+            'title', 
+            'description'
+        )){
             value <- trimws(input[[paste0('edit_funding_', field)]])
             if(value == '') value <- NULL
             funding[[field]] <- value

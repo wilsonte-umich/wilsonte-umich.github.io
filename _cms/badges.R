@@ -1,48 +1,53 @@
-# handle badge generation and item linking  
+# handle badge generation and item linking
+
+# set up the UI and server to match two items from different collections, i.e., of different types
 source('itemSelector.R', local = TRUE)
 source('itemReporter.R', local = TRUE)
 item1 <- itemSelectorServer('item1', 1)
 item2 <- itemSelectorServer('item2', 2)
 itemReporterServer('item1', 1, item1)
 itemReporterServer('item2', 2, item2)
+
+# dynamically render either an add or remove link button, or no link at all for incompatible items
 output$linkAction <- renderUI({
-    req(item1$item())
-    req(item2$item())
-    x1 <- item1$item()
-    x2 <- item2$item()
-    req(x1$type != 'post') # can't tag posts in UI (must edit _content file), and items never tag posts
-    req(x2$type != 'post')
-    req(x1$type != x2$type) # we never link items of the same type
-    if((x1$badge %in% x2$badges && x2$badge %in% x1$badges) ||
-        (x1$type == 'project' && x1$badge %in% x2$badges) || # projects are not tagged, and items can tag projects
-        (x2$type == 'project' && x2$badge %in% x1$badges)){
+    target1 <- item1$item() # not a full item list
+    target2 <- item2$item()
+    req(target1, target2, target1$type != target2$type) # we never link items of the same type
+    if(target1$badge %in% target2$badges || target2$badge %in% target1$badges) {
         actionButton('removeLinkButton', "REMOVE", width = "100%", style = button)
     } else {
-        actionButton('addLinkButton', "ADD", width = "100%", style = button)
+        actionButton('addLinkButton',    "ADD",    width = "100%", style = button)
     }
 })
-changeItemBadges <- function(remove){
-    cfg <- config()
-    changeItemBadge <- function(c, x, changingBadge, remove){
-        if(is.null(x$badges)) x$badges <- character()     
-        if(remove) badges <- x$badges[x$badges != changingBadge]
-            else badges <- unique(c(x$badges, changingBadge))
-        if(length(badges) == 0) badges <- NULL
-        cfg[[c$name]][[x$i]]$badges <<- sortItemBadges(badges) 
-        out <- cfg[[c$name]]
-        names(out) <- NULL
-        outFile     <- paste0(rootDir, '/', '_data/', c$name, '.yml')
-        archiveFile <- paste0(rootDir, '/', '_data/_archive/', c$name, '-', Sys.Date(), '.yml')
-        file.copy(outFile, archiveFile, overwrite = FALSE)
-        write_yaml(out, outFile)
-    }
-    c1 <- item1$collection()
-    c2 <- item2$collection()        
-    x1 <- item1$item()
-    x2 <- item2$item()
-    if(x1$type != 'project') changeItemBadge(c1, x1, x2$badge, remove)
-    if(x2$type != 'project') changeItemBadge(c2, x2, x1$badge, remove)
-    config(cfg)   
-}
 observeEvent(input$removeLinkButton, { changeItemBadges(TRUE) })
 observeEvent(input$addLinkButton,    { changeItemBadges(FALSE) })
+
+# construct and dispatch the badge update action to Data or Content types
+changeItemBadge <- function(cfg, type, target, changingBadge, remove){
+    if(is.null(target$badges)) target$badges <- character()
+    if(remove) badges <- target$badges[target$badges != changingBadge]
+            else badges <- unique(c(target$badges, changingBadge))
+    if(length(badges) == 0) badges <- NULL
+    cfg[[type]][[target$i]]$badges <- sortItemBadges(badges) 
+    if(type %in% DataTypes){
+        write_data_yaml(cfg, type)
+    } else {
+        # must be newsfeed, projects are not tagged with badges
+        item <- cfg[[type]][[target$i]]
+        frontmatter <- setNames(lapply(newsfeed_frontmatter_fields, function(field) item[[field]]), newsfeed_frontmatter_fields)
+        write_item_markdown(type, item, frontmatter, item$content)
+    }
+    cfg
+}
+changeItemBadges <- function(remove){
+    cfg <- config()
+    type1   <- item1$collection()$name
+    type2   <- item2$collection()$name
+    target1 <- item1$item() # not a full item list
+    target2 <- item2$item()
+    # projects are not tagged, but items can tag projects
+    # newsfeed posts can tag items, but those items do not tag those newsfeed posts
+    if(target1$type != 'project' && target2$type != 'post') cfg <- changeItemBadge(cfg, type1, target1, target2$badge, remove)
+    if(target2$type != 'project' && target1$type != 'post') cfg <- changeItemBadge(cfg, type2, target2, target1$badge, remove)
+    config(cfg)
+}

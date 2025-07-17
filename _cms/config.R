@@ -74,24 +74,24 @@ loadSiteConfig <- function(){
     # sort existing badges
     cfg <- sortAllBadges(cfg)
 
-    # extract all known badges
-    cfg$allowedBadges <- unname(unlist( lapply(c(ContentTypes, DataTypes), function(type){
+    # check the integrity of all claimed badges and remove those that are out of date
+    allowedBadges <- unname(unlist( lapply(c(ContentTypes, DataTypes), function(type){
         lapply(cfg[[type]], function(x){
             paste0(ItemTypes[[type]], '=', x$id)
         })
     }) ))
-
-    cfg$declaredBadges <- unname(unlist( lapply(names(ItemTypes), function(type){
-        lapply(cfg[[type]], function(x) {
-            for(badge in x$badges){
-                if(!(badge %in% cfg$allowedBadges)) {
+    declaredBadges <- unname(unlist( lapply(names(ItemTypes), function(type){
+        lapply(cfg[[type]], function(item) {
+            if(!is.null(item$badges)) for(badge in item$badges){
+                if(!(badge %in% allowedBadges)) {
                     print("!!! BAD BADGE !!!")
-                    print(paste("source =", type, x$id))
+                    print(paste("source =", type, item$id))
                     print(paste("unknown badge = ", badge))
+                    cfg <- changeItemBadge(cfg, type, item, badge, remove = TRUE)
                     message()
                 }
             }
-            x$badges
+            item$badges
         })
     }) ))
 

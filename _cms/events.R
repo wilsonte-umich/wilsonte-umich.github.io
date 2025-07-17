@@ -101,7 +101,11 @@ observeEvent(input$events_rank_list, {
 # save event edits
 observeEvent(input$edit_event_save, {
     update_data_yaml("events", 'edit_event_id', callback = function(event){
-        for(field in c('title', 'type', 'date', 'location', 'url', 'card_image', 'description')){
+        for(field in c(
+            'title', 'type', 'date', 'location', 
+            'url', 'card_image', 
+            'description'
+        )){
             value <- trimws(input[[paste0('edit_event_', field)]])
             if(value == '') value <- NULL
             event[[field]] <- value

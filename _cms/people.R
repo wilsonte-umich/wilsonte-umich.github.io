@@ -140,7 +140,12 @@ observeEvent(input$people_rank_lists, {
 # save person edits
 observeEvent(input$edit_person_save, {
     update_data_yaml("people", 'edit_person_id', callback = function(person){
-        for(field in c('name', 'role', 'program', 'status', 'email', 'orcid', 'github', 'twitter', 'image', 'card_image', 'description')){
+        for(field in c(
+            'name', 'role', 'program', 'status', 
+            'email', 'orcid', 'github', 'twitter', 
+            'image', 'card_image', 
+            'description'
+        )){
             value <- trimws(input[[paste0('edit_person_', field)]])
             if(value == '') value <- NULL
             person[[field]] <- value

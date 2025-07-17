@@ -136,7 +136,11 @@ observeEvent(input$projects_rank_lists, {
 # save project edits
 observeEvent(input$edit_project_save, {
     update_content_markdown("projects", 'edit_project_id', project_frontmatter_fields, callback = function(project){
-        for(field in c('title', 'subtitle', 'categories', 'card_image', 'card_title', 'description')){
+        for(field in c(
+            'title', 'subtitle', 'categories', 
+            'card_image', 'card_title', 
+            'description'
+        )){
             value <- trimws(input[[paste0('edit_project_', field)]])
             if(value == '') value <- NULL
             project[[field]] <- if(field == "categories") trimws(strsplit(value, ",")[[1]]) else value

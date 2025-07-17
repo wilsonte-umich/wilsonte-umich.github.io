@@ -6,7 +6,7 @@ server <- function(input, output, session) {
     source('config.R', local = TRUE)
     source('dataTypes.R', local = TRUE)
     source('contentTypes.R', local = TRUE)
-    config <- reactiveVal( loadSiteConfig() )
+    # config <- reactiveVal( loadSiteConfig() )
 
     # load the content tab servers
     source('events.R',    local = TRUE)
@@ -20,4 +20,6 @@ server <- function(input, output, session) {
     source('badges.R',       local = TRUE)
     source('images.R',       local = TRUE)
     source('importPubMed.R', local = TRUE)
+    config <- reactiveVal( loadSiteConfig() )
+    # checkAllBadges()
 }
