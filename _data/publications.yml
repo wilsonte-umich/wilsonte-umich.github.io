@@ -27,10 +27,10 @@
     We propose an important  role for mitotic TMEJ in nonrecurrent SV formation genome
     wide.
   badges:
-  - project=CNV_Mechanisms
+  - funding=GM147026
   - person=Samreen_Ahmed
   - person=Tom_Glover
-  - funding=GM147026
+  - project=CNV_Mechanisms
 - id: Bedi_2024
   date: '2024-06-12'
   pmid: 38915566
@@ -64,8 +64,8 @@
     of RNA  dynamics in controlling gene expression to allow for the precise coordination
     of  cellular functions.
   badges:
-  - project=Bru_seq
   - person=Mats_Ljungman
+  - project=Bru_seq
 - id: Wilson_2023
   date: '2023-06-01'
   pmid: 37181851
@@ -101,11 +101,11 @@
     mechanism. The open  source svCapture pipeline enables rare SV detection as a
     routine addition to  SNVs/indels in properly prepared capture sequencing libraries.
   badges:
-  - project=CNV_Mechanisms
-  - person=Samreen_Ahmed
-  - person=Tom_Glover
   - funding=CA200731
   - funding=GM147026
+  - person=Samreen_Ahmed
+  - person=Tom_Glover
+  - project=CNV_Mechanisms
 - id: Laufer_2023
   date: '2023-01-01'
   pmid: 37931775
@@ -174,10 +174,10 @@
   year: 2022
   url: ~
   badges:
+  - funding=CA200731
+  - person=Samreen_Ahmed
   - project=CNV_Mechanisms
   - project=MDI
-  - person=Samreen_Ahmed
-  - funding=CA200731
   abstract: Error-corrected sequencing of genomic targets enriched by probe-based
     capture has become a standard approach for detecting single-nucleotide variants
     (SNVs) and small insertion/deletions (indels) present at very low variant allele
@@ -260,9 +260,9 @@
     combined influence of sequence specificity  and access restrictions on Mre11 and
     Exo1 nucleases.
   badges:
-  - project=Yeast_DSB_Repair
-  - person=Dominic_Bazzano
   - funding=GM120767
+  - person=Dominic_Bazzano
+  - project=Yeast_DSB_Repair
   pmcid: PMC8682756
 - id: Park_2021
   date: '2021-07-21'
@@ -283,11 +283,11 @@
   year: 2021
   url: ~
   badges:
-  - project=CNV_Mechanisms
+  - funding=CA200731
   - person=Irene_Park
   - person=Pam_Bennett-Baker
   - person=Samreen_Ahmed
-  - funding=CA200731
+  - project=CNV_Mechanisms
   abstract: Impaired replication progression leads to de novo copy number variant
     (CNV)  formation at common fragile sites (CFSs). We previously showed that these  hotspots
     for genome instability reside in late-replicating domains associated  with large
@@ -361,9 +361,9 @@
   year: 2021
   url: https://www.biorxiv.org/content/10.1101/2021.02.26.433101v1
   badges:
-  - project=Yeast_DSB_Repair
-  - person=Stephanie_Lomonaco
   - funding=GM120767
+  - person=Stephanie_Lomonaco
+  - project=Yeast_DSB_Repair
 - id: Glover_2020
   date: '2020-11-01'
   pmid: 32665662
@@ -377,8 +377,8 @@
   year: 2020
   url: ~
   badges:
-  - project=CNV_Mechanisms
   - funding=CA200731
+  - project=CNV_Mechanisms
 - id: Bedi_2020
   date: '2020-03-01'
   pmid: 31709421
@@ -436,9 +436,9 @@
     to explain our findings, many questions remain about the nature and timing  of
     that motion.
   badges:
-  - project=Yeast_DSB_Repair
-  - person=Sham_Sunder_Sharma
   - funding=GM120767
+  - person=Sham_Sunder_Sharma
+  - project=Yeast_DSB_Repair
 - id: Sunder_2019
   date: '2019-05-07'
   pmid: 31019070
@@ -472,9 +472,9 @@
     cells mobilize, and perhaps compartmentalize,  multiple DSBs in a manner that
     no longer reflects the predamage position of two  broken loci.
   badges:
-  - project=Yeast_DSB_Repair
-  - person=Sham_Sunder_Sharma
   - funding=GM120767
+  - person=Sham_Sunder_Sharma
+  - project=Yeast_DSB_Repair
 - id: Flasch_2019
   date: '2019-05-02'
   pmid: 30955886
@@ -509,8 +509,8 @@
     endonuclease domain, in conjunction with the ability to integrate  into replicating
     DNA, allowed L1 to become an autonomous, interspersed  retrotransposon.
   badges:
-  - project=L1
   - person=Diane_Flasch
+  - project=L1
 - id: Moorthy_2019
   date: '2019-03-07'
   pmid: 30679249
@@ -546,8 +546,8 @@
     Pal2 protein has characteristics of an early factor involved in  clathrin-mediated
     endocytosis.
   badges:
-  - project=Mutation_ID
   - funding=GM120767
+  - project=Mutation_ID
 - id: Arlt_2018
   date: '2018-10-01'
   pmid: 30218578
@@ -588,9 +588,9 @@
     on sperm development or  experimental variables related to HU pharmacology in
     mice. Environ. Mol. Mutagen.  59:698-714, 2018. © 2018 Wiley Periodicals, Inc.
   badges:
-  - project=CNV_Mechanisms
-  - person=Martin_Arlt
   - funding=ES020875
+  - person=Martin_Arlt
+  - project=CNV_Mechanisms
 - id: Glover_2017
   date: '2017-07-25'
   pmid: 28740117
@@ -614,8 +614,8 @@
     and their  role in generating focal copy number alterations that affect the genomic
     landscape  of many cancers.
   badges:
-  - project=CNV_Mechanisms
   - funding=CA200731
+  - project=CNV_Mechanisms
 - id: Venkata_2017
   date: '2017-03-03'
   pmid: 28256581
@@ -724,9 +724,9 @@
     DSB handling based on overhang polarity that impacts NHEJ kinetics and  fidelity
     through differential recruitment and action of DSB modifying enzymes.
   badges:
-  - project=Yeast_DSB_Repair
-  - person=Zhuobin_Liang
   - funding=GM120767
+  - person=Zhuobin_Liang
+  - project=Yeast_DSB_Repair
 - id: Glover_2016
   date: '2016-04-07'
   pmid: 27007850
@@ -814,8 +814,8 @@
     genomic instability under replication stress,  resulting in both CNVs and CFSs
     as different manifestations of perturbed replication  dynamics.
   badges:
-  - project=CNV_Mechanisms
   - funding=CA200731
+  - project=CNV_Mechanisms
 - id: Chiruvella_2014
   date: '2014-12-01'
   pmid: 25457772
@@ -851,9 +851,9 @@
     and NHEJ in a manner distinct from  Lif1 binding and reveal a complexity of Dnl4
     BRCT domain functions in support of  stable DSB association.
   badges:
-  - project=Yeast_DSB_Repair
-  - person=Kishore_Chiruvella
   - funding=GM120767
+  - person=Kishore_Chiruvella
+  - project=Yeast_DSB_Repair
 - id: Song_2014
   date: '2014-08-01'
   pmid: 25144783
@@ -893,8 +893,8 @@
     protein complexes and organelle structures within a given genome in  specifying
     complex phenotypes.
   badges:
-  - project=Mutation_ID
   - funding=GM120767
+  - project=Mutation_ID
 - id: Veloso_2014
   date: '2014-06-01'
   pmid: 24714810
@@ -1031,8 +1031,8 @@
     that any environmental DNA damaging agent that  impairs replication is capable
     of creating CNVs.
   badges:
-  - project=CNV_Mechanisms
   - person=Martin_Arlt
+  - project=CNV_Mechanisms
 - id: Chiruvella_2013
   date: '2013-06-01'
   pmid: 23825968
@@ -1069,9 +1069,9 @@
     These findings indicate that Dnl4  can promote mutagenic end joining independently
     of its catalytic activity, likely by  a mechanism that involves Cdc9.
   badges:
-  - project=Yeast_DSB_Repair
-  - person=Kishore_Chiruvella
   - funding=GM120767
+  - person=Kishore_Chiruvella
+  - project=Yeast_DSB_Repair
 - id: Chiruvella_2013b
   date: '2013-05-01'
   pmid: 23637284
@@ -1097,9 +1097,9 @@
     including its regulation relative to c-NHEJ, in light of evidence that  alt-NHEJ
     can execute chromosome rearrangements. Progress toward these goals is  reviewed.
   badges:
-  - project=Yeast_DSB_Repair
-  - person=Kishore_Chiruvella
   - funding=GM120767
+  - person=Kishore_Chiruvella
+  - project=Yeast_DSB_Repair
 - id: Wilson_2013
   date: '2013-04-01'
   pmid: 23444128
@@ -1355,8 +1355,8 @@
     that nonrecurrent CNVs can be, and  frequently are, formed by mechanisms other
     than Xrcc4-dependent NHEJ.
   badges:
-  - project=CNV_Mechanisms
   - person=Martin_Arlt
+  - project=CNV_Mechanisms
 - id: Arlt_2012b
   date: '2012-06-01'
   pmid: 22365495
